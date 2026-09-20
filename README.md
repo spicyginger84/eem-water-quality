@@ -1,45 +1,100 @@
-# EEM water-quality experiments
+# EEM Water-Quality Prediction
 
-This project reconstructs the notebook experiments as reproducible command-line runs.
-Processed inputs are read from `data/processed` (`eem.npy`, `samples.parquet`, and
-`wavelengths.npz`). No feature transformer is fitted on validation or test rows.
+This project predicts water-quality parameters from excitation–emission matrix (EEM) fluorescence measurements and optional laboratory covariates. Targets include biochemical oxygen demand (BOD), chemical oxygen demand (COD), total organic carbon (TOC), and the derived BOD/COD ratio.
 
-Install the package and development dependencies with:
+The pipeline saves data splits, fitted preprocessing, model parameters, predictions, and metrics for every run.
+
+## Installation
 
 ```bash
-python -m pip install -e '.[dev]'
+conda create -n water-quality --override-channels -c conda-forge python=3.12 -y
+conda activate water-quality
+python -m pip install -e '.[dev,neural,boosting]'
 ```
 
-Inspect the processed data and list the available experiments:
+Processed inputs are expected under `data/processed`:
+
+```text
+eem.npy
+samples.parquet
+wavelengths.npz
+```
+
+Inspect the data and list available experiments:
 
 ```bash
-eem-quality inspect
+eem-quality inspect --data data/processed
 eem-quality list
 ```
 
-Run the classical models with grouped location splits (the default):
+## Classical ML experiments
+
+Feature experiments combine tabular covariates (TOC, suspended solids, and electrical conductivity), raw or PCA-reduced EEM features, and PARAFAC component scores. Available models are linear regression, decision tree, SVR, and optional XGBoost.
 
 ```bash
-eem-quality ml --targets BOD_COD --models linear tree --experiments EEMpca PARAFAC_TOC_SS_EC
+eem-quality ml --data data/processed --output runs/ml_bod \
+  --targets BOD --split random --models linear xgboost \
+  --experiments EEMpca_PARAFAC_SS_EC
 ```
-
-Run the nonnegative PARAFAC + SVR baseline:
 
 ```bash
-eem-quality parafac --targets BOD --pf-rank 5
+eem-quality ml --data data/processed --output runs/ml_bod_cod_toc \
+  --targets BOD COD TOC --split random --models linear xgboost \
+  --experiments TOC TOC_SS_EC PARAFAC PARAFAC_SS_EC \
+  EEMpca EEMpca_TOC EEMpca_SS_EC 
 ```
 
-The optional neural command requires the `neural` extra:
+Use grouped location splits for unseen sampling points:
 
 ```bash
-python -m pip install -e '.[neural]'
-eem-quality neural --targets BOD --models resnet10 --feature-sets EC_SS
+eem-quality ml --data data/processed --output runs/ml_grouped \
+  --targets BOD_COD --split group --group-col Point \
+  --models linear xgboost
 ```
 
-Each run writes its split assignments, configuration, data hashes, held-out test
-metrics, predictions, and fitted model artifacts under `runs/`. Classical ML
-combines the provisional train and validation rows and evaluates every model on
-the held-out test partition, matching the original notebook protocol. Neural
-experiments keep a validation partition for early stopping and model selection.
+Run the standalone nonnegative PARAFAC + SVR model:
 
-Run checks with `pytest -q` and `ruff check src tests`.
+```bash
+eem-quality parafac --data data/processed --output runs/parafac_bod \
+  --targets BOD --pf-rank 5
+```
+
+## Deep-learning experiments
+
+Neural models use EEM images with an optional FFT-magnitude channel and can fuse tabular features. Available architectures are `cnn`, `resnet10`, and `resnet18`.
+
+```bash
+eem-quality neural --data data/processed --output runs/neural_bod \
+  --targets BOD --models resnet10 --feature-sets EC_SS
+```
+
+For a short CPU smoke run:
+
+```bash
+eem-quality neural --data data/processed --output runs/neural_quick \
+  --targets BOD --models resnet10 --feature-sets EC_SS \
+  --epochs 20 --patience 5 --device cpu
+```
+
+## Saved results
+
+Each run contains:
+
+```text
+run.json                         configuration, versions, and data hashes
+splits.csv                       sample-to-partition assignments
+test_metrics.csv                 test metrics for evaluated configurations
+target_00/                       artifacts for the first target
+├── validation_metrics.csv       neural validation metrics, when applicable
+├── test_predictions.csv         predictions for the selected configuration
+├── selected.json                selected model and final metrics
+├── model.joblib or model.pt     fitted model
+└── preprocessing.joblib         fitted preprocessing objects
+```
+
+Metrics include R², MSE, RMSE, MAE, and MAPE. Run checks with:
+
+```bash
+pytest -q
+ruff check src tests
+```
