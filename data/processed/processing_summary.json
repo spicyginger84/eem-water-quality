@@ -1,0 +1,23 @@
+{
+  "raw_dir": "data/2026ER_data_for Viet",
+  "laboratory_workbook": "data/2026ER_data_for Viet/20260120_ER_data_HS.xlsx",
+  "required_parameters": [
+    "BOD\n(0.0)",
+    "COD\n(0.0)",
+    "TOC\n(0.0)",
+    "SS\n(0.0)",
+    "EC\n(0)"
+  ],
+  "max_depth_m": 2.0,
+  "mapping_status_counts": {
+    "matched": 760,
+    "unmatched": 239,
+    "depth_filtered": 2
+  },
+  "accepted_samples": 760,
+  "eem_shape": [
+    760,
+    271,
+    57
+  ]
+}

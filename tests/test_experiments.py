@@ -132,7 +132,7 @@ def test_cli_artifact_reload(dataset, tmp_path, command):
     else:
         args += ["--pf-rank", "1", "--pf-max-iter", "10"]
     main(args)
-    destination = output / "target_00"
+    destination = output / "BOD"
     predictions = pd.read_csv(destination / "test_predictions.csv")
     indices = predictions.row_position.to_numpy()
     reloaded = predict_saved(destination, eem[indices], samples.iloc[indices])

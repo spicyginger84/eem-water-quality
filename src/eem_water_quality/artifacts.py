@@ -4,10 +4,29 @@ import hashlib
 import importlib.metadata
 import json
 import platform
+import re
 import subprocess
 from pathlib import Path
 
 import numpy as np
+
+TARGET_DIRECTORY_NAMES = {
+    "BOD": "BOD",
+    "BOD\n(0.0)": "BOD",
+    "COD": "COD",
+    "COD\n(0.0)": "COD",
+    "TOC": "TOC",
+    "TOC\n(0.0)": "TOC",
+    "BOD_COD": "BOD_COD",
+}
+
+
+def target_directory_name(target: str) -> str:
+    """Return a stable, readable directory name for a target argument."""
+    if target in TARGET_DIRECTORY_NAMES:
+        return TARGET_DIRECTORY_NAMES[target]
+    safe = re.sub(r"[^A-Za-z0-9]+", "_", str(target)).strip("_")
+    return safe or "target"
 
 
 def write_json(path, value):

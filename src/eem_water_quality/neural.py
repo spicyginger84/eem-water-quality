@@ -12,7 +12,7 @@ from sklearn.preprocessing import StandardScaler
 from torch import nn
 from torch.utils.data import DataLoader, Dataset
 
-from .artifacts import save_predictions, start_run, write_json
+from .artifacts import save_predictions, start_run, target_directory_name, write_json
 from .data import EC, SS, load_data, resolve_column, split_indices, target_partitions
 from .features import numeric_tabular, tabular_scaler
 from .metrics import regression_metrics
@@ -158,11 +158,11 @@ def run_neural(args):
     eem, samples, _ = load_data(args.data)
     images = construct_images(eem, fft=args.fft)
     splits = split_indices(
-        samples, args.split, args.group_col, args.seed, args.test_size, args.val_size
+        samples, args.split, getattr(args, "group_col", None), args.seed, args.test_size, args.val_size
     )
     output = start_run(args, samples, splits)
     summaries = []
-    for target_number, name in enumerate(args.targets):
+    for name in args.targets:
         target = resolve_column(name)
         y, parts = target_partitions(samples, target, splits)
         train, val, test = (parts[key] for key in ("train", "validation", "test"))
@@ -172,7 +172,7 @@ def run_neural(args):
         y_scaled = np.full(len(y), np.nan, dtype=np.float32)
         for indices in parts.values():
             y_scaled[indices] = target_scaler.transform(y[indices, None]).ravel()
-        destination = output / f"target_{target_number:02d}"
+        destination = output / target_directory_name(name)
         destination.mkdir()
         write_json(
             destination / "target.json",
@@ -233,7 +233,7 @@ def run_neural(args):
                 )
                 pd.DataFrame(rows).to_csv(destination / "validation_metrics.csv", index=False)
                 print(
-                    f"{name} / {model_name} / {feature_name}: validation RMSE={metrics['RMSE']:.6g}",
+                    f"{name} / {model_name} / {feature_name}: validation R2={metrics['R2']:.6g}",
                     flush=True,
                 )
                 if best is None or metrics["RMSE"] < best[0]["RMSE"]:

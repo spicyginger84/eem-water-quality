@@ -1,0 +1,1002 @@
+relative_path,filename,month,eem_path,mapping_status,mapping_reason,match_method,excel_row,label,round
+1.JAN/ha1-1.xlsx,ha1-1.xlsx,1,data/2026ER_data_for Viet/1.JAN/ha1-1.xlsx,matched,unique laboratory key,label_and_round,22,Ha1,1
+1.JAN/ha1-2.xlsx,ha1-2.xlsx,1,data/2026ER_data_for Viet/1.JAN/ha1-2.xlsx,matched,unique laboratory key,label_and_round,23,Ha1,2
+1.JAN/ha1-3.xlsx,ha1-3.xlsx,1,data/2026ER_data_for Viet/1.JAN/ha1-3.xlsx,matched,unique laboratory key,label_and_round,24,Ha1,3
+1.JAN/ha10.xlsx,ha10.xlsx,1,data/2026ER_data_for Viet/1.JAN/ha10.xlsx,matched,unique laboratory key,label_only,12,Ha10,1
+1.JAN/ha11.xlsx,ha11.xlsx,1,data/2026ER_data_for Viet/1.JAN/ha11.xlsx,matched,unique laboratory key,label_only,13,Ha11,1
+1.JAN/ha12.xlsx,ha12.xlsx,1,data/2026ER_data_for Viet/1.JAN/ha12.xlsx,matched,unique laboratory key,label_only,14,Ha12,1
+1.JAN/ha13.xlsx,ha13.xlsx,1,data/2026ER_data_for Viet/1.JAN/ha13.xlsx,matched,unique laboratory key,label_only,8,Ha13,1
+1.JAN/ha15.xlsx,ha15.xlsx,1,data/2026ER_data_for Viet/1.JAN/ha15.xlsx,matched,unique laboratory key,label_only,9,Ha15,1
+1.JAN/ha16.xlsx,ha16.xlsx,1,data/2026ER_data_for Viet/1.JAN/ha16.xlsx,matched,unique laboratory key,label_only,10,Ha16,1
+1.JAN/ha17.xlsx,ha17.xlsx,1,data/2026ER_data_for Viet/1.JAN/ha17.xlsx,matched,unique laboratory key,label_only,4,Ha17,1
+1.JAN/ha18.xlsx,ha18.xlsx,1,data/2026ER_data_for Viet/1.JAN/ha18.xlsx,matched,unique laboratory key,label_only,5,Ha18,1
+1.JAN/ha19.xlsx,ha19.xlsx,1,data/2026ER_data_for Viet/1.JAN/ha19.xlsx,matched,unique laboratory key,label_only,6,Ha19,1
+1.JAN/ha2-1.xlsx,ha2-1.xlsx,1,data/2026ER_data_for Viet/1.JAN/ha2-1.xlsx,matched,unique laboratory key,label_and_round,7,Ha2,1
+1.JAN/ha2-2.xlsx,ha2-2.xlsx,1,data/2026ER_data_for Viet/1.JAN/ha2-2.xlsx,unmatched,no laboratory row for station/month/round,,,,
+1.JAN/ha2-3.xlsx,ha2-3.xlsx,1,data/2026ER_data_for Viet/1.JAN/ha2-3.xlsx,unmatched,no laboratory row for station/month/round,,,,
+1.JAN/ha2-4.xlsx,ha2-4.xlsx,1,data/2026ER_data_for Viet/1.JAN/ha2-4.xlsx,unmatched,no laboratory row for station/month/round,,,,
+1.JAN/ha20.xlsx,ha20.xlsx,1,data/2026ER_data_for Viet/1.JAN/ha20.xlsx,unmatched,"round is absent and multiple laboratory rows match: [1, 2, 3, 4]",,,,
+1.JAN/ha21.xlsx,ha21.xlsx,1,data/2026ER_data_for Viet/1.JAN/ha21.xlsx,matched,unique laboratory key,label_only,3,Ha21,1
+1.JAN/ha23.xlsx,ha23.xlsx,1,data/2026ER_data_for Viet/1.JAN/ha23.xlsx,matched,unique laboratory key,label_only,15,Ha23,1
+1.JAN/ha24.xlsx,ha24.xlsx,1,data/2026ER_data_for Viet/1.JAN/ha24.xlsx,matched,unique laboratory key,label_only,16,Ha24,1
+1.JAN/ha25.xlsx,ha25.xlsx,1,data/2026ER_data_for Viet/1.JAN/ha25.xlsx,matched,unique laboratory key,label_only,17,Ha25,1
+1.JAN/ha26.xlsx,ha26.xlsx,1,data/2026ER_data_for Viet/1.JAN/ha26.xlsx,matched,unique laboratory key,label_only,18,Ha26,1
+1.JAN/ha3-2.xlsx,ha3-2.xlsx,1,data/2026ER_data_for Viet/1.JAN/ha3-2.xlsx,unmatched,no laboratory row for station/month/round,,,,
+1.JAN/ha4-2.xlsx,ha4-2.xlsx,1,data/2026ER_data_for Viet/1.JAN/ha4-2.xlsx,matched,unique laboratory key,label_and_round,20,Ha4,2
+1.JAN/ha4-3.xlsx,ha4-3.xlsx,1,data/2026ER_data_for Viet/1.JAN/ha4-3.xlsx,matched,unique laboratory key,label_and_round,21,Ha4,3
+1.JAN/ha9.xlsx,ha9.xlsx,1,data/2026ER_data_for Viet/1.JAN/ha9.xlsx,matched,unique laboratory key,label_only,11,Ha9,1
+1.JAN/ho1.xlsx,ho1.xlsx,1,data/2026ER_data_for Viet/1.JAN/ho1.xlsx,matched,unique laboratory key,label_only,19,Ho1,1
+1.JAN/san1-1.xlsx,san1-1.xlsx,1,data/2026ER_data_for Viet/1.JAN/san1-1.xlsx,matched,unique laboratory key,label_and_round,42,San1,1
+1.JAN/san1-2.xlsx,san1-2.xlsx,1,data/2026ER_data_for Viet/1.JAN/san1-2.xlsx,matched,unique laboratory key,label_and_round,43,San1,2
+1.JAN/san10-1.xlsx,san10-1.xlsx,1,data/2026ER_data_for Viet/1.JAN/san10-1.xlsx,matched,unique laboratory key,label_and_round,50,San10,1
+1.JAN/san10-2.xlsx,san10-2.xlsx,1,data/2026ER_data_for Viet/1.JAN/san10-2.xlsx,matched,unique laboratory key,label_and_round,51,San10,2
+1.JAN/san11-1.xlsx,san11-1.xlsx,1,data/2026ER_data_for Viet/1.JAN/san11-1.xlsx,matched,unique laboratory key,label_and_round,52,San11,1
+1.JAN/san11-2.xlsx,san11-2.xlsx,1,data/2026ER_data_for Viet/1.JAN/san11-2.xlsx,matched,unique laboratory key,label_and_round,53,San11,2
+1.JAN/san12-1.xlsx,san12-1.xlsx,1,data/2026ER_data_for Viet/1.JAN/san12-1.xlsx,matched,unique laboratory key,label_and_round,54,San12,1
+1.JAN/san12-2.xlsx,san12-2.xlsx,1,data/2026ER_data_for Viet/1.JAN/san12-2.xlsx,matched,unique laboratory key,label_and_round,55,San12,2
+1.JAN/san13-1.xlsx,san13-1.xlsx,1,data/2026ER_data_for Viet/1.JAN/san13-1.xlsx,matched,unique laboratory key,label_and_round,56,San13,1
+1.JAN/san13-2.xlsx,san13-2.xlsx,1,data/2026ER_data_for Viet/1.JAN/san13-2.xlsx,matched,unique laboratory key,label_and_round,57,San13,2
+1.JAN/san14-1.xlsx,san14-1.xlsx,1,data/2026ER_data_for Viet/1.JAN/san14-1.xlsx,matched,unique laboratory key,label_and_round,48,San14,1
+1.JAN/san14-2.xlsx,san14-2.xlsx,1,data/2026ER_data_for Viet/1.JAN/san14-2.xlsx,matched,unique laboratory key,label_and_round,49,San14,2
+1.JAN/san15-1.xlsx,san15-1.xlsx,1,data/2026ER_data_for Viet/1.JAN/san15-1.xlsx,matched,unique laboratory key,label_and_round,46,San15,1
+1.JAN/san15-2.xlsx,san15-2.xlsx,1,data/2026ER_data_for Viet/1.JAN/san15-2.xlsx,matched,unique laboratory key,label_and_round,47,San15,2
+1.JAN/san16-1.xlsx,san16-1.xlsx,1,data/2026ER_data_for Viet/1.JAN/san16-1.xlsx,matched,unique laboratory key,label_and_round,58,San16,1
+1.JAN/san16-2.xlsx,san16-2.xlsx,1,data/2026ER_data_for Viet/1.JAN/san16-2.xlsx,matched,unique laboratory key,label_and_round,59,San16,2
+1.JAN/san17-1.xlsx,san17-1.xlsx,1,data/2026ER_data_for Viet/1.JAN/san17-1.xlsx,matched,unique laboratory key,label_and_round,60,San17,1
+1.JAN/san17-2.xlsx,san17-2.xlsx,1,data/2026ER_data_for Viet/1.JAN/san17-2.xlsx,matched,unique laboratory key,label_and_round,61,San17,2
+1.JAN/san2-1.xlsx,san2-1.xlsx,1,data/2026ER_data_for Viet/1.JAN/san2-1.xlsx,matched,unique laboratory key,label_and_round,40,San2,1
+1.JAN/san2-2.xlsx,san2-2.xlsx,1,data/2026ER_data_for Viet/1.JAN/san2-2.xlsx,matched,unique laboratory key,label_and_round,41,San2,2
+1.JAN/san3-1.xlsx,san3-1.xlsx,1,data/2026ER_data_for Viet/1.JAN/san3-1.xlsx,matched,unique laboratory key,label_and_round,38,San3,1
+1.JAN/san3-2.xlsx,san3-2.xlsx,1,data/2026ER_data_for Viet/1.JAN/san3-2.xlsx,matched,unique laboratory key,label_and_round,39,San3,2
+1.JAN/san4-1.xlsx,san4-1.xlsx,1,data/2026ER_data_for Viet/1.JAN/san4-1.xlsx,matched,unique laboratory key,label_and_round,36,San4,1
+1.JAN/san4-2.xlsx,san4-2.xlsx,1,data/2026ER_data_for Viet/1.JAN/san4-2.xlsx,matched,unique laboratory key,label_and_round,37,San4,2
+1.JAN/san5-1.xlsx,san5-1.xlsx,1,data/2026ER_data_for Viet/1.JAN/san5-1.xlsx,matched,unique laboratory key,label_and_round,32,San5,1
+1.JAN/san5-2.xlsx,san5-2.xlsx,1,data/2026ER_data_for Viet/1.JAN/san5-2.xlsx,matched,unique laboratory key,label_and_round,33,San5,2
+1.JAN/san6-1.xlsx,san6-1.xlsx,1,data/2026ER_data_for Viet/1.JAN/san6-1.xlsx,matched,unique laboratory key,label_and_round,34,San6,1
+1.JAN/san6-2.xlsx,san6-2.xlsx,1,data/2026ER_data_for Viet/1.JAN/san6-2.xlsx,matched,unique laboratory key,label_and_round,35,San6,2
+1.JAN/san8-1.xlsx,san8-1.xlsx,1,data/2026ER_data_for Viet/1.JAN/san8-1.xlsx,matched,unique laboratory key,label_and_round,30,San8,1
+1.JAN/san8-2.xlsx,san8-2.xlsx,1,data/2026ER_data_for Viet/1.JAN/san8-2.xlsx,matched,unique laboratory key,label_and_round,31,San8,2
+1.JAN/san9-1.xlsx,san9-1.xlsx,1,data/2026ER_data_for Viet/1.JAN/san9-1.xlsx,matched,unique laboratory key,label_and_round,44,San9,1
+1.JAN/san9-2.xlsx,san9-2.xlsx,1,data/2026ER_data_for Viet/1.JAN/san9-2.xlsx,matched,unique laboratory key,label_and_round,45,San9,2
+10.OCT/ha1-1_10.xlsx,ha1-1_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha1-1_10.xlsx,matched,unique laboratory key,label_and_round,791,Ha1,1
+10.OCT/ha1-2_10.xlsx,ha1-2_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha1-2_10.xlsx,matched,unique laboratory key,label_and_round,792,Ha1,2
+10.OCT/ha1-3_10.xlsx,ha1-3_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha1-3_10.xlsx,matched,unique laboratory key,label_and_round,793,Ha1,3
+10.OCT/ha1-4_10.xlsx,ha1-4_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha1-4_10.xlsx,matched,unique laboratory key,label_and_round,794,Ha1,4
+10.OCT/ha1-5_10.xlsx,ha1-5_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha1-5_10.xlsx,matched,unique laboratory key,label_and_round,795,Ha1,5
+10.OCT/ha10_10.xlsx,ha10_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha10_10.xlsx,matched,unique laboratory key,label_only,761,Ha10,1
+10.OCT/ha11_10.xlsx,ha11_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha11_10.xlsx,matched,unique laboratory key,label_only,762,Ha11,1
+10.OCT/ha12_10.xlsx,ha12_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha12_10.xlsx,matched,unique laboratory key,label_only,763,Ha12,1
+10.OCT/ha13_10.xlsx,ha13_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha13_10.xlsx,matched,unique laboratory key,label_only,755,Ha13,1
+10.OCT/ha14_10.xlsx,ha14_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha14_10.xlsx,matched,unique laboratory key,label_only,756,Ha14,1
+10.OCT/ha15_10.xlsx,ha15_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha15_10.xlsx,matched,unique laboratory key,label_only,757,Ha15,1
+10.OCT/ha16_10.xlsx,ha16_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha16_10.xlsx,matched,unique laboratory key,label_only,758,Ha16,1
+10.OCT/ha17_10.xlsx,ha17_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha17_10.xlsx,matched,unique laboratory key,label_only,751,Ha17,1
+10.OCT/ha18_10.xlsx,ha18_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha18_10.xlsx,matched,unique laboratory key,label_only,752,Ha18,1
+10.OCT/ha19_10.xlsx,ha19_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha19_10.xlsx,matched,unique laboratory key,label_only,753,Ha19,1
+10.OCT/ha2-1_10.xlsx,ha2-1_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha2-1_10.xlsx,matched,unique laboratory key,label_and_round,754,Ha2,1
+10.OCT/ha2-2_10.xlsx,ha2-2_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha2-2_10.xlsx,unmatched,no laboratory row for station/month/round,,,,
+10.OCT/ha2-3_10.xlsx,ha2-3_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha2-3_10.xlsx,unmatched,no laboratory row for station/month/round,,,,
+10.OCT/ha2-4_10.xlsx,ha2-4_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha2-4_10.xlsx,unmatched,no laboratory row for station/month/round,,,,
+10.OCT/ha2-5_10.xlsx,ha2-5_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha2-5_10.xlsx,unmatched,no laboratory row for station/month/round,,,,
+10.OCT/ha20_10.xlsx,ha20_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha20_10.xlsx,unmatched,"round is absent and multiple laboratory rows match: [1, 2, 3, 4, 5]",,,,
+10.OCT/ha21_10.xlsx,ha21_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha21_10.xlsx,matched,unique laboratory key,label_only,750,Ha21,1
+10.OCT/ha22_10.xlsx,ha22_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha22_10.xlsx,unmatched,"round is absent and multiple laboratory rows match: [1, 2, 3, 4, 5]",,,,
+10.OCT/ha23_10.xlsx,ha23_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha23_10.xlsx,matched,unique laboratory key,label_only,764,Ha23,1
+10.OCT/ha24_10.xlsx,ha24_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha24_10.xlsx,matched,unique laboratory key,label_only,765,Ha24,1
+10.OCT/ha25_10.xlsx,ha25_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha25_10.xlsx,matched,unique laboratory key,label_only,766,Ha25,1
+10.OCT/ha26_10.xlsx,ha26_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha26_10.xlsx,matched,unique laboratory key,label_only,767,Ha26,1
+10.OCT/ha3-1_10.xlsx,ha3-1_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha3-1_10.xlsx,matched,unique laboratory key,label_and_round,807,Ha3,1
+10.OCT/ha3-2_10.xlsx,ha3-2_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha3-2_10.xlsx,unmatched,no laboratory row for station/month/round,,,,
+10.OCT/ha3-3_10.xlsx,ha3-3_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha3-3_10.xlsx,unmatched,no laboratory row for station/month/round,,,,
+10.OCT/ha3-4_10.xlsx,ha3-4_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha3-4_10.xlsx,unmatched,no laboratory row for station/month/round,,,,
+10.OCT/ha3-5_10.xlsx,ha3-5_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha3-5_10.xlsx,unmatched,no laboratory row for station/month/round,,,,
+10.OCT/ha4-1_10.xlsx,ha4-1_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha4-1_10.xlsx,matched,unique laboratory key,label_and_round,786,Ha4,1
+10.OCT/ha4-2_10.xlsx,ha4-2_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha4-2_10.xlsx,matched,unique laboratory key,label_and_round,787,Ha4,2
+10.OCT/ha4-3_10.xlsx,ha4-3_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha4-3_10.xlsx,matched,unique laboratory key,label_and_round,788,Ha4,3
+10.OCT/ha4-4_10.xlsx,ha4-4_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha4-4_10.xlsx,matched,unique laboratory key,label_and_round,789,Ha4,4
+10.OCT/ha4-5_10.xlsx,ha4-5_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha4-5_10.xlsx,matched,unique laboratory key,label_and_round,790,Ha4,5
+10.OCT/ha5_10.xlsx,ha5_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha5_10.xlsx,matched,unique laboratory key,label_only,806,Ha5,1
+10.OCT/ha6_10.xlsx,ha6_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha6_10.xlsx,matched,unique laboratory key,label_only,808,Ha6,1
+10.OCT/ha7_10.xlsx,ha7_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha7_10.xlsx,matched,unique laboratory key,label_only,777,Ha7,1
+10.OCT/ha8_10.xlsx,ha8_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha8_10.xlsx,matched,unique laboratory key,label_only,759,Ha8,1
+10.OCT/ha9_10.xlsx,ha9_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ha9_10.xlsx,matched,unique laboratory key,label_only,760,Ha9,1
+10.OCT/ho1-1_10.xlsx,ho1-1_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ho1-1_10.xlsx,unmatched,"round is absent and multiple laboratory rows match: [11, 13, 15]",,,,
+10.OCT/ho1-2_10.xlsx,ho1-2_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ho1-2_10.xlsx,unmatched,no laboratory row for station/month/round,,,,
+10.OCT/ho1-3_10.xlsx,ho1-3_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ho1-3_10.xlsx,unmatched,no laboratory row for station/month/round,,,,
+10.OCT/ho1_10.xlsx,ho1_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ho1_10.xlsx,matched,unique laboratory key,label_only,785,Ho1,1
+10.OCT/ho2-1_10.xlsx,ho2-1_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ho2-1_10.xlsx,unmatched,no laboratory row for station/month/round,,,,
+10.OCT/ho2-2_10.xlsx,ho2-2_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ho2-2_10.xlsx,unmatched,no laboratory row for station/month/round,,,,
+10.OCT/ho2-3_10.xlsx,ho2-3_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ho2-3_10.xlsx,unmatched,no laboratory row for station/month/round,,,,
+10.OCT/ho3_10.xlsx,ho3_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ho3_10.xlsx,depth_filtered,sample depth 4.0 m exceeds the 2 m limit,label_only,784,Ho3,11
+10.OCT/ho4-1_10.xlsx,ho4-1_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ho4-1_10.xlsx,unmatched,no laboratory row for station/month/round,,,,
+10.OCT/ho4-2_10.xlsx,ho4-2_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ho4-2_10.xlsx,unmatched,no laboratory row for station/month/round,,,,
+10.OCT/ho4-3_10.xlsx,ho4-3_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ho4-3_10.xlsx,unmatched,no laboratory row for station/month/round,,,,
+10.OCT/ho5-1_10.xlsx,ho5-1_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ho5-1_10.xlsx,unmatched,no laboratory row for station/month/round,,,,
+10.OCT/ho5-2_10.xlsx,ho5-2_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ho5-2_10.xlsx,unmatched,no laboratory row for station/month/round,,,,
+10.OCT/ho5-3_10.xlsx,ho5-3_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ho5-3_10.xlsx,unmatched,no laboratory row for station/month/round,,,,
+10.OCT/ho6-1_10.xlsx,ho6-1_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ho6-1_10.xlsx,unmatched,no laboratory row for station/month/round,,,,
+10.OCT/ho6-2_10.xlsx,ho6-2_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ho6-2_10.xlsx,unmatched,no laboratory row for station/month/round,,,,
+10.OCT/ho6-3_10.xlsx,ho6-3_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/ho6-3_10.xlsx,unmatched,no laboratory row for station/month/round,,,,
+10.OCT/san1-1_10.xlsx,san1-1_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/san1-1_10.xlsx,matched,unique laboratory key,label_and_round,823,San1,1
+10.OCT/san1-2_10.xlsx,san1-2_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/san1-2_10.xlsx,matched,unique laboratory key,label_and_round,824,San1,2
+10.OCT/san10-1_10.xlsx,san10-1_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/san10-1_10.xlsx,matched,unique laboratory key,label_and_round,831,San10,1
+10.OCT/san10-2_10.xlsx,san10-2_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/san10-2_10.xlsx,matched,unique laboratory key,label_and_round,832,San10,2
+10.OCT/san11-1_10.xlsx,san11-1_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/san11-1_10.xlsx,matched,unique laboratory key,label_and_round,833,San11,1
+10.OCT/san11-2_10.xlsx,san11-2_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/san11-2_10.xlsx,matched,unique laboratory key,label_and_round,834,San11,2
+10.OCT/san12-1_10.xlsx,san12-1_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/san12-1_10.xlsx,matched,unique laboratory key,label_and_round,835,San12,1
+10.OCT/san12-2_10.xlsx,san12-2_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/san12-2_10.xlsx,matched,unique laboratory key,label_and_round,836,San12,2
+10.OCT/san13-1_10.xlsx,san13-1_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/san13-1_10.xlsx,matched,unique laboratory key,label_and_round,837,San13,1
+10.OCT/san13-2_10.xlsx,san13-2_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/san13-2_10.xlsx,matched,unique laboratory key,label_and_round,838,San13,2
+10.OCT/san14-1_10.xlsx,san14-1_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/san14-1_10.xlsx,matched,unique laboratory key,label_and_round,829,San14,1
+10.OCT/san14-2_10.xlsx,san14-2_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/san14-2_10.xlsx,matched,unique laboratory key,label_and_round,830,San14,2
+10.OCT/san15-1_10.xlsx,san15-1_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/san15-1_10.xlsx,matched,unique laboratory key,label_and_round,827,San15,1
+10.OCT/san15-2_10.xlsx,san15-2_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/san15-2_10.xlsx,matched,unique laboratory key,label_and_round,828,San15,2
+10.OCT/san16-1_10.xlsx,san16-1_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/san16-1_10.xlsx,matched,unique laboratory key,label_and_round,839,San16,1
+10.OCT/san16-2_10.xlsx,san16-2_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/san16-2_10.xlsx,matched,unique laboratory key,label_and_round,840,San16,2
+10.OCT/san17-1_10.xlsx,san17-1_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/san17-1_10.xlsx,matched,unique laboratory key,label_and_round,841,San17,1
+10.OCT/san17-2_10.xlsx,san17-2_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/san17-2_10.xlsx,matched,unique laboratory key,label_and_round,842,San17,2
+10.OCT/san2-1_10.xlsx,san2-1_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/san2-1_10.xlsx,matched,unique laboratory key,label_and_round,821,San2,1
+10.OCT/san2-2_10.xlsx,san2-2_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/san2-2_10.xlsx,matched,unique laboratory key,label_and_round,822,San2,2
+10.OCT/san3-1_10.xlsx,san3-1_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/san3-1_10.xlsx,matched,unique laboratory key,label_and_round,819,San3,1
+10.OCT/san3-2_10.xlsx,san3-2_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/san3-2_10.xlsx,matched,unique laboratory key,label_and_round,820,San3,2
+10.OCT/san4-1_10.xlsx,san4-1_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/san4-1_10.xlsx,matched,unique laboratory key,label_and_round,817,San4,1
+10.OCT/san4-2_10.xlsx,san4-2_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/san4-2_10.xlsx,matched,unique laboratory key,label_and_round,818,San4,2
+10.OCT/san5-1_10.xlsx,san5-1_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/san5-1_10.xlsx,matched,unique laboratory key,label_and_round,813,San5,1
+10.OCT/san5-2_10.xlsx,san5-2_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/san5-2_10.xlsx,matched,unique laboratory key,label_and_round,814,San5,2
+10.OCT/san6-1_10.xlsx,san6-1_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/san6-1_10.xlsx,matched,unique laboratory key,label_and_round,815,San6,1
+10.OCT/san6-2_10.xlsx,san6-2_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/san6-2_10.xlsx,matched,unique laboratory key,label_and_round,816,San6,2
+10.OCT/san7-1_10.xlsx,san7-1_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/san7-1_10.xlsx,matched,unique laboratory key,label_and_round,809,San7,1
+10.OCT/san7-2_10.xlsx,san7-2_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/san7-2_10.xlsx,matched,unique laboratory key,label_and_round,810,San7,2
+10.OCT/san8-1_10.xlsx,san8-1_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/san8-1_10.xlsx,matched,unique laboratory key,label_and_round,811,San8,1
+10.OCT/san8-2_10.xlsx,san8-2_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/san8-2_10.xlsx,matched,unique laboratory key,label_and_round,812,San8,2
+10.OCT/san9-1_10.xlsx,san9-1_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/san9-1_10.xlsx,matched,unique laboratory key,label_and_round,825,San9,1
+10.OCT/san9-2_10.xlsx,san9-2_10.xlsx,10,data/2026ER_data_for Viet/10.OCT/san9-2_10.xlsx,matched,unique laboratory key,label_and_round,826,San9,2
+11.NOV/ha1-1_11.xlsx,ha1-1_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha1-1_11.xlsx,matched,unique laboratory key,label_and_round,883,Ha1,1
+11.NOV/ha1-2_11.xlsx,ha1-2_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha1-2_11.xlsx,matched,unique laboratory key,label_and_round,884,Ha1,2
+11.NOV/ha1-3_11.xlsx,ha1-3_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha1-3_11.xlsx,matched,unique laboratory key,label_and_round,885,Ha1,3
+11.NOV/ha1-4_11.xlsx,ha1-4_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha1-4_11.xlsx,matched,unique laboratory key,label_and_round,886,Ha1,4
+11.NOV/ha10_11.xlsx,ha10_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha10_11.xlsx,matched,unique laboratory key,label_only,854,Ha10,1
+11.NOV/ha11_11.xlsx,ha11_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha11_11.xlsx,matched,unique laboratory key,label_only,855,Ha11,1
+11.NOV/ha12_11.xlsx,ha12_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha12_11.xlsx,matched,unique laboratory key,label_only,856,Ha12,1
+11.NOV/ha13_11.xlsx,ha13_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha13_11.xlsx,matched,unique laboratory key,label_only,848,Ha13,1
+11.NOV/ha14_11.xlsx,ha14_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha14_11.xlsx,matched,unique laboratory key,label_only,849,Ha14,1
+11.NOV/ha15_11.xlsx,ha15_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha15_11.xlsx,matched,unique laboratory key,label_only,850,Ha15,1
+11.NOV/ha16_11.xlsx,ha16_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha16_11.xlsx,matched,unique laboratory key,label_only,851,Ha16,1
+11.NOV/ha17_11.xlsx,ha17_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha17_11.xlsx,matched,unique laboratory key,label_only,844,Ha17,1
+11.NOV/ha18_11.xlsx,ha18_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha18_11.xlsx,matched,unique laboratory key,label_only,845,Ha18,1
+11.NOV/ha19_11.xlsx,ha19_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha19_11.xlsx,matched,unique laboratory key,label_only,846,Ha19,1
+11.NOV/ha2-1_11.xlsx,ha2-1_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha2-1_11.xlsx,matched,unique laboratory key,label_and_round,847,Ha2,1
+11.NOV/ha2-2_11.xlsx,ha2-2_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha2-2_11.xlsx,unmatched,no laboratory row for station/month/round,,,,
+11.NOV/ha2-3_11.xlsx,ha2-3_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha2-3_11.xlsx,unmatched,no laboratory row for station/month/round,,,,
+11.NOV/ha2-4_11.xlsx,ha2-4_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha2-4_11.xlsx,unmatched,no laboratory row for station/month/round,,,,
+11.NOV/ha20_11.xlsx,ha20_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha20_11.xlsx,unmatched,"round is absent and multiple laboratory rows match: [1, 2, 3, 4]",,,,
+11.NOV/ha21_11.xlsx,ha21_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha21_11.xlsx,matched,unique laboratory key,label_only,843,Ha21,1
+11.NOV/ha22_11.xlsx,ha22_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha22_11.xlsx,unmatched,"round is absent and multiple laboratory rows match: [1, 2, 3, 4]",,,,
+11.NOV/ha23_11.xlsx,ha23_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha23_11.xlsx,matched,unique laboratory key,label_only,857,Ha23,1
+11.NOV/ha24_11.xlsx,ha24_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha24_11.xlsx,matched,unique laboratory key,label_only,858,Ha24,1
+11.NOV/ha25_11.xlsx,ha25_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha25_11.xlsx,matched,unique laboratory key,label_only,859,Ha25,1
+11.NOV/ha26_11.xlsx,ha26_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha26_11.xlsx,matched,unique laboratory key,label_only,860,Ha26,1
+11.NOV/ha3-1_11.xlsx,ha3-1_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha3-1_11.xlsx,matched,unique laboratory key,label_and_round,896,Ha3,1
+11.NOV/ha3-3_11.xlsx,ha3-3_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha3-3_11.xlsx,unmatched,no laboratory row for station/month/round,,,,
+11.NOV/ha3-4_11.xlsx,ha3-4_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha3-4_11.xlsx,unmatched,no laboratory row for station/month/round,,,,
+11.NOV/ha4-1_11.xlsx,ha4-1_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha4-1_11.xlsx,matched,unique laboratory key,label_and_round,879,Ha4,1
+11.NOV/ha4-2_11.xlsx,ha4-2_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha4-2_11.xlsx,matched,unique laboratory key,label_and_round,880,Ha4,2
+11.NOV/ha4-3_11.xlsx,ha4-3_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha4-3_11.xlsx,matched,unique laboratory key,label_and_round,881,Ha4,3
+11.NOV/ha4-4_11.xlsx,ha4-4_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha4-4_11.xlsx,matched,unique laboratory key,label_and_round,882,Ha4,4
+11.NOV/ha5_11.xlsx,ha5_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha5_11.xlsx,matched,unique laboratory key,label_only,895,Ha5,1
+11.NOV/ha6_11.xlsx,ha6_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha6_11.xlsx,matched,unique laboratory key,label_only,897,Ha6,1
+11.NOV/ha7_11.xlsx,ha7_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha7_11.xlsx,matched,unique laboratory key,label_only,870,Ha7,1
+11.NOV/ha8_11.xlsx,ha8_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha8_11.xlsx,matched,unique laboratory key,label_only,852,Ha8,1
+11.NOV/ha9_11.xlsx,ha9_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ha9_11.xlsx,matched,unique laboratory key,label_only,853,Ha9,1
+11.NOV/ho1-1_11.xlsx,ho1-1_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ho1-1_11.xlsx,unmatched,"round is absent and multiple laboratory rows match: [11, 13, 15]",,,,
+11.NOV/ho1-2_11.xlsx,ho1-2_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ho1-2_11.xlsx,unmatched,no laboratory row for station/month/round,,,,
+11.NOV/ho1-3_11.xlsx,ho1-3_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ho1-3_11.xlsx,unmatched,no laboratory row for station/month/round,,,,
+11.NOV/ho1_11.xlsx,ho1_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ho1_11.xlsx,matched,unique laboratory key,label_only,878,Ho1,1
+11.NOV/ho2-1_11.xlsx,ho2-1_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ho2-1_11.xlsx,unmatched,no laboratory row for station/month/round,,,,
+11.NOV/ho2-2_11.xlsx,ho2-2_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ho2-2_11.xlsx,unmatched,no laboratory row for station/month/round,,,,
+11.NOV/ho2-3_11.xlsx,ho2-3_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ho2-3_11.xlsx,unmatched,no laboratory row for station/month/round,,,,
+11.NOV/ho3_11.xlsx,ho3_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ho3_11.xlsx,matched,unique laboratory key,label_only,877,Ho3,11
+11.NOV/ho4-1_11.xlsx,ho4-1_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ho4-1_11.xlsx,unmatched,no laboratory row for station/month/round,,,,
+11.NOV/ho4-2_11.xlsx,ho4-2_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ho4-2_11.xlsx,unmatched,no laboratory row for station/month/round,,,,
+11.NOV/ho4-3_11.xlsx,ho4-3_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ho4-3_11.xlsx,unmatched,no laboratory row for station/month/round,,,,
+11.NOV/ho5-1_11.xlsx,ho5-1_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ho5-1_11.xlsx,unmatched,no laboratory row for station/month/round,,,,
+11.NOV/ho5-2_11.xlsx,ho5-2_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ho5-2_11.xlsx,unmatched,no laboratory row for station/month/round,,,,
+11.NOV/ho5-3_11.xlsx,ho5-3_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ho5-3_11.xlsx,unmatched,no laboratory row for station/month/round,,,,
+11.NOV/ho6-1_11.xlsx,ho6-1_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ho6-1_11.xlsx,unmatched,no laboratory row for station/month/round,,,,
+11.NOV/ho6-2_11.xlsx,ho6-2_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ho6-2_11.xlsx,unmatched,no laboratory row for station/month/round,,,,
+11.NOV/ho6-3_11.xlsx,ho6-3_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/ho6-3_11.xlsx,unmatched,no laboratory row for station/month/round,,,,
+11.NOV/san1-1_11.xlsx,san1-1_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/san1-1_11.xlsx,matched,unique laboratory key,label_and_round,912,San1,1
+11.NOV/san1-2_11.xlsx,san1-2_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/san1-2_11.xlsx,matched,unique laboratory key,label_and_round,913,San1,2
+11.NOV/san10-1_11.xlsx,san10-1_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/san10-1_11.xlsx,matched,unique laboratory key,label_and_round,920,San10,1
+11.NOV/san10-2_11.xlsx,san10-2_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/san10-2_11.xlsx,matched,unique laboratory key,label_and_round,921,San10,2
+11.NOV/san11-1_11.xlsx,san11-1_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/san11-1_11.xlsx,matched,unique laboratory key,label_and_round,922,San11,1
+11.NOV/san11-2_11.xlsx,san11-2_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/san11-2_11.xlsx,matched,unique laboratory key,label_and_round,923,San11,2
+11.NOV/san12-1_11.xlsx,san12-1_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/san12-1_11.xlsx,matched,unique laboratory key,label_and_round,924,San12,1
+11.NOV/san12-2_11.xlsx,san12-2_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/san12-2_11.xlsx,matched,unique laboratory key,label_and_round,925,San12,2
+11.NOV/san13-1_11.xlsx,san13-1_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/san13-1_11.xlsx,matched,unique laboratory key,label_and_round,926,San13,1
+11.NOV/san13-2_11.xlsx,san13-2_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/san13-2_11.xlsx,matched,unique laboratory key,label_and_round,927,San13,2
+11.NOV/san14-1_11.xlsx,san14-1_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/san14-1_11.xlsx,matched,unique laboratory key,label_and_round,918,San14,1
+11.NOV/san14-2_11.xlsx,san14-2_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/san14-2_11.xlsx,matched,unique laboratory key,label_and_round,919,San14,2
+11.NOV/san15-1_11.xlsx,san15-1_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/san15-1_11.xlsx,matched,unique laboratory key,label_and_round,916,San15,1
+11.NOV/san15-2_11.xlsx,san15-2_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/san15-2_11.xlsx,matched,unique laboratory key,label_and_round,917,San15,2
+11.NOV/san16-1_11.xlsx,san16-1_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/san16-1_11.xlsx,matched,unique laboratory key,label_and_round,928,San16,1
+11.NOV/san17-1_11.xlsx,san17-1_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/san17-1_11.xlsx,matched,unique laboratory key,label_and_round,930,San17,1
+11.NOV/san17-2_11.xlsx,san17-2_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/san17-2_11.xlsx,matched,unique laboratory key,label_and_round,931,San17,2
+11.NOV/san2-2_11.xlsx,san2-2_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/san2-2_11.xlsx,matched,unique laboratory key,label_and_round,911,San2,2
+11.NOV/san3-1_11.xlsx,san3-1_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/san3-1_11.xlsx,matched,unique laboratory key,label_and_round,908,San3,1
+11.NOV/san3-2_11.xlsx,san3-2_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/san3-2_11.xlsx,matched,unique laboratory key,label_and_round,909,San3,2
+11.NOV/san4-1_11.xlsx,san4-1_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/san4-1_11.xlsx,matched,unique laboratory key,label_and_round,906,San4,1
+11.NOV/san4-2_11.xlsx,san4-2_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/san4-2_11.xlsx,matched,unique laboratory key,label_and_round,907,San4,2
+11.NOV/san5-1_11.xlsx,san5-1_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/san5-1_11.xlsx,matched,unique laboratory key,label_and_round,902,San5,1
+11.NOV/san5-2_11.xlsx,san5-2_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/san5-2_11.xlsx,matched,unique laboratory key,label_and_round,903,San5,2
+11.NOV/san6-1_11.xlsx,san6-1_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/san6-1_11.xlsx,matched,unique laboratory key,label_and_round,904,San6,1
+11.NOV/san6-2_11.xlsx,san6-2_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/san6-2_11.xlsx,matched,unique laboratory key,label_and_round,905,San6,2
+11.NOV/san7-1_11.xlsx,san7-1_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/san7-1_11.xlsx,matched,unique laboratory key,label_and_round,898,San7,1
+11.NOV/san7-2_11.xlsx,san7-2_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/san7-2_11.xlsx,matched,unique laboratory key,label_and_round,899,San7,2
+11.NOV/san8-1_11.xlsx,san8-1_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/san8-1_11.xlsx,matched,unique laboratory key,label_and_round,900,San8,1
+11.NOV/san8-2_11.xlsx,san8-2_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/san8-2_11.xlsx,matched,unique laboratory key,label_and_round,901,San8,2
+11.NOV/san9-1_11.xlsx,san9-1_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/san9-1_11.xlsx,matched,unique laboratory key,label_and_round,914,San9,1
+11.NOV/san9-2_11.xlsx,san9-2_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/san9-2_11.xlsx,matched,unique laboratory key,label_and_round,915,San9,2
+11.NOV/sasn2-1_11.xlsx,sasn2-1_11.xlsx,11,data/2026ER_data_for Viet/11.NOV/sasn2-1_11.xlsx,unmatched,station label not present in workbook,,,,
+12.DEC/ha1-1_12.xlsx,ha1-1_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha1-1_12.xlsx,matched,unique laboratory key,label_and_round,958,Ha1,1
+12.DEC/ha1-2_12.xlsx,ha1-2_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha1-2_12.xlsx,matched,unique laboratory key,label_and_round,959,Ha1,2
+12.DEC/ha1-3_12.xlsx,ha1-3_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha1-3_12.xlsx,matched,unique laboratory key,label_and_round,960,Ha1,3
+12.DEC/ha1-4_12.xlsx,ha1-4_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha1-4_12.xlsx,matched,unique laboratory key,label_and_round,961,Ha1,4
+12.DEC/ha11_12.xlsx,ha11_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha11_12.xlsx,matched,unique laboratory key,label_only,943,Ha11,1
+12.DEC/ha12_12.xlsx,ha12_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha12_12.xlsx,matched,unique laboratory key,label_only,944,Ha12,1
+12.DEC/ha13_12.xlsx,ha13_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha13_12.xlsx,matched,unique laboratory key,label_only,937,Ha13,1
+12.DEC/ha14_12.xlsx,ha14_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha14_12.xlsx,matched,unique laboratory key,label_only,938,Ha14,1
+12.DEC/ha15_12.xlsx,ha15_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha15_12.xlsx,matched,unique laboratory key,label_only,939,Ha15,1
+12.DEC/ha16_12.xlsx,ha16_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha16_12.xlsx,matched,unique laboratory key,label_only,940,Ha16,1
+12.DEC/ha17_12.xlsx,ha17_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha17_12.xlsx,matched,unique laboratory key,label_only,933,Ha17,1
+12.DEC/ha18_12.xlsx,ha18_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha18_12.xlsx,matched,unique laboratory key,label_only,934,Ha18,1
+12.DEC/ha19_12.xlsx,ha19_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha19_12.xlsx,matched,unique laboratory key,label_only,935,Ha19,1
+12.DEC/ha2-1_12.xlsx,ha2-1_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha2-1_12.xlsx,matched,unique laboratory key,label_and_round,936,Ha2,1
+12.DEC/ha2-2_12.xlsx,ha2-2_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha2-2_12.xlsx,unmatched,no laboratory row for station/month/round,,,,
+12.DEC/ha2-3_12.xlsx,ha2-3_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha2-3_12.xlsx,unmatched,no laboratory row for station/month/round,,,,
+12.DEC/ha2-4_12.xlsx,ha2-4_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha2-4_12.xlsx,unmatched,no laboratory row for station/month/round,,,,
+12.DEC/ha20_12.xlsx,ha20_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha20_12.xlsx,unmatched,"round is absent and multiple laboratory rows match: [1, 2, 3, 4]",,,,
+12.DEC/ha21_12.xlsx,ha21_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha21_12.xlsx,matched,unique laboratory key,label_only,932,Ha21,1
+12.DEC/ha22_12.xlsx,ha22_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha22_12.xlsx,unmatched,"round is absent and multiple laboratory rows match: [1, 2, 3, 4]",,,,
+12.DEC/ha23_12.xlsx,ha23_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha23_12.xlsx,matched,unique laboratory key,label_only,945,Ha23,1
+12.DEC/ha24_12.xlsx,ha24_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha24_12.xlsx,matched,unique laboratory key,label_only,946,Ha24,1
+12.DEC/ha25_12.xlsx,ha25_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha25_12.xlsx,matched,unique laboratory key,label_only,947,Ha25,1
+12.DEC/ha26_12.xlsx,ha26_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha26_12.xlsx,matched,unique laboratory key,label_only,948,Ha26,1
+12.DEC/ha3-1_12.xlsx,ha3-1_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha3-1_12.xlsx,matched,unique laboratory key,label_and_round,971,Ha3,1
+12.DEC/ha3-2_12.xlsx,ha3-2_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha3-2_12.xlsx,unmatched,no laboratory row for station/month/round,,,,
+12.DEC/ha3-3_12.xlsx,ha3-3_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha3-3_12.xlsx,unmatched,no laboratory row for station/month/round,,,,
+12.DEC/ha3-4_12.xlsx,ha3-4_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha3-4_12.xlsx,unmatched,no laboratory row for station/month/round,,,,
+12.DEC/ha4-1_12.xlsx,ha4-1_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha4-1_12.xlsx,matched,unique laboratory key,label_and_round,954,Ha4,1
+12.DEC/ha4-2_12.xlsx,ha4-2_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha4-2_12.xlsx,matched,unique laboratory key,label_and_round,955,Ha4,2
+12.DEC/ha4-4_12.xlsx,ha4-4_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha4-4_12.xlsx,matched,unique laboratory key,label_and_round,957,Ha4,4
+12.DEC/ha5_12.xlsx,ha5_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha5_12.xlsx,matched,unique laboratory key,label_only,970,Ha5,1
+12.DEC/ha6_12.xlsx,ha6_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha6_12.xlsx,matched,unique laboratory key,label_only,972,Ha6,1
+12.DEC/ha7_12.xlsx,ha7_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha7_12.xlsx,matched,unique laboratory key,label_only,952,Ha7,1
+12.DEC/ha9_12.xlsx,ha9_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ha9_12.xlsx,matched,unique laboratory key,label_only,941,Ha9,1
+12.DEC/ho1_12.xlsx,ho1_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/ho1_12.xlsx,matched,unique laboratory key,label_only,953,Ho1,1
+12.DEC/san1-1_12.xlsx,san1-1_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/san1-1_12.xlsx,matched,unique laboratory key,label_and_round,987,San1,1
+12.DEC/san1-2_12.xlsx,san1-2_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/san1-2_12.xlsx,matched,unique laboratory key,label_and_round,988,San1,2
+12.DEC/san10-1_12.xlsx,san10-1_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/san10-1_12.xlsx,matched,unique laboratory key,label_and_round,995,San10,1
+12.DEC/san10-2_12.xlsx,san10-2_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/san10-2_12.xlsx,matched,unique laboratory key,label_and_round,996,San10,2
+12.DEC/san11-1_12.xlsx,san11-1_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/san11-1_12.xlsx,matched,unique laboratory key,label_and_round,997,San11,1
+12.DEC/san11-2_12.xlsx,san11-2_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/san11-2_12.xlsx,matched,unique laboratory key,label_and_round,998,San11,2
+12.DEC/san12-1_12.xlsx,san12-1_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/san12-1_12.xlsx,matched,unique laboratory key,label_and_round,999,San12,1
+12.DEC/san12-2_12.xlsx,san12-2_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/san12-2_12.xlsx,matched,unique laboratory key,label_and_round,1000,San12,2
+12.DEC/san13-1_12.xlsx,san13-1_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/san13-1_12.xlsx,matched,unique laboratory key,label_and_round,1001,San13,1
+12.DEC/san13-2_12.xlsx,san13-2_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/san13-2_12.xlsx,matched,unique laboratory key,label_and_round,1002,San13,2
+12.DEC/san14-1_12.xlsx,san14-1_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/san14-1_12.xlsx,matched,unique laboratory key,label_and_round,993,San14,1
+12.DEC/san14-2_12.xlsx,san14-2_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/san14-2_12.xlsx,matched,unique laboratory key,label_and_round,994,San14,2
+12.DEC/san15-1_12.xlsx,san15-1_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/san15-1_12.xlsx,matched,unique laboratory key,label_and_round,991,San15,1
+12.DEC/san15-2_12.xlsx,san15-2_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/san15-2_12.xlsx,matched,unique laboratory key,label_and_round,992,San15,2
+12.DEC/san16-1_12.xlsx,san16-1_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/san16-1_12.xlsx,matched,unique laboratory key,label_and_round,1003,San16,1
+12.DEC/san16-2_12.xlsx,san16-2_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/san16-2_12.xlsx,matched,unique laboratory key,label_and_round,1004,San16,2
+12.DEC/san17-1_12.xlsx,san17-1_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/san17-1_12.xlsx,matched,unique laboratory key,label_and_round,1005,San17,1
+12.DEC/san17-2_12.xlsx,san17-2_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/san17-2_12.xlsx,matched,unique laboratory key,label_and_round,1006,San17,2
+12.DEC/san2-1_12.xlsx,san2-1_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/san2-1_12.xlsx,matched,unique laboratory key,label_and_round,985,San2,1
+12.DEC/san2-2_12.xlsx,san2-2_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/san2-2_12.xlsx,matched,unique laboratory key,label_and_round,986,San2,2
+12.DEC/san3-1_12.xlsx,san3-1_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/san3-1_12.xlsx,matched,unique laboratory key,label_and_round,983,San3,1
+12.DEC/san3-2_12.xlsx,san3-2_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/san3-2_12.xlsx,matched,unique laboratory key,label_and_round,984,San3,2
+12.DEC/san4-1_12.xlsx,san4-1_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/san4-1_12.xlsx,matched,unique laboratory key,label_and_round,981,San4,1
+12.DEC/san4-2_12.xlsx,san4-2_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/san4-2_12.xlsx,matched,unique laboratory key,label_and_round,982,San4,2
+12.DEC/san5-1_12.xlsx,san5-1_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/san5-1_12.xlsx,matched,unique laboratory key,label_and_round,977,San5,1
+12.DEC/san5-2_12.xlsx,san5-2_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/san5-2_12.xlsx,matched,unique laboratory key,label_and_round,978,San5,2
+12.DEC/san6-1_12.xlsx,san6-1_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/san6-1_12.xlsx,matched,unique laboratory key,label_and_round,979,San6,1
+12.DEC/san6-2_12.xlsx,san6-2_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/san6-2_12.xlsx,matched,unique laboratory key,label_and_round,980,San6,2
+12.DEC/san7-1_12.xlsx,san7-1_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/san7-1_12.xlsx,matched,unique laboratory key,label_and_round,973,San7,1
+12.DEC/san7-2_12.xlsx,san7-2_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/san7-2_12.xlsx,matched,unique laboratory key,label_and_round,974,San7,2
+12.DEC/san8-1_12.xlsx,san8-1_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/san8-1_12.xlsx,matched,unique laboratory key,label_and_round,975,San8,1
+12.DEC/san8-2_12.xlsx,san8-2_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/san8-2_12.xlsx,matched,unique laboratory key,label_and_round,976,San8,2
+12.DEC/san9-1_12.xlsx,san9-1_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/san9-1_12.xlsx,matched,unique laboratory key,label_and_round,989,San9,1
+12.DEC/san9-2_12.xlsx,san9-2_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/san9-2_12.xlsx,matched,unique laboratory key,label_and_round,990,San9,2
+12.DEC/청평댐1_12.xlsx,청평댐1_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/청평댐1_12.xlsx,unmatched,station/round pattern not recognised,,,,
+12.DEC/청평댐2_12.xlsx,청평댐2_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/청평댐2_12.xlsx,unmatched,station/round pattern not recognised,,,,
+12.DEC/청평댐3_12.xlsx,청평댐3_12.xlsx,12,data/2026ER_data_for Viet/12.DEC/청평댐3_12.xlsx,unmatched,station/round pattern not recognised,,,,
+2.FEB/ha1-1_2.xlsx,ha1-1_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha1-1_2.xlsx,matched,unique laboratory key,label_and_round,87,Ha1,1
+2.FEB/ha1-2_2.xlsx,ha1-2_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha1-2_2.xlsx,matched,unique laboratory key,label_and_round,88,Ha1,2
+2.FEB/ha1-3_2.xlsx,ha1-3_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha1-3_2.xlsx,matched,unique laboratory key,label_and_round,89,Ha1,3
+2.FEB/ha1-4_2.xlsx,ha1-4_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha1-4_2.xlsx,matched,unique laboratory key,label_and_round,90,Ha1,4
+2.FEB/ha10_2.xlsx,ha10_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha10_2.xlsx,matched,unique laboratory key,label_only,72,Ha10,1
+2.FEB/ha11_2.xlsx,ha11_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha11_2.xlsx,matched,unique laboratory key,label_only,73,Ha11,1
+2.FEB/ha12_2.xlsx,ha12_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha12_2.xlsx,matched,unique laboratory key,label_only,74,Ha12,1
+2.FEB/ha13_2.xlsx,ha13_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha13_2.xlsx,matched,unique laboratory key,label_only,67,Ha13,1
+2.FEB/ha14_2.xlsx,ha14_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha14_2.xlsx,matched,unique laboratory key,label_only,68,Ha14,1
+2.FEB/ha15_2.xlsx,ha15_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha15_2.xlsx,matched,unique laboratory key,label_only,69,Ha15,1
+2.FEB/ha16_2.xlsx,ha16_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha16_2.xlsx,matched,unique laboratory key,label_only,70,Ha16,1
+2.FEB/ha17_2.xlsx,ha17_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha17_2.xlsx,matched,unique laboratory key,label_only,63,Ha17,1
+2.FEB/ha18_2.xlsx,ha18_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha18_2.xlsx,matched,unique laboratory key,label_only,64,Ha18,1
+2.FEB/ha19_2.xlsx,ha19_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha19_2.xlsx,matched,unique laboratory key,label_only,65,Ha19,1
+2.FEB/ha2-1_2.xlsx,ha2-1_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha2-1_2.xlsx,matched,unique laboratory key,label_and_round,66,Ha2,1
+2.FEB/ha2-2_2.xlsx,ha2-2_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha2-2_2.xlsx,unmatched,no laboratory row for station/month/round,,,,
+2.FEB/ha2-3_2.xlsx,ha2-3_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha2-3_2.xlsx,unmatched,no laboratory row for station/month/round,,,,
+2.FEB/ha2-4_2.xlsx,ha2-4_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha2-4_2.xlsx,unmatched,no laboratory row for station/month/round,,,,
+2.FEB/ha20_2.xlsx,ha20_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha20_2.xlsx,unmatched,"round is absent and multiple laboratory rows match: [1, 2, 3, 4]",,,,
+2.FEB/ha21_2.xlsx,ha21_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha21_2.xlsx,matched,unique laboratory key,label_only,62,Ha21,1
+2.FEB/ha22_2.xlsx,ha22_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha22_2.xlsx,unmatched,"round is absent and multiple laboratory rows match: [3, 4]",,,,
+2.FEB/ha23_2.xlsx,ha23_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha23_2.xlsx,matched,unique laboratory key,label_only,75,Ha23,1
+2.FEB/ha24_2.xlsx,ha24_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha24_2.xlsx,matched,unique laboratory key,label_only,76,Ha24,1
+2.FEB/ha25_2.xlsx,ha25_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha25_2.xlsx,matched,unique laboratory key,label_only,77,Ha25,1
+2.FEB/ha26_2.xlsx,ha26_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha26_2.xlsx,matched,unique laboratory key,label_only,78,Ha26,1
+2.FEB/ha3-3_2.xlsx,ha3-3_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha3-3_2.xlsx,unmatched,no laboratory row for station/month/round,,,,
+2.FEB/ha3-4_2.xlsx,ha3-4_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha3-4_2.xlsx,unmatched,no laboratory row for station/month/round,,,,
+2.FEB/ha4-1_2.xlsx,ha4-1_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha4-1_2.xlsx,matched,unique laboratory key,label_and_round,83,Ha4,1
+2.FEB/ha4-2_2.xlsx,ha4-2_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha4-2_2.xlsx,matched,unique laboratory key,label_and_round,84,Ha4,2
+2.FEB/ha4-3_2.xlsx,ha4-3_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha4-3_2.xlsx,matched,unique laboratory key,label_and_round,85,Ha4,3
+2.FEB/ha4-4_2.xlsx,ha4-4_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha4-4_2.xlsx,matched,unique laboratory key,label_and_round,86,Ha4,4
+2.FEB/ha5_2.xlsx,ha5_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha5_2.xlsx,matched,unique laboratory key,label_only,97,Ha5,1
+2.FEB/ha6_2.xlsx,ha6_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha6_2.xlsx,matched,unique laboratory key,label_only,99,Ha6,1
+2.FEB/ha7_2.xlsx,ha7_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha7_2.xlsx,matched,unique laboratory key,label_only,81,Ha7,1
+2.FEB/ha9_2.xlsx,ha9_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ha9_2.xlsx,matched,unique laboratory key,label_only,71,Ha9,1
+2.FEB/ho1_2.xlsx,ho1_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ho1_2.xlsx,matched,unique laboratory key,label_only,82,Ho1,1
+2.FEB/ho4-1_2.xlsx,ho4-1_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ho4-1_2.xlsx,matched,unique laboratory key,label_and_round,79,Ho4,1
+2.FEB/ho4-2_2.xlsx,ho4-2_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ho4-2_2.xlsx,unmatched,no laboratory row for station/month/round,,,,
+2.FEB/ho6-1_2.xlsx,ho6-1_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/ho6-1_2.xlsx,matched,unique laboratory key,label_and_round,80,Ho6,1
+2.FEB/san1-1_2.xlsx,san1-1_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/san1-1_2.xlsx,matched,unique laboratory key,label_and_round,114,San1,1
+2.FEB/san1-2_2.xlsx,san1-2_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/san1-2_2.xlsx,matched,unique laboratory key,label_and_round,115,San1,2
+2.FEB/san10-1_2.xlsx,san10-1_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/san10-1_2.xlsx,matched,unique laboratory key,label_and_round,122,San10,1
+2.FEB/san10-2_2.xlsx,san10-2_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/san10-2_2.xlsx,matched,unique laboratory key,label_and_round,123,San10,2
+2.FEB/san11-1_2.xlsx,san11-1_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/san11-1_2.xlsx,matched,unique laboratory key,label_and_round,124,San11,1
+2.FEB/san11-2_2.xlsx,san11-2_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/san11-2_2.xlsx,matched,unique laboratory key,label_and_round,125,San11,2
+2.FEB/san12-1_2.xlsx,san12-1_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/san12-1_2.xlsx,matched,unique laboratory key,label_and_round,126,San12,1
+2.FEB/san12-2_2.xlsx,san12-2_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/san12-2_2.xlsx,matched,unique laboratory key,label_and_round,127,San12,2
+2.FEB/san13-1_2.xlsx,san13-1_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/san13-1_2.xlsx,matched,unique laboratory key,label_and_round,128,San13,1
+2.FEB/san13-2_2.xlsx,san13-2_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/san13-2_2.xlsx,matched,unique laboratory key,label_and_round,129,San13,2
+2.FEB/san14-1_2.xlsx,san14-1_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/san14-1_2.xlsx,matched,unique laboratory key,label_and_round,120,San14,1
+2.FEB/san14-2_2.xlsx,san14-2_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/san14-2_2.xlsx,matched,unique laboratory key,label_and_round,121,San14,2
+2.FEB/san15-1_2.xlsx,san15-1_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/san15-1_2.xlsx,matched,unique laboratory key,label_and_round,118,San15,1
+2.FEB/san15-2_2.xlsx,san15-2_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/san15-2_2.xlsx,matched,unique laboratory key,label_and_round,119,San15,2
+2.FEB/san16-1_2.xlsx,san16-1_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/san16-1_2.xlsx,matched,unique laboratory key,label_and_round,130,San16,1
+2.FEB/san16-2_2.xlsx,san16-2_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/san16-2_2.xlsx,matched,unique laboratory key,label_and_round,131,San16,2
+2.FEB/san17-1_2.xlsx,san17-1_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/san17-1_2.xlsx,matched,unique laboratory key,label_and_round,132,San17,1
+2.FEB/san17-2_2.xlsx,san17-2_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/san17-2_2.xlsx,matched,unique laboratory key,label_and_round,133,San17,2
+2.FEB/san2-1_2.xlsx,san2-1_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/san2-1_2.xlsx,matched,unique laboratory key,label_and_round,112,San2,1
+2.FEB/san2-2_2.xlsx,san2-2_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/san2-2_2.xlsx,matched,unique laboratory key,label_and_round,113,San2,2
+2.FEB/san3-1_2.xlsx,san3-1_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/san3-1_2.xlsx,matched,unique laboratory key,label_and_round,110,San3,1
+2.FEB/san3-2_2.xlsx,san3-2_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/san3-2_2.xlsx,matched,unique laboratory key,label_and_round,111,San3,2
+2.FEB/san4-1_2.xlsx,san4-1_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/san4-1_2.xlsx,matched,unique laboratory key,label_and_round,108,San4,1
+2.FEB/san4-2_2.xlsx,san4-2_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/san4-2_2.xlsx,matched,unique laboratory key,label_and_round,109,San4,2
+2.FEB/san5-1_2.xlsx,san5-1_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/san5-1_2.xlsx,matched,unique laboratory key,label_and_round,104,San5,1
+2.FEB/san5-2_2.xlsx,san5-2_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/san5-2_2.xlsx,matched,unique laboratory key,label_and_round,105,San5,2
+2.FEB/san6-1_2.xlsx,san6-1_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/san6-1_2.xlsx,matched,unique laboratory key,label_and_round,106,San6,1
+2.FEB/san6-2_2.xlsx,san6-2_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/san6-2_2.xlsx,matched,unique laboratory key,label_and_round,107,San6,2
+2.FEB/san7-1_2.xlsx,san7-1_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/san7-1_2.xlsx,matched,unique laboratory key,label_and_round,100,San7,1
+2.FEB/san7-2_2.xlsx,san7-2_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/san7-2_2.xlsx,matched,unique laboratory key,label_and_round,101,San7,2
+2.FEB/san8-1_2.xlsx,san8-1_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/san8-1_2.xlsx,matched,unique laboratory key,label_and_round,102,San8,1
+2.FEB/san8-2_2.xlsx,san8-2_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/san8-2_2.xlsx,matched,unique laboratory key,label_and_round,103,San8,2
+2.FEB/san9-1_2.xlsx,san9-1_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/san9-1_2.xlsx,matched,unique laboratory key,label_and_round,116,San9,1
+2.FEB/san9-2_2.xlsx,san9-2_2.xlsx,2,data/2026ER_data_for Viet/2.FEB/san9-2_2.xlsx,matched,unique laboratory key,label_and_round,117,San9,2
+3.MAR/ha1-1_3.xlsx,ha1-1_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha1-1_3.xlsx,matched,unique laboratory key,label_and_round,175,Ha1,1
+3.MAR/ha1-2_3.xlsx,ha1-2_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha1-2_3.xlsx,matched,unique laboratory key,label_and_round,176,Ha1,2
+3.MAR/ha1-3_3.xlsx,ha1-3_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha1-3_3.xlsx,matched,unique laboratory key,label_and_round,177,Ha1,3
+3.MAR/ha1-4_3.xlsx,ha1-4_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha1-4_3.xlsx,matched,unique laboratory key,label_and_round,178,Ha1,4
+3.MAR/ha1-5_3.xlsx,ha1-5_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha1-5_3.xlsx,matched,unique laboratory key,label_and_round,179,Ha1,5
+3.MAR/ha10_3.xlsx,ha10_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha10_3.xlsx,matched,unique laboratory key,label_only,145,Ha10,1
+3.MAR/ha11_3.xlsx,ha11_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha11_3.xlsx,matched,unique laboratory key,label_only,146,Ha11,1
+3.MAR/ha12_3.xlsx,ha12_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha12_3.xlsx,matched,unique laboratory key,label_only,147,Ha12,1
+3.MAR/ha13_3.xlsx,ha13_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha13_3.xlsx,matched,unique laboratory key,label_only,139,Ha13,1
+3.MAR/ha14_3.xlsx,ha14_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha14_3.xlsx,matched,unique laboratory key,label_only,140,Ha14,1
+3.MAR/ha15_3.xlsx,ha15_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha15_3.xlsx,matched,unique laboratory key,label_only,141,Ha15,1
+3.MAR/ha16_3.xlsx,ha16_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha16_3.xlsx,matched,unique laboratory key,label_only,142,Ha16,1
+3.MAR/ha17_3.xlsx,ha17_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha17_3.xlsx,matched,unique laboratory key,label_only,135,Ha17,1
+3.MAR/ha18_3.xlsx,ha18_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha18_3.xlsx,matched,unique laboratory key,label_only,136,Ha18,1
+3.MAR/ha19_3.xlsx,ha19_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha19_3.xlsx,matched,unique laboratory key,label_only,137,Ha19,1
+3.MAR/ha2-1_3.xlsx,ha2-1_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha2-1_3.xlsx,matched,unique laboratory key,label_and_round,138,Ha2,1
+3.MAR/ha2-2_3.xlsx,ha2-2_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha2-2_3.xlsx,unmatched,no laboratory row for station/month/round,,,,
+3.MAR/ha2-3_3.xlsx,ha2-3_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha2-3_3.xlsx,unmatched,no laboratory row for station/month/round,,,,
+3.MAR/ha2-4_3.xlsx,ha2-4_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha2-4_3.xlsx,unmatched,no laboratory row for station/month/round,,,,
+3.MAR/ha2-5_3.xlsx,ha2-5_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha2-5_3.xlsx,unmatched,no laboratory row for station/month/round,,,,
+3.MAR/ha20_3.xlsx,ha20_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha20_3.xlsx,unmatched,"round is absent and multiple laboratory rows match: [1, 2, 3, 4, 5]",,,,
+3.MAR/ha21_3.xlsx,ha21_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha21_3.xlsx,matched,unique laboratory key,label_only,134,Ha21,1
+3.MAR/ha22_3.xlsx,ha22_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha22_3.xlsx,unmatched,"round is absent and multiple laboratory rows match: [2, 3, 4, 5]",,,,
+3.MAR/ha23_3.xlsx,ha23_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha23_3.xlsx,matched,unique laboratory key,label_only,148,Ha23,1
+3.MAR/ha24_3.xlsx,ha24_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha24_3.xlsx,matched,unique laboratory key,label_only,149,Ha24,1
+3.MAR/ha25_3.xlsx,ha25_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha25_3.xlsx,matched,unique laboratory key,label_only,150,Ha25,1
+3.MAR/ha26_3.xlsx,ha26_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha26_3.xlsx,matched,unique laboratory key,label_only,151,Ha26,1
+3.MAR/ha3-2_3.xlsx,ha3-2_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha3-2_3.xlsx,unmatched,no laboratory row for station/month/round,,,,
+3.MAR/ha3-3_3.xlsx,ha3-3_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha3-3_3.xlsx,unmatched,no laboratory row for station/month/round,,,,
+3.MAR/ha3-4_3.xlsx,ha3-4_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha3-4_3.xlsx,unmatched,no laboratory row for station/month/round,,,,
+3.MAR/ha3-5_3.xlsx,ha3-5_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha3-5_3.xlsx,unmatched,no laboratory row for station/month/round,,,,
+3.MAR/ha4-1_3.xlsx,ha4-1_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha4-1_3.xlsx,matched,unique laboratory key,label_and_round,170,Ha4,1
+3.MAR/ha4-2_3.xlsx,ha4-2_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha4-2_3.xlsx,matched,unique laboratory key,label_and_round,171,Ha4,2
+3.MAR/ha4-3_3.xlsx,ha4-3_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha4-3_3.xlsx,matched,unique laboratory key,label_and_round,172,Ha4,3
+3.MAR/ha4-4_3.xlsx,ha4-4_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha4-4_3.xlsx,matched,unique laboratory key,label_and_round,173,Ha4,4
+3.MAR/ha4-5_3.xlsx,ha4-5_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha4-5_3.xlsx,matched,unique laboratory key,label_and_round,174,Ha4,5
+3.MAR/ha5_3.xlsx,ha5_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha5_3.xlsx,matched,unique laboratory key,label_only,189,Ha5,1
+3.MAR/ha6_3.xlsx,ha6_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha6_3.xlsx,matched,unique laboratory key,label_only,191,Ha6,1
+3.MAR/ha7_3.xlsx,ha7_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha7_3.xlsx,matched,unique laboratory key,label_only,161,Ha7,1
+3.MAR/ha8_3.xlsx,ha8_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha8_3.xlsx,matched,unique laboratory key,label_only,143,Ha8,1
+3.MAR/ha9_3.xlsx,ha9_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ha9_3.xlsx,matched,unique laboratory key,label_only,144,Ha9,1
+3.MAR/ho1-1_3.xlsx,ho1-1_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ho1-1_3.xlsx,unmatched,"round is absent and multiple laboratory rows match: [11, 13, 15]",,,,
+3.MAR/ho1-2_3.xlsx,ho1-2_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ho1-2_3.xlsx,unmatched,no laboratory row for station/month/round,,,,
+3.MAR/ho1-3_3.xlsx,ho1-3_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ho1-3_3.xlsx,unmatched,no laboratory row for station/month/round,,,,
+3.MAR/ho1_3.xlsx,ho1_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ho1_3.xlsx,matched,unique laboratory key,label_only,169,Ho1,1
+3.MAR/ho2-1_3.xlsx,ho2-1_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ho2-1_3.xlsx,unmatched,no laboratory row for station/month/round,,,,
+3.MAR/ho2-2_3.xlsx,ho2-2_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ho2-2_3.xlsx,unmatched,no laboratory row for station/month/round,,,,
+3.MAR/ho2-3_3.xlsx,ho2-3_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ho2-3_3.xlsx,unmatched,no laboratory row for station/month/round,,,,
+3.MAR/ho3_3.xlsx,ho3_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ho3_3.xlsx,matched,unique laboratory key,label_only,168,Ho3,11
+3.MAR/ho4-1_3.xlsx,ho4-1_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ho4-1_3.xlsx,unmatched,no laboratory row for station/month/round,,,,
+3.MAR/ho4-2_3.xlsx,ho4-2_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ho4-2_3.xlsx,unmatched,no laboratory row for station/month/round,,,,
+3.MAR/ho4-3_3.xlsx,ho4-3_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ho4-3_3.xlsx,unmatched,no laboratory row for station/month/round,,,,
+3.MAR/ho5-1_3.xlsx,ho5-1_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ho5-1_3.xlsx,unmatched,no laboratory row for station/month/round,,,,
+3.MAR/ho5-2_3.xlsx,ho5-2_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ho5-2_3.xlsx,unmatched,no laboratory row for station/month/round,,,,
+3.MAR/ho5-3_3.xlsx,ho5-3_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ho5-3_3.xlsx,unmatched,no laboratory row for station/month/round,,,,
+3.MAR/ho6-1_3.xlsx,ho6-1_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ho6-1_3.xlsx,unmatched,no laboratory row for station/month/round,,,,
+3.MAR/ho6-2_3.xlsx,ho6-2_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ho6-2_3.xlsx,unmatched,no laboratory row for station/month/round,,,,
+3.MAR/ho6-3_3.xlsx,ho6-3_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/ho6-3_3.xlsx,unmatched,no laboratory row for station/month/round,,,,
+3.MAR/san1-1_3.xlsx,san1-1_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/san1-1_3.xlsx,matched,unique laboratory key,label_and_round,206,San1,1
+3.MAR/san1-2_3.xlsx,san1-2_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/san1-2_3.xlsx,matched,unique laboratory key,label_and_round,207,San1,2
+3.MAR/san10-1_3.xlsx,san10-1_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/san10-1_3.xlsx,matched,unique laboratory key,label_and_round,214,San10,1
+3.MAR/san10-2_3.xlsx,san10-2_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/san10-2_3.xlsx,matched,unique laboratory key,label_and_round,215,San10,2
+3.MAR/san11-1_3.xlsx,san11-1_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/san11-1_3.xlsx,matched,unique laboratory key,label_and_round,216,San11,1
+3.MAR/san11-2_3.xlsx,san11-2_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/san11-2_3.xlsx,matched,unique laboratory key,label_and_round,217,San11,2
+3.MAR/san12-1_3.xlsx,san12-1_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/san12-1_3.xlsx,matched,unique laboratory key,label_and_round,218,San12,1
+3.MAR/san12-2_3.xlsx,san12-2_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/san12-2_3.xlsx,matched,unique laboratory key,label_and_round,219,San12,2
+3.MAR/san13-1_3.xlsx,san13-1_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/san13-1_3.xlsx,matched,unique laboratory key,label_and_round,220,San13,1
+3.MAR/san13-2_3.xlsx,san13-2_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/san13-2_3.xlsx,matched,unique laboratory key,label_and_round,221,San13,2
+3.MAR/san14-1_3.xlsx,san14-1_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/san14-1_3.xlsx,matched,unique laboratory key,label_and_round,212,San14,1
+3.MAR/san14-2_3.xlsx,san14-2_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/san14-2_3.xlsx,matched,unique laboratory key,label_and_round,213,San14,2
+3.MAR/san15-1_3.xlsx,san15-1_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/san15-1_3.xlsx,matched,unique laboratory key,label_and_round,210,San15,1
+3.MAR/san15-2_3.xlsx,san15-2_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/san15-2_3.xlsx,matched,unique laboratory key,label_and_round,211,San15,2
+3.MAR/san16-1_3.xlsx,san16-1_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/san16-1_3.xlsx,matched,unique laboratory key,label_and_round,222,San16,1
+3.MAR/san16-2_3.xlsx,san16-2_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/san16-2_3.xlsx,matched,unique laboratory key,label_and_round,223,San16,2
+3.MAR/san17-1_3.xlsx,san17-1_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/san17-1_3.xlsx,matched,unique laboratory key,label_and_round,224,San17,1
+3.MAR/san17-2_3.xlsx,san17-2_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/san17-2_3.xlsx,matched,unique laboratory key,label_and_round,225,San17,2
+3.MAR/san2-1_3.xlsx,san2-1_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/san2-1_3.xlsx,matched,unique laboratory key,label_and_round,204,San2,1
+3.MAR/san2-2_3.xlsx,san2-2_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/san2-2_3.xlsx,matched,unique laboratory key,label_and_round,205,San2,2
+3.MAR/san3-1_3.xlsx,san3-1_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/san3-1_3.xlsx,matched,unique laboratory key,label_and_round,202,San3,1
+3.MAR/san3-2_3.xlsx,san3-2_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/san3-2_3.xlsx,matched,unique laboratory key,label_and_round,203,San3,2
+3.MAR/san4-1_3.xlsx,san4-1_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/san4-1_3.xlsx,matched,unique laboratory key,label_and_round,200,San4,1
+3.MAR/san4-2_3.xlsx,san4-2_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/san4-2_3.xlsx,matched,unique laboratory key,label_and_round,201,San4,2
+3.MAR/san5-1_3.xlsx,san5-1_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/san5-1_3.xlsx,matched,unique laboratory key,label_and_round,196,San5,1
+3.MAR/san5-2_3.xlsx,san5-2_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/san5-2_3.xlsx,matched,unique laboratory key,label_and_round,197,San5,2
+3.MAR/san6-1_3.xlsx,san6-1_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/san6-1_3.xlsx,matched,unique laboratory key,label_and_round,198,San6,1
+3.MAR/san6-2_3.xlsx,san6-2_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/san6-2_3.xlsx,matched,unique laboratory key,label_and_round,199,San6,2
+3.MAR/san7-1_3.xlsx,san7-1_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/san7-1_3.xlsx,matched,unique laboratory key,label_and_round,192,San7,1
+3.MAR/san7-2_3.xlsx,san7-2_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/san7-2_3.xlsx,matched,unique laboratory key,label_and_round,193,San7,2
+3.MAR/san8-1_3.xlsx,san8-1_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/san8-1_3.xlsx,matched,unique laboratory key,label_and_round,194,San8,1
+3.MAR/san8-2_3.xlsx,san8-2_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/san8-2_3.xlsx,matched,unique laboratory key,label_and_round,195,San8,2
+3.MAR/san9-1_3.xlsx,san9-1_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/san9-1_3.xlsx,matched,unique laboratory key,label_and_round,208,San9,1
+3.MAR/san9-2_3.xlsx,san9-2_3.xlsx,3,data/2026ER_data_for Viet/3.MAR/san9-2_3.xlsx,matched,unique laboratory key,label_and_round,209,San9,2
+4.APR/ha1-1_4.xlsx,ha1-1_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha1-1_4.xlsx,matched,unique laboratory key,label_and_round,266,Ha1,1
+4.APR/ha1-2_4.xlsx,ha1-2_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha1-2_4.xlsx,matched,unique laboratory key,label_and_round,267,Ha1,2
+4.APR/ha1-3_4.xlsx,ha1-3_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha1-3_4.xlsx,matched,unique laboratory key,label_and_round,268,Ha1,3
+4.APR/ha1-4_4.xlsx,ha1-4_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha1-4_4.xlsx,matched,unique laboratory key,label_and_round,269,Ha1,4
+4.APR/ha10_4.xlsx,ha10_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha10_4.xlsx,matched,unique laboratory key,label_only,237,Ha10,1
+4.APR/ha11_4.xlsx,ha11_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha11_4.xlsx,matched,unique laboratory key,label_only,238,Ha11,1
+4.APR/ha12_4.xlsx,ha12_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha12_4.xlsx,matched,unique laboratory key,label_only,239,Ha12,1
+4.APR/ha13_4.xlsx,ha13_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha13_4.xlsx,matched,unique laboratory key,label_only,231,Ha13,1
+4.APR/ha14_4.xlsx,ha14_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha14_4.xlsx,matched,unique laboratory key,label_only,232,Ha14,1
+4.APR/ha15_4.xlsx,ha15_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha15_4.xlsx,matched,unique laboratory key,label_only,233,Ha15,1
+4.APR/ha16_4.xlsx,ha16_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha16_4.xlsx,matched,unique laboratory key,label_only,234,Ha16,1
+4.APR/ha17_4.xlsx,ha17_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha17_4.xlsx,matched,unique laboratory key,label_only,227,Ha17,1
+4.APR/ha18_4.xlsx,ha18_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha18_4.xlsx,matched,unique laboratory key,label_only,228,Ha18,1
+4.APR/ha19_4.xlsx,ha19_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha19_4.xlsx,matched,unique laboratory key,label_only,229,Ha19,1
+4.APR/ha2-1_4.xlsx,ha2-1_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha2-1_4.xlsx,matched,unique laboratory key,label_and_round,230,Ha2,1
+4.APR/ha2-2_4.xlsx,ha2-2_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha2-2_4.xlsx,unmatched,no laboratory row for station/month/round,,,,
+4.APR/ha2-3_4.xlsx,ha2-3_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha2-3_4.xlsx,unmatched,no laboratory row for station/month/round,,,,
+4.APR/ha2-4_4.xlsx,ha2-4_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha2-4_4.xlsx,unmatched,no laboratory row for station/month/round,,,,
+4.APR/ha20_4.xlsx,ha20_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha20_4.xlsx,unmatched,"round is absent and multiple laboratory rows match: [1, 2, 3, 4]",,,,
+4.APR/ha21_4.xlsx,ha21_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha21_4.xlsx,matched,unique laboratory key,label_only,226,Ha21,1
+4.APR/ha22_4.xlsx,ha22_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha22_4.xlsx,unmatched,"round is absent and multiple laboratory rows match: [1, 2, 3, 4]",,,,
+4.APR/ha23_4.xlsx,ha23_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha23_4.xlsx,matched,unique laboratory key,label_only,240,Ha23,1
+4.APR/ha24_4.xlsx,ha24_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha24_4.xlsx,matched,unique laboratory key,label_only,241,Ha24,1
+4.APR/ha25_4.xlsx,ha25_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha25_4.xlsx,matched,unique laboratory key,label_only,242,Ha25,1
+4.APR/ha26_4.xlsx,ha26_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha26_4.xlsx,matched,unique laboratory key,label_only,243,Ha26,1
+4.APR/ha3-1_4.xlsx,ha3-1_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha3-1_4.xlsx,matched,unique laboratory key,label_and_round,279,Ha3,1
+4.APR/ha3-2_4.xlsx,ha3-2_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha3-2_4.xlsx,unmatched,no laboratory row for station/month/round,,,,
+4.APR/ha3-3_4.xlsx,ha3-3_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha3-3_4.xlsx,unmatched,no laboratory row for station/month/round,,,,
+4.APR/ha3-4_4.xlsx,ha3-4_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha3-4_4.xlsx,unmatched,no laboratory row for station/month/round,,,,
+4.APR/ha4-1_4.xlsx,ha4-1_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha4-1_4.xlsx,matched,unique laboratory key,label_and_round,262,Ha4,1
+4.APR/ha4-2_4.xlsx,ha4-2_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha4-2_4.xlsx,matched,unique laboratory key,label_and_round,263,Ha4,2
+4.APR/ha4-3_4.xlsx,ha4-3_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha4-3_4.xlsx,matched,unique laboratory key,label_and_round,264,Ha4,3
+4.APR/ha4-4_4.xlsx,ha4-4_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha4-4_4.xlsx,matched,unique laboratory key,label_and_round,265,Ha4,4
+4.APR/ha5_4.xlsx,ha5_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha5_4.xlsx,matched,unique laboratory key,label_only,278,Ha5,1
+4.APR/ha6_4.xlsx,ha6_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha6_4.xlsx,matched,unique laboratory key,label_only,280,Ha6,1
+4.APR/ha7_4.xlsx,ha7_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha7_4.xlsx,matched,unique laboratory key,label_only,253,Ha7,1
+4.APR/ha8_4.xlsx,ha8_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha8_4.xlsx,matched,unique laboratory key,label_only,235,Ha8,1
+4.APR/ha9_4.xlsx,ha9_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ha9_4.xlsx,matched,unique laboratory key,label_only,236,Ha9,1
+4.APR/ho1-1_4.xlsx,ho1-1_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ho1-1_4.xlsx,unmatched,"round is absent and multiple laboratory rows match: [11, 13, 15]",,,,
+4.APR/ho1-2_4.xlsx,ho1-2_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ho1-2_4.xlsx,unmatched,no laboratory row for station/month/round,,,,
+4.APR/ho1-3_4.xlsx,ho1-3_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ho1-3_4.xlsx,unmatched,no laboratory row for station/month/round,,,,
+4.APR/ho1_4.xlsx,ho1_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ho1_4.xlsx,matched,unique laboratory key,label_only,261,Ho1,1
+4.APR/ho2-1_4.xlsx,ho2-1_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ho2-1_4.xlsx,unmatched,no laboratory row for station/month/round,,,,
+4.APR/ho2-2_4.xlsx,ho2-2_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ho2-2_4.xlsx,unmatched,no laboratory row for station/month/round,,,,
+4.APR/ho2-3_4.xlsx,ho2-3_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ho2-3_4.xlsx,unmatched,no laboratory row for station/month/round,,,,
+4.APR/ho3_4.xlsx,ho3_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ho3_4.xlsx,matched,unique laboratory key,label_only,260,Ho3,11
+4.APR/ho4-1_4.xlsx,ho4-1_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ho4-1_4.xlsx,unmatched,no laboratory row for station/month/round,,,,
+4.APR/ho4-2_4.xlsx,ho4-2_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ho4-2_4.xlsx,unmatched,no laboratory row for station/month/round,,,,
+4.APR/ho4-3_4.xlsx,ho4-3_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ho4-3_4.xlsx,unmatched,no laboratory row for station/month/round,,,,
+4.APR/ho5-1_4.xlsx,ho5-1_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ho5-1_4.xlsx,unmatched,no laboratory row for station/month/round,,,,
+4.APR/ho5-2_4.xlsx,ho5-2_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ho5-2_4.xlsx,unmatched,no laboratory row for station/month/round,,,,
+4.APR/ho5-3_4.xlsx,ho5-3_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ho5-3_4.xlsx,unmatched,no laboratory row for station/month/round,,,,
+4.APR/ho6-1_4.xlsx,ho6-1_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ho6-1_4.xlsx,unmatched,no laboratory row for station/month/round,,,,
+4.APR/ho6-2_4.xlsx,ho6-2_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ho6-2_4.xlsx,unmatched,no laboratory row for station/month/round,,,,
+4.APR/ho6-3_4.xlsx,ho6-3_4.xlsx,4,data/2026ER_data_for Viet/4.APR/ho6-3_4.xlsx,unmatched,no laboratory row for station/month/round,,,,
+4.APR/san1-1_4.xlsx,san1-1_4.xlsx,4,data/2026ER_data_for Viet/4.APR/san1-1_4.xlsx,matched,unique laboratory key,label_and_round,295,San1,1
+4.APR/san1-2_4.xlsx,san1-2_4.xlsx,4,data/2026ER_data_for Viet/4.APR/san1-2_4.xlsx,matched,unique laboratory key,label_and_round,296,San1,2
+4.APR/san10-1_4.xlsx,san10-1_4.xlsx,4,data/2026ER_data_for Viet/4.APR/san10-1_4.xlsx,matched,unique laboratory key,label_and_round,303,San10,1
+4.APR/san10-2_4.xlsx,san10-2_4.xlsx,4,data/2026ER_data_for Viet/4.APR/san10-2_4.xlsx,matched,unique laboratory key,label_and_round,304,San10,2
+4.APR/san11-1_4.xlsx,san11-1_4.xlsx,4,data/2026ER_data_for Viet/4.APR/san11-1_4.xlsx,matched,unique laboratory key,label_and_round,305,San11,1
+4.APR/san11-2_4.xlsx,san11-2_4.xlsx,4,data/2026ER_data_for Viet/4.APR/san11-2_4.xlsx,matched,unique laboratory key,label_and_round,306,San11,2
+4.APR/san12-1_4.xlsx,san12-1_4.xlsx,4,data/2026ER_data_for Viet/4.APR/san12-1_4.xlsx,matched,unique laboratory key,label_and_round,307,San12,1
+4.APR/san12-2_4.xlsx,san12-2_4.xlsx,4,data/2026ER_data_for Viet/4.APR/san12-2_4.xlsx,matched,unique laboratory key,label_and_round,308,San12,2
+4.APR/san13-1_4.xlsx,san13-1_4.xlsx,4,data/2026ER_data_for Viet/4.APR/san13-1_4.xlsx,matched,unique laboratory key,label_and_round,309,San13,1
+4.APR/san13-2_4.xlsx,san13-2_4.xlsx,4,data/2026ER_data_for Viet/4.APR/san13-2_4.xlsx,matched,unique laboratory key,label_and_round,310,San13,2
+4.APR/san14-1_4.xlsx,san14-1_4.xlsx,4,data/2026ER_data_for Viet/4.APR/san14-1_4.xlsx,matched,unique laboratory key,label_and_round,301,San14,1
+4.APR/san14-2_4.xlsx,san14-2_4.xlsx,4,data/2026ER_data_for Viet/4.APR/san14-2_4.xlsx,matched,unique laboratory key,label_and_round,302,San14,2
+4.APR/san15-1_4.xlsx,san15-1_4.xlsx,4,data/2026ER_data_for Viet/4.APR/san15-1_4.xlsx,matched,unique laboratory key,label_and_round,299,San15,1
+4.APR/san15-2_4.xlsx,san15-2_4.xlsx,4,data/2026ER_data_for Viet/4.APR/san15-2_4.xlsx,matched,unique laboratory key,label_and_round,300,San15,2
+4.APR/san16-1_4.xlsx,san16-1_4.xlsx,4,data/2026ER_data_for Viet/4.APR/san16-1_4.xlsx,matched,unique laboratory key,label_and_round,311,San16,1
+4.APR/san16-2_4.xlsx,san16-2_4.xlsx,4,data/2026ER_data_for Viet/4.APR/san16-2_4.xlsx,matched,unique laboratory key,label_and_round,312,San16,2
+4.APR/san17-1_4.xlsx,san17-1_4.xlsx,4,data/2026ER_data_for Viet/4.APR/san17-1_4.xlsx,matched,unique laboratory key,label_and_round,313,San17,1
+4.APR/san17-2_4.xlsx,san17-2_4.xlsx,4,data/2026ER_data_for Viet/4.APR/san17-2_4.xlsx,matched,unique laboratory key,label_and_round,314,San17,2
+4.APR/san2-1_4.xlsx,san2-1_4.xlsx,4,data/2026ER_data_for Viet/4.APR/san2-1_4.xlsx,matched,unique laboratory key,label_and_round,293,San2,1
+4.APR/san2-2_4.xlsx,san2-2_4.xlsx,4,data/2026ER_data_for Viet/4.APR/san2-2_4.xlsx,matched,unique laboratory key,label_and_round,294,San2,2
+4.APR/san3-1_4.xlsx,san3-1_4.xlsx,4,data/2026ER_data_for Viet/4.APR/san3-1_4.xlsx,matched,unique laboratory key,label_and_round,291,San3,1
+4.APR/san3-2_4.xlsx,san3-2_4.xlsx,4,data/2026ER_data_for Viet/4.APR/san3-2_4.xlsx,matched,unique laboratory key,label_and_round,292,San3,2
+4.APR/san4-1_4.xlsx,san4-1_4.xlsx,4,data/2026ER_data_for Viet/4.APR/san4-1_4.xlsx,matched,unique laboratory key,label_and_round,289,San4,1
+4.APR/san4-2_4.xlsx,san4-2_4.xlsx,4,data/2026ER_data_for Viet/4.APR/san4-2_4.xlsx,matched,unique laboratory key,label_and_round,290,San4,2
+4.APR/san5-1_4.xlsx,san5-1_4.xlsx,4,data/2026ER_data_for Viet/4.APR/san5-1_4.xlsx,matched,unique laboratory key,label_and_round,285,San5,1
+4.APR/san5-2_4.xlsx,san5-2_4.xlsx,4,data/2026ER_data_for Viet/4.APR/san5-2_4.xlsx,matched,unique laboratory key,label_and_round,286,San5,2
+4.APR/san6-1_4.xlsx,san6-1_4.xlsx,4,data/2026ER_data_for Viet/4.APR/san6-1_4.xlsx,matched,unique laboratory key,label_and_round,287,San6,1
+4.APR/san6-2_4.xlsx,san6-2_4.xlsx,4,data/2026ER_data_for Viet/4.APR/san6-2_4.xlsx,matched,unique laboratory key,label_and_round,288,San6,2
+4.APR/san7-1_4.xlsx,san7-1_4.xlsx,4,data/2026ER_data_for Viet/4.APR/san7-1_4.xlsx,matched,unique laboratory key,label_and_round,281,San7,1
+4.APR/san7-2_4.xlsx,san7-2_4.xlsx,4,data/2026ER_data_for Viet/4.APR/san7-2_4.xlsx,matched,unique laboratory key,label_and_round,282,San7,2
+4.APR/san8-1_4.xlsx,san8-1_4.xlsx,4,data/2026ER_data_for Viet/4.APR/san8-1_4.xlsx,matched,unique laboratory key,label_and_round,283,San8,1
+4.APR/san8-2_4.xlsx,san8-2_4.xlsx,4,data/2026ER_data_for Viet/4.APR/san8-2_4.xlsx,matched,unique laboratory key,label_and_round,284,San8,2
+4.APR/san9-1_4.xlsx,san9-1_4.xlsx,4,data/2026ER_data_for Viet/4.APR/san9-1_4.xlsx,matched,unique laboratory key,label_and_round,297,San9,1
+4.APR/san9-2_4.xlsx,san9-2_4.xlsx,4,data/2026ER_data_for Viet/4.APR/san9-2_4.xlsx,matched,unique laboratory key,label_and_round,298,San9,2
+5.MAY/ha1-1_5.xlsx,ha1-1_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha1-1_5.xlsx,matched,unique laboratory key,label_and_round,356,Ha1,1
+5.MAY/ha1-2_5.xlsx,ha1-2_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha1-2_5.xlsx,matched,unique laboratory key,label_and_round,357,Ha1,2
+5.MAY/ha1-3_5.xlsx,ha1-3_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha1-3_5.xlsx,matched,unique laboratory key,label_and_round,358,Ha1,3
+5.MAY/ha1-4_5.xlsx,ha1-4_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha1-4_5.xlsx,matched,unique laboratory key,label_and_round,359,Ha1,4
+5.MAY/ha1-5_5.xlsx,ha1-5_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha1-5_5.xlsx,matched,unique laboratory key,label_and_round,360,Ha1,5
+5.MAY/ha10_5.xlsx,ha10_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha10_5.xlsx,matched,unique laboratory key,label_only,326,Ha10,1
+5.MAY/ha11_5.xlsx,ha11_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha11_5.xlsx,matched,unique laboratory key,label_only,327,Ha11,1
+5.MAY/ha12_5.xlsx,ha12_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha12_5.xlsx,matched,unique laboratory key,label_only,328,Ha12,1
+5.MAY/ha13_5.xlsx,ha13_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha13_5.xlsx,matched,unique laboratory key,label_only,320,Ha13,1
+5.MAY/ha14_5.xlsx,ha14_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha14_5.xlsx,matched,unique laboratory key,label_only,321,Ha14,1
+5.MAY/ha15_5.xlsx,ha15_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha15_5.xlsx,matched,unique laboratory key,label_only,322,Ha15,1
+5.MAY/ha16_5.xlsx,ha16_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha16_5.xlsx,matched,unique laboratory key,label_only,323,Ha16,1
+5.MAY/ha17_5.xlsx,ha17_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha17_5.xlsx,matched,unique laboratory key,label_only,316,Ha17,1
+5.MAY/ha18_5.xlsx,ha18_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha18_5.xlsx,matched,unique laboratory key,label_only,317,Ha18,1
+5.MAY/ha19_5.xlsx,ha19_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha19_5.xlsx,matched,unique laboratory key,label_only,318,Ha19,1
+5.MAY/ha2-1_5.xlsx,ha2-1_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha2-1_5.xlsx,matched,unique laboratory key,label_and_round,319,Ha2,1
+5.MAY/ha2-2_5.xlsx,ha2-2_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha2-2_5.xlsx,unmatched,no laboratory row for station/month/round,,,,
+5.MAY/ha2-3_5.xlsx,ha2-3_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha2-3_5.xlsx,unmatched,no laboratory row for station/month/round,,,,
+5.MAY/ha2-4_5.xlsx,ha2-4_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha2-4_5.xlsx,unmatched,no laboratory row for station/month/round,,,,
+5.MAY/ha2-5_5.xlsx,ha2-5_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha2-5_5.xlsx,unmatched,no laboratory row for station/month/round,,,,
+5.MAY/ha20_5.xlsx,ha20_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha20_5.xlsx,unmatched,"round is absent and multiple laboratory rows match: [1, 2, 3, 4, 5]",,,,
+5.MAY/ha21_5.xlsx,ha21_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha21_5.xlsx,matched,unique laboratory key,label_only,315,Ha21,1
+5.MAY/ha22_5.xlsx,ha22_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha22_5.xlsx,unmatched,"round is absent and multiple laboratory rows match: [1, 2, 3, 4, 5]",,,,
+5.MAY/ha23_5.xlsx,ha23_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha23_5.xlsx,matched,unique laboratory key,label_only,329,Ha23,1
+5.MAY/ha24_5.xlsx,ha24_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha24_5.xlsx,matched,unique laboratory key,label_only,330,Ha24,1
+5.MAY/ha25_5.xlsx,ha25_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha25_5.xlsx,matched,unique laboratory key,label_only,331,Ha25,1
+5.MAY/ha26_5.xlsx,ha26_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha26_5.xlsx,matched,unique laboratory key,label_only,332,Ha26,1
+5.MAY/ha3-1_5.xlsx,ha3-1_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha3-1_5.xlsx,matched,unique laboratory key,label_and_round,372,Ha3,1
+5.MAY/ha3-2_5.xlsx,ha3-2_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha3-2_5.xlsx,unmatched,no laboratory row for station/month/round,,,,
+5.MAY/ha3-3_5.xlsx,ha3-3_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha3-3_5.xlsx,unmatched,no laboratory row for station/month/round,,,,
+5.MAY/ha3-4_5.xlsx,ha3-4_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha3-4_5.xlsx,unmatched,no laboratory row for station/month/round,,,,
+5.MAY/ha3-5_5.xlsx,ha3-5_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha3-5_5.xlsx,unmatched,no laboratory row for station/month/round,,,,
+5.MAY/ha4-1_5.xlsx,ha4-1_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha4-1_5.xlsx,matched,unique laboratory key,label_and_round,351,Ha4,1
+5.MAY/ha4-2_5.xlsx,ha4-2_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha4-2_5.xlsx,matched,unique laboratory key,label_and_round,352,Ha4,2
+5.MAY/ha4-3_5.xlsx,ha4-3_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha4-3_5.xlsx,matched,unique laboratory key,label_and_round,353,Ha4,3
+5.MAY/ha4-4_5.xlsx,ha4-4_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha4-4_5.xlsx,matched,unique laboratory key,label_and_round,354,Ha4,4
+5.MAY/ha4-5_5.xlsx,ha4-5_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha4-5_5.xlsx,matched,unique laboratory key,label_and_round,355,Ha4,5
+5.MAY/ha5_5.xlsx,ha5_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha5_5.xlsx,matched,unique laboratory key,label_only,371,Ha5,1
+5.MAY/ha6_5.xlsx,ha6_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha6_5.xlsx,matched,unique laboratory key,label_only,373,Ha6,1
+5.MAY/ha7_5.xlsx,ha7_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha7_5.xlsx,matched,unique laboratory key,label_only,342,Ha7,1
+5.MAY/ha8_5.xlsx,ha8_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha8_5.xlsx,matched,unique laboratory key,label_only,324,Ha8,1
+5.MAY/ha9_5.xlsx,ha9_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ha9_5.xlsx,matched,unique laboratory key,label_only,325,Ha9,1
+5.MAY/ho1-1_5.xlsx,ho1-1_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ho1-1_5.xlsx,unmatched,"round is absent and multiple laboratory rows match: [11, 13, 15]",,,,
+5.MAY/ho1-2_5.xlsx,ho1-2_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ho1-2_5.xlsx,unmatched,no laboratory row for station/month/round,,,,
+5.MAY/ho1-3_5.xlsx,ho1-3_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ho1-3_5.xlsx,unmatched,no laboratory row for station/month/round,,,,
+5.MAY/ho1_5.xlsx,ho1_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ho1_5.xlsx,matched,unique laboratory key,label_only,350,Ho1,1
+5.MAY/ho2-1_5.xlsx,ho2-1_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ho2-1_5.xlsx,unmatched,no laboratory row for station/month/round,,,,
+5.MAY/ho2-2_5.xlsx,ho2-2_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ho2-2_5.xlsx,unmatched,no laboratory row for station/month/round,,,,
+5.MAY/ho2-3_5.xlsx,ho2-3_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ho2-3_5.xlsx,unmatched,no laboratory row for station/month/round,,,,
+5.MAY/ho3_5.xlsx,ho3_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ho3_5.xlsx,depth_filtered,sample depth 4.0 m exceeds the 2 m limit,label_only,349,Ho3,11
+5.MAY/ho4-1_5.xlsx,ho4-1_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ho4-1_5.xlsx,unmatched,no laboratory row for station/month/round,,,,
+5.MAY/ho4-2_5.xlsx,ho4-2_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ho4-2_5.xlsx,unmatched,no laboratory row for station/month/round,,,,
+5.MAY/ho4-3_5.xlsx,ho4-3_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ho4-3_5.xlsx,unmatched,no laboratory row for station/month/round,,,,
+5.MAY/ho5-1_5.xlsx,ho5-1_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ho5-1_5.xlsx,unmatched,no laboratory row for station/month/round,,,,
+5.MAY/ho5-2_5.xlsx,ho5-2_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ho5-2_5.xlsx,unmatched,no laboratory row for station/month/round,,,,
+5.MAY/ho5-3_5.xlsx,ho5-3_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ho5-3_5.xlsx,unmatched,no laboratory row for station/month/round,,,,
+5.MAY/ho6-1_5.xlsx,ho6-1_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ho6-1_5.xlsx,unmatched,no laboratory row for station/month/round,,,,
+5.MAY/ho6-2_5.xlsx,ho6-2_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ho6-2_5.xlsx,unmatched,no laboratory row for station/month/round,,,,
+5.MAY/ho6-3_5.xlsx,ho6-3_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/ho6-3_5.xlsx,unmatched,no laboratory row for station/month/round,,,,
+5.MAY/san1-1_5.xlsx,san1-1_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/san1-1_5.xlsx,matched,unique laboratory key,label_and_round,388,San1,1
+5.MAY/san1-2_5.xlsx,san1-2_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/san1-2_5.xlsx,matched,unique laboratory key,label_and_round,389,San1,2
+5.MAY/san10-1_5.xlsx,san10-1_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/san10-1_5.xlsx,matched,unique laboratory key,label_and_round,396,San10,1
+5.MAY/san10-2_5.xlsx,san10-2_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/san10-2_5.xlsx,matched,unique laboratory key,label_and_round,397,San10,2
+5.MAY/san11-1_5.xlsx,san11-1_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/san11-1_5.xlsx,matched,unique laboratory key,label_and_round,398,San11,1
+5.MAY/san11-2_5.xlsx,san11-2_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/san11-2_5.xlsx,matched,unique laboratory key,label_and_round,399,San11,2
+5.MAY/san12-1_5.xlsx,san12-1_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/san12-1_5.xlsx,matched,unique laboratory key,label_and_round,400,San12,1
+5.MAY/san12-2_5.xlsx,san12-2_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/san12-2_5.xlsx,matched,unique laboratory key,label_and_round,401,San12,2
+5.MAY/san13-1_5.xlsx,san13-1_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/san13-1_5.xlsx,matched,unique laboratory key,label_and_round,402,San13,1
+5.MAY/san13-2_5.xlsx,san13-2_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/san13-2_5.xlsx,matched,unique laboratory key,label_and_round,403,San13,2
+5.MAY/san14-1_5.xlsx,san14-1_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/san14-1_5.xlsx,matched,unique laboratory key,label_and_round,394,San14,1
+5.MAY/san14-2_5.xlsx,san14-2_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/san14-2_5.xlsx,matched,unique laboratory key,label_and_round,395,San14,2
+5.MAY/san15-1_5.xlsx,san15-1_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/san15-1_5.xlsx,matched,unique laboratory key,label_and_round,392,San15,1
+5.MAY/san15-2_5.xlsx,san15-2_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/san15-2_5.xlsx,matched,unique laboratory key,label_and_round,393,San15,2
+5.MAY/san16-1_5.xlsx,san16-1_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/san16-1_5.xlsx,matched,unique laboratory key,label_and_round,404,San16,1
+5.MAY/san16-2_5.xlsx,san16-2_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/san16-2_5.xlsx,matched,unique laboratory key,label_and_round,405,San16,2
+5.MAY/san17-1_5.xlsx,san17-1_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/san17-1_5.xlsx,matched,unique laboratory key,label_and_round,406,San17,1
+5.MAY/san17-2_5.xlsx,san17-2_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/san17-2_5.xlsx,matched,unique laboratory key,label_and_round,407,San17,2
+5.MAY/san2-1_5.xlsx,san2-1_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/san2-1_5.xlsx,matched,unique laboratory key,label_and_round,386,San2,1
+5.MAY/san2-2_5.xlsx,san2-2_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/san2-2_5.xlsx,matched,unique laboratory key,label_and_round,387,San2,2
+5.MAY/san3-1_5.xlsx,san3-1_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/san3-1_5.xlsx,matched,unique laboratory key,label_and_round,384,San3,1
+5.MAY/san3-2_5.xlsx,san3-2_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/san3-2_5.xlsx,matched,unique laboratory key,label_and_round,385,San3,2
+5.MAY/san4-1_5.xlsx,san4-1_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/san4-1_5.xlsx,matched,unique laboratory key,label_and_round,382,San4,1
+5.MAY/san4-2_5.xlsx,san4-2_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/san4-2_5.xlsx,matched,unique laboratory key,label_and_round,383,San4,2
+5.MAY/san5-1_5.xlsx,san5-1_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/san5-1_5.xlsx,matched,unique laboratory key,label_and_round,378,San5,1
+5.MAY/san5-2_5.xlsx,san5-2_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/san5-2_5.xlsx,matched,unique laboratory key,label_and_round,379,San5,2
+5.MAY/san6-1_5.xlsx,san6-1_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/san6-1_5.xlsx,matched,unique laboratory key,label_and_round,380,San6,1
+5.MAY/san6-2_5.xlsx,san6-2_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/san6-2_5.xlsx,matched,unique laboratory key,label_and_round,381,San6,2
+5.MAY/san7-1_5.xlsx,san7-1_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/san7-1_5.xlsx,matched,unique laboratory key,label_and_round,374,San7,1
+5.MAY/san7-2_5.xlsx,san7-2_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/san7-2_5.xlsx,matched,unique laboratory key,label_and_round,375,San7,2
+5.MAY/san8-1_5.xlsx,san8-1_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/san8-1_5.xlsx,matched,unique laboratory key,label_and_round,376,San8,1
+5.MAY/san8-2_5.xlsx,san8-2_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/san8-2_5.xlsx,matched,unique laboratory key,label_and_round,377,San8,2
+5.MAY/san9-1_5.xlsx,san9-1_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/san9-1_5.xlsx,matched,unique laboratory key,label_and_round,390,San9,1
+5.MAY/san9-2_5.xlsx,san9-2_5.xlsx,5,data/2026ER_data_for Viet/5.MAY/san9-2_5.xlsx,matched,unique laboratory key,label_and_round,391,San9,2
+6.JUN/ha1-1_6.xlsx,ha1-1_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha1-1_6.xlsx,matched,unique laboratory key,label_and_round,448,Ha1,1
+6.JUN/ha1-2_6.xlsx,ha1-2_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha1-2_6.xlsx,matched,unique laboratory key,label_and_round,449,Ha1,2
+6.JUN/ha1-3_6.xlsx,ha1-3_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha1-3_6.xlsx,matched,unique laboratory key,label_and_round,450,Ha1,3
+6.JUN/ha1-4_6.xlsx,ha1-4_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha1-4_6.xlsx,matched,unique laboratory key,label_and_round,451,Ha1,4
+6.JUN/ha10_6.xlsx,ha10_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha10_6.xlsx,matched,unique laboratory key,label_only,419,Ha10,1
+6.JUN/ha11_6.xlsx,ha11_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha11_6.xlsx,matched,unique laboratory key,label_only,420,Ha11,1
+6.JUN/ha12_6.xlsx,ha12_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha12_6.xlsx,matched,unique laboratory key,label_only,421,Ha12,1
+6.JUN/ha13_6.xlsx,ha13_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha13_6.xlsx,matched,unique laboratory key,label_only,413,Ha13,1
+6.JUN/ha14_6.xlsx,ha14_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha14_6.xlsx,matched,unique laboratory key,label_only,414,Ha14,1
+6.JUN/ha15_6.xlsx,ha15_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha15_6.xlsx,matched,unique laboratory key,label_only,415,Ha15,1
+6.JUN/ha16_6.xlsx,ha16_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha16_6.xlsx,matched,unique laboratory key,label_only,416,Ha16,1
+6.JUN/ha17_6.xlsx,ha17_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha17_6.xlsx,matched,unique laboratory key,label_only,409,Ha17,1
+6.JUN/ha18_6.xlsx,ha18_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha18_6.xlsx,matched,unique laboratory key,label_only,410,Ha18,1
+6.JUN/ha19_6.xlsx,ha19_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha19_6.xlsx,matched,unique laboratory key,label_only,411,Ha19,1
+6.JUN/ha2-1_6.xlsx,ha2-1_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha2-1_6.xlsx,matched,unique laboratory key,label_and_round,412,Ha2,1
+6.JUN/ha2-2_6.xlsx,ha2-2_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha2-2_6.xlsx,unmatched,no laboratory row for station/month/round,,,,
+6.JUN/ha2-3_6.xlsx,ha2-3_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha2-3_6.xlsx,unmatched,no laboratory row for station/month/round,,,,
+6.JUN/ha2-4_6.xlsx,ha2-4_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha2-4_6.xlsx,unmatched,no laboratory row for station/month/round,,,,
+6.JUN/ha20_6.xlsx,ha20_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha20_6.xlsx,unmatched,"round is absent and multiple laboratory rows match: [1, 2, 3, 4]",,,,
+6.JUN/ha21_6.xlsx,ha21_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha21_6.xlsx,matched,unique laboratory key,label_only,408,Ha21,1
+6.JUN/ha22_6.xlsx,ha22_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha22_6.xlsx,unmatched,"round is absent and multiple laboratory rows match: [1, 2, 3, 4]",,,,
+6.JUN/ha23_6.xlsx,ha23_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha23_6.xlsx,matched,unique laboratory key,label_only,422,Ha23,1
+6.JUN/ha24_6.xlsx,ha24_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha24_6.xlsx,matched,unique laboratory key,label_only,423,Ha24,1
+6.JUN/ha25_6.xlsx,ha25_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha25_6.xlsx,matched,unique laboratory key,label_only,424,Ha25,1
+6.JUN/ha26_6.xlsx,ha26_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha26_6.xlsx,matched,unique laboratory key,label_only,425,Ha26,1
+6.JUN/ha3-1_6.xlsx,ha3-1_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha3-1_6.xlsx,matched,unique laboratory key,label_and_round,461,Ha3,1
+6.JUN/ha3-2_6.xlsx,ha3-2_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha3-2_6.xlsx,unmatched,no laboratory row for station/month/round,,,,
+6.JUN/ha3-3_6.xlsx,ha3-3_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha3-3_6.xlsx,unmatched,no laboratory row for station/month/round,,,,
+6.JUN/ha3-4_6.xlsx,ha3-4_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha3-4_6.xlsx,unmatched,no laboratory row for station/month/round,,,,
+6.JUN/ha4-1_6.xlsx,ha4-1_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha4-1_6.xlsx,matched,unique laboratory key,label_and_round,444,Ha4,1
+6.JUN/ha4-2_6.xlsx,ha4-2_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha4-2_6.xlsx,matched,unique laboratory key,label_and_round,445,Ha4,2
+6.JUN/ha4-3_6.xlsx,ha4-3_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha4-3_6.xlsx,matched,unique laboratory key,label_and_round,446,Ha4,3
+6.JUN/ha4-4_6.xlsx,ha4-4_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha4-4_6.xlsx,matched,unique laboratory key,label_and_round,447,Ha4,4
+6.JUN/ha5_6.xlsx,ha5_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha5_6.xlsx,matched,unique laboratory key,label_only,460,Ha5,1
+6.JUN/ha6_6.xlsx,ha6_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha6_6.xlsx,matched,unique laboratory key,label_only,462,Ha6,1
+6.JUN/ha7_6.xlsx,ha7_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha7_6.xlsx,matched,unique laboratory key,label_only,435,Ha7,1
+6.JUN/ha8_6.xlsx,ha8_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha8_6.xlsx,matched,unique laboratory key,label_only,417,Ha8,1
+6.JUN/ha9_6.xlsx,ha9_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ha9_6.xlsx,matched,unique laboratory key,label_only,418,Ha9,1
+6.JUN/ho1-1_6.xlsx,ho1-1_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ho1-1_6.xlsx,unmatched,"round is absent and multiple laboratory rows match: [11, 13, 15]",,,,
+6.JUN/ho1-2_6.xlsx,ho1-2_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ho1-2_6.xlsx,unmatched,no laboratory row for station/month/round,,,,
+6.JUN/ho1-3_6.xlsx,ho1-3_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ho1-3_6.xlsx,unmatched,no laboratory row for station/month/round,,,,
+6.JUN/ho1_6.xlsx,ho1_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ho1_6.xlsx,matched,unique laboratory key,label_only,443,Ho1,1
+6.JUN/ho2-1_6.xlsx,ho2-1_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ho2-1_6.xlsx,unmatched,no laboratory row for station/month/round,,,,
+6.JUN/ho2-2_6.xlsx,ho2-2_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ho2-2_6.xlsx,unmatched,no laboratory row for station/month/round,,,,
+6.JUN/ho2-3_6.xlsx,ho2-3_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ho2-3_6.xlsx,unmatched,no laboratory row for station/month/round,,,,
+6.JUN/ho3_6.xlsx,ho3_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ho3_6.xlsx,matched,unique laboratory key,label_only,442,Ho3,1
+6.JUN/ho4-1_6.xlsx,ho4-1_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ho4-1_6.xlsx,unmatched,no laboratory row for station/month/round,,,,
+6.JUN/ho4-2_6.xlsx,ho4-2_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ho4-2_6.xlsx,unmatched,no laboratory row for station/month/round,,,,
+6.JUN/ho4-3_6.xlsx,ho4-3_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ho4-3_6.xlsx,unmatched,no laboratory row for station/month/round,,,,
+6.JUN/ho5-1_6.xlsx,ho5-1_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ho5-1_6.xlsx,unmatched,no laboratory row for station/month/round,,,,
+6.JUN/ho5-2_6.xlsx,ho5-2_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ho5-2_6.xlsx,unmatched,no laboratory row for station/month/round,,,,
+6.JUN/ho5-3_6.xlsx,ho5-3_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ho5-3_6.xlsx,unmatched,no laboratory row for station/month/round,,,,
+6.JUN/ho6-1_6.xlsx,ho6-1_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ho6-1_6.xlsx,unmatched,no laboratory row for station/month/round,,,,
+6.JUN/ho6-2_6.xlsx,ho6-2_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ho6-2_6.xlsx,unmatched,no laboratory row for station/month/round,,,,
+6.JUN/ho6-3_6.xlsx,ho6-3_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/ho6-3_6.xlsx,unmatched,no laboratory row for station/month/round,,,,
+6.JUN/san1-1_6.xlsx,san1-1_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/san1-1_6.xlsx,matched,unique laboratory key,label_and_round,477,San1,1
+6.JUN/san1-2_6.xlsx,san1-2_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/san1-2_6.xlsx,matched,unique laboratory key,label_and_round,478,San1,2
+6.JUN/san10-1_6.xlsx,san10-1_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/san10-1_6.xlsx,matched,unique laboratory key,label_and_round,485,San10,1
+6.JUN/san10-2_6.xlsx,san10-2_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/san10-2_6.xlsx,matched,unique laboratory key,label_and_round,486,San10,2
+6.JUN/san11-1_6.xlsx,san11-1_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/san11-1_6.xlsx,matched,unique laboratory key,label_and_round,487,San11,1
+6.JUN/san11-2_6.xlsx,san11-2_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/san11-2_6.xlsx,matched,unique laboratory key,label_and_round,488,San11,2
+6.JUN/san12-1_6.xlsx,san12-1_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/san12-1_6.xlsx,matched,unique laboratory key,label_and_round,489,San12,1
+6.JUN/san12-2_6.xlsx,san12-2_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/san12-2_6.xlsx,matched,unique laboratory key,label_and_round,490,San12,2
+6.JUN/san13-1_6.xlsx,san13-1_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/san13-1_6.xlsx,matched,unique laboratory key,label_and_round,491,San13,1
+6.JUN/san13-2_6.xlsx,san13-2_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/san13-2_6.xlsx,matched,unique laboratory key,label_and_round,492,San13,2
+6.JUN/san14-1_6.xlsx,san14-1_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/san14-1_6.xlsx,matched,unique laboratory key,label_and_round,483,San14,1
+6.JUN/san14-2_6.xlsx,san14-2_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/san14-2_6.xlsx,matched,unique laboratory key,label_and_round,484,San14,2
+6.JUN/san15-1_6.xlsx,san15-1_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/san15-1_6.xlsx,matched,unique laboratory key,label_and_round,481,San15,1
+6.JUN/san15-2_6.xlsx,san15-2_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/san15-2_6.xlsx,matched,unique laboratory key,label_and_round,482,San15,2
+6.JUN/san16-1_6.xlsx,san16-1_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/san16-1_6.xlsx,matched,unique laboratory key,label_and_round,493,San16,1
+6.JUN/san16-2_6.xlsx,san16-2_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/san16-2_6.xlsx,matched,unique laboratory key,label_and_round,494,San16,2
+6.JUN/san17-1_6.xlsx,san17-1_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/san17-1_6.xlsx,matched,unique laboratory key,label_and_round,495,San17,1
+6.JUN/san17-2_6.xlsx,san17-2_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/san17-2_6.xlsx,matched,unique laboratory key,label_and_round,496,San17,2
+6.JUN/san2-1_6.xlsx,san2-1_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/san2-1_6.xlsx,matched,unique laboratory key,label_and_round,475,San2,1
+6.JUN/san2-2_6.xlsx,san2-2_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/san2-2_6.xlsx,matched,unique laboratory key,label_and_round,476,San2,2
+6.JUN/san3-1_6.xlsx,san3-1_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/san3-1_6.xlsx,matched,unique laboratory key,label_and_round,473,San3,1
+6.JUN/san3-2_6.xlsx,san3-2_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/san3-2_6.xlsx,matched,unique laboratory key,label_and_round,474,San3,2
+6.JUN/san4-1_6.xlsx,san4-1_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/san4-1_6.xlsx,matched,unique laboratory key,label_and_round,471,San4,1
+6.JUN/san4-2_6.xlsx,san4-2_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/san4-2_6.xlsx,matched,unique laboratory key,label_and_round,472,San4,2
+6.JUN/san5-1_6.xlsx,san5-1_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/san5-1_6.xlsx,matched,unique laboratory key,label_and_round,467,San5,1
+6.JUN/san5-2_6.xlsx,san5-2_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/san5-2_6.xlsx,matched,unique laboratory key,label_and_round,468,San5,2
+6.JUN/san6-1_6.xlsx,san6-1_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/san6-1_6.xlsx,matched,unique laboratory key,label_and_round,469,San6,1
+6.JUN/san6-2_6.xlsx,san6-2_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/san6-2_6.xlsx,matched,unique laboratory key,label_and_round,470,San6,2
+6.JUN/san7-1_6.xlsx,san7-1_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/san7-1_6.xlsx,matched,unique laboratory key,label_and_round,463,San7,1
+6.JUN/san7-2_6.xlsx,san7-2_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/san7-2_6.xlsx,matched,unique laboratory key,label_and_round,464,San7,2
+6.JUN/san8-1_6.xlsx,san8-1_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/san8-1_6.xlsx,matched,unique laboratory key,label_and_round,465,San8,1
+6.JUN/san8-2_6.xlsx,san8-2_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/san8-2_6.xlsx,matched,unique laboratory key,label_and_round,466,San8,2
+6.JUN/san9-1_6.xlsx,san9-1_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/san9-1_6.xlsx,matched,unique laboratory key,label_and_round,479,San9,1
+6.JUN/san9-2_6.xlsx,san9-2_6.xlsx,6,data/2026ER_data_for Viet/6.JUN/san9-2_6.xlsx,matched,unique laboratory key,label_and_round,480,San9,2
+7.JUL/ha1-1_7.xlsx,ha1-1_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha1-1_7.xlsx,matched,unique laboratory key,label_and_round,537,Ha1,1
+7.JUL/ha1-2_7.xlsx,ha1-2_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha1-2_7.xlsx,matched,unique laboratory key,label_and_round,538,Ha1,2
+7.JUL/ha1-3_7.xlsx,ha1-3_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha1-3_7.xlsx,matched,unique laboratory key,label_and_round,539,Ha1,3
+7.JUL/ha1-4_7.xlsx,ha1-4_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha1-4_7.xlsx,matched,unique laboratory key,label_and_round,540,Ha1,4
+7.JUL/ha10_7.xlsx,ha10_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha10_7.xlsx,matched,unique laboratory key,label_only,508,Ha10,1
+7.JUL/ha11_7.xlsx,ha11_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha11_7.xlsx,matched,unique laboratory key,label_only,509,Ha11,1
+7.JUL/ha12_7.xlsx,ha12_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha12_7.xlsx,matched,unique laboratory key,label_only,510,Ha12,1
+7.JUL/ha13_7.xlsx,ha13_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha13_7.xlsx,matched,unique laboratory key,label_only,502,Ha13,1
+7.JUL/ha14_7.xlsx,ha14_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha14_7.xlsx,matched,unique laboratory key,label_only,503,Ha14,1
+7.JUL/ha15_7.xlsx,ha15_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha15_7.xlsx,matched,unique laboratory key,label_only,504,Ha15,1
+7.JUL/ha16_7.xlsx,ha16_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha16_7.xlsx,matched,unique laboratory key,label_only,505,Ha16,1
+7.JUL/ha17_7.xlsx,ha17_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha17_7.xlsx,matched,unique laboratory key,label_only,498,Ha17,1
+7.JUL/ha18_7.xlsx,ha18_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha18_7.xlsx,matched,unique laboratory key,label_only,499,Ha18,1
+7.JUL/ha19_7.xlsx,ha19_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha19_7.xlsx,matched,unique laboratory key,label_only,500,Ha19,1
+7.JUL/ha2-1_7.xlsx,ha2-1_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha2-1_7.xlsx,matched,unique laboratory key,label_and_round,501,Ha2,1
+7.JUL/ha2-2_7.xlsx,ha2-2_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha2-2_7.xlsx,unmatched,no laboratory row for station/month/round,,,,
+7.JUL/ha2-3_7.xlsx,ha2-3_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha2-3_7.xlsx,unmatched,no laboratory row for station/month/round,,,,
+7.JUL/ha2-4_7.xlsx,ha2-4_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha2-4_7.xlsx,unmatched,no laboratory row for station/month/round,,,,
+7.JUL/ha20_7.xlsx,ha20_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha20_7.xlsx,unmatched,"round is absent and multiple laboratory rows match: [1, 2, 3, 4]",,,,
+7.JUL/ha21_7.xlsx,ha21_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha21_7.xlsx,matched,unique laboratory key,label_only,497,Ha21,1
+7.JUL/ha22_7.xlsx,ha22_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha22_7.xlsx,unmatched,"round is absent and multiple laboratory rows match: [1, 2, 3, 4]",,,,
+7.JUL/ha23_7.xlsx,ha23_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha23_7.xlsx,matched,unique laboratory key,label_only,511,Ha23,1
+7.JUL/ha24_7.xlsx,ha24_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha24_7.xlsx,matched,unique laboratory key,label_only,512,Ha24,1
+7.JUL/ha25_7.xlsx,ha25_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha25_7.xlsx,matched,unique laboratory key,label_only,513,Ha25,1
+7.JUL/ha26_7.xlsx,ha26_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha26_7.xlsx,matched,unique laboratory key,label_only,514,Ha26,1
+7.JUL/ha3-1_7.xlsx,ha3-1_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha3-1_7.xlsx,matched,unique laboratory key,label_and_round,550,Ha3,1
+7.JUL/ha3-2_7.xlsx,ha3-2_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha3-2_7.xlsx,unmatched,no laboratory row for station/month/round,,,,
+7.JUL/ha3-3_7.xlsx,ha3-3_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha3-3_7.xlsx,unmatched,no laboratory row for station/month/round,,,,
+7.JUL/ha3-4_7.xlsx,ha3-4_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha3-4_7.xlsx,unmatched,no laboratory row for station/month/round,,,,
+7.JUL/ha4-1_7.xlsx,ha4-1_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha4-1_7.xlsx,matched,unique laboratory key,label_and_round,533,Ha4,1
+7.JUL/ha4-2_7.xlsx,ha4-2_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha4-2_7.xlsx,matched,unique laboratory key,label_and_round,534,Ha4,2
+7.JUL/ha4-3_7.xlsx,ha4-3_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha4-3_7.xlsx,matched,unique laboratory key,label_and_round,535,Ha4,3
+7.JUL/ha4-4_7.xlsx,ha4-4_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha4-4_7.xlsx,matched,unique laboratory key,label_and_round,536,Ha4,4
+7.JUL/ha5_7.xlsx,ha5_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha5_7.xlsx,matched,unique laboratory key,label_only,549,Ha5,1
+7.JUL/ha6_7.xlsx,ha6_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha6_7.xlsx,matched,unique laboratory key,label_only,551,Ha6,1
+7.JUL/ha7_7.xlsx,ha7_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha7_7.xlsx,matched,unique laboratory key,label_only,524,Ha7,1
+7.JUL/ha8_7.xlsx,ha8_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha8_7.xlsx,matched,unique laboratory key,label_only,506,Ha8,1
+7.JUL/ha9_7.xlsx,ha9_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ha9_7.xlsx,matched,unique laboratory key,label_only,507,Ha9,1
+7.JUL/ho1-1_7.xlsx,ho1-1_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ho1-1_7.xlsx,unmatched,"round is absent and multiple laboratory rows match: [11, 13, 15]",,,,
+7.JUL/ho1-2_7.xlsx,ho1-2_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ho1-2_7.xlsx,unmatched,no laboratory row for station/month/round,,,,
+7.JUL/ho1-3_7.xlsx,ho1-3_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ho1-3_7.xlsx,unmatched,no laboratory row for station/month/round,,,,
+7.JUL/ho1_7.xlsx,ho1_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ho1_7.xlsx,matched,unique laboratory key,label_only,532,Ho1,1
+7.JUL/ho2-1_7.xlsx,ho2-1_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ho2-1_7.xlsx,unmatched,no laboratory row for station/month/round,,,,
+7.JUL/ho2-2_7.xlsx,ho2-2_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ho2-2_7.xlsx,unmatched,no laboratory row for station/month/round,,,,
+7.JUL/ho2-3_7.xlsx,ho2-3_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ho2-3_7.xlsx,unmatched,no laboratory row for station/month/round,,,,
+7.JUL/ho3_7.xlsx,ho3_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ho3_7.xlsx,matched,unique laboratory key,label_only,531,Ho3,11
+7.JUL/ho4-1_7.xlsx,ho4-1_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ho4-1_7.xlsx,unmatched,no laboratory row for station/month/round,,,,
+7.JUL/ho4-2_7.xlsx,ho4-2_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ho4-2_7.xlsx,unmatched,no laboratory row for station/month/round,,,,
+7.JUL/ho4-3_7.xlsx,ho4-3_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ho4-3_7.xlsx,unmatched,no laboratory row for station/month/round,,,,
+7.JUL/ho5-1_7.xlsx,ho5-1_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ho5-1_7.xlsx,unmatched,no laboratory row for station/month/round,,,,
+7.JUL/ho5-2_7.xlsx,ho5-2_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ho5-2_7.xlsx,unmatched,no laboratory row for station/month/round,,,,
+7.JUL/ho5-3_7.xlsx,ho5-3_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ho5-3_7.xlsx,unmatched,no laboratory row for station/month/round,,,,
+7.JUL/ho6-1_7.xlsx,ho6-1_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ho6-1_7.xlsx,unmatched,no laboratory row for station/month/round,,,,
+7.JUL/ho6-2_7.xlsx,ho6-2_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ho6-2_7.xlsx,unmatched,no laboratory row for station/month/round,,,,
+7.JUL/ho6-3_7.xlsx,ho6-3_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/ho6-3_7.xlsx,unmatched,no laboratory row for station/month/round,,,,
+7.JUL/san1-1_7.xlsx,san1-1_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/san1-1_7.xlsx,matched,unique laboratory key,label_and_round,559,San1,1
+7.JUL/san10-1_7.xlsx,san10-1_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/san10-1_7.xlsx,matched,unique laboratory key,label_and_round,563,San10,1
+7.JUL/san11-1_7.xlsx,san11-1_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/san11-1_7.xlsx,matched,unique laboratory key,label_and_round,564,San11,1
+7.JUL/san12-1_7.xlsx,san12-1_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/san12-1_7.xlsx,matched,unique laboratory key,label_and_round,565,San12,1
+7.JUL/san13-1_7.xlsx,san13-1_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/san13-1_7.xlsx,matched,unique laboratory key,label_and_round,566,San13,1
+7.JUL/san14-1_7.xlsx,san14-1_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/san14-1_7.xlsx,matched,unique laboratory key,label_and_round,562,San14,1
+7.JUL/san15-1_7.xlsx,san15-1_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/san15-1_7.xlsx,matched,unique laboratory key,label_and_round,561,San15,1
+7.JUL/san16-1_7.xlsx,san16-1_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/san16-1_7.xlsx,matched,unique laboratory key,label_and_round,567,San16,1
+7.JUL/san17-1_7.xlsx,san17-1_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/san17-1_7.xlsx,matched,unique laboratory key,label_and_round,568,San17,1
+7.JUL/san2-1_7.xlsx,san2-1_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/san2-1_7.xlsx,matched,unique laboratory key,label_and_round,558,San2,1
+7.JUL/san3-1_7.xlsx,san3-1_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/san3-1_7.xlsx,matched,unique laboratory key,label_and_round,557,San3,1
+7.JUL/san4-1_7.xlsx,san4-1_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/san4-1_7.xlsx,matched,unique laboratory key,label_and_round,556,San4,1
+7.JUL/san5-1_7.xlsx,san5-1_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/san5-1_7.xlsx,matched,unique laboratory key,label_and_round,554,San5,1
+7.JUL/san6-1_7.xlsx,san6-1_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/san6-1_7.xlsx,matched,unique laboratory key,label_and_round,555,San6,1
+7.JUL/san7-1_7.xlsx,san7-1_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/san7-1_7.xlsx,matched,unique laboratory key,label_and_round,552,San7,1
+7.JUL/san8-1_7.xlsx,san8-1_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/san8-1_7.xlsx,matched,unique laboratory key,label_and_round,553,San8,1
+7.JUL/san9-1_7.xlsx,san9-1_7.xlsx,7,data/2026ER_data_for Viet/7.JUL/san9-1_7.xlsx,matched,unique laboratory key,label_and_round,560,San9,1
+8.AUG/ha1-1_8.xlsx,ha1-1_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha1-1_8.xlsx,matched,unique laboratory key,label_and_round,609,Ha1,1
+8.AUG/ha1-2_8.xlsx,ha1-2_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha1-2_8.xlsx,matched,unique laboratory key,label_and_round,610,Ha1,2
+8.AUG/ha1-3_8.xlsx,ha1-3_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha1-3_8.xlsx,matched,unique laboratory key,label_and_round,611,Ha1,3
+8.AUG/ha1-4_8.xlsx,ha1-4_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha1-4_8.xlsx,matched,unique laboratory key,label_and_round,612,Ha1,4
+8.AUG/ha1-5_8.xlsx,ha1-5_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha1-5_8.xlsx,matched,unique laboratory key,label_and_round,613,Ha1,5
+8.AUG/ha10_8.xlsx,ha10_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha10_8.xlsx,matched,unique laboratory key,label_only,580,Ha10,1
+8.AUG/ha11_8.xlsx,ha11_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha11_8.xlsx,matched,unique laboratory key,label_only,581,Ha11,1
+8.AUG/ha12_8.xlsx,ha12_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha12_8.xlsx,matched,unique laboratory key,label_only,582,Ha12,1
+8.AUG/ha13_8.xlsx,ha13_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha13_8.xlsx,matched,unique laboratory key,label_only,574,Ha13,1
+8.AUG/ha14_8.xlsx,ha14_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha14_8.xlsx,matched,unique laboratory key,label_only,575,Ha14,1
+8.AUG/ha15_8.xlsx,ha15_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha15_8.xlsx,matched,unique laboratory key,label_only,576,Ha15,1
+8.AUG/ha16_8.xlsx,ha16_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha16_8.xlsx,matched,unique laboratory key,label_only,577,Ha16,1
+8.AUG/ha17_8.xlsx,ha17_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha17_8.xlsx,matched,unique laboratory key,label_only,570,Ha17,1
+8.AUG/ha18_8.xlsx,ha18_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha18_8.xlsx,matched,unique laboratory key,label_only,571,Ha18,1
+8.AUG/ha19_8.xlsx,ha19_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha19_8.xlsx,matched,unique laboratory key,label_only,572,Ha19,1
+8.AUG/ha2-1_8.xlsx,ha2-1_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha2-1_8.xlsx,matched,unique laboratory key,label_and_round,573,Ha2,1
+8.AUG/ha2-2_8.xlsx,ha2-2_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha2-2_8.xlsx,unmatched,no laboratory row for station/month/round,,,,
+8.AUG/ha2-3_8.xlsx,ha2-3_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha2-3_8.xlsx,unmatched,no laboratory row for station/month/round,,,,
+8.AUG/ha2-4_8.xlsx,ha2-4_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha2-4_8.xlsx,unmatched,no laboratory row for station/month/round,,,,
+8.AUG/ha2-5_8.xlsx,ha2-5_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha2-5_8.xlsx,unmatched,no laboratory row for station/month/round,,,,
+8.AUG/ha20_8.xlsx,ha20_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha20_8.xlsx,unmatched,"round is absent and multiple laboratory rows match: [1, 2, 3, 4, 5]",,,,
+8.AUG/ha21_8.xlsx,ha21_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha21_8.xlsx,matched,unique laboratory key,label_only,569,Ha21,1
+8.AUG/ha22_8.xlsx,ha22_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha22_8.xlsx,unmatched,"round is absent and multiple laboratory rows match: [1, 2, 3, 4, 5]",,,,
+8.AUG/ha23_8.xlsx,ha23_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha23_8.xlsx,matched,unique laboratory key,label_only,583,Ha23,1
+8.AUG/ha24_8.xlsx,ha24_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha24_8.xlsx,matched,unique laboratory key,label_only,584,Ha24,1
+8.AUG/ha25_8.xlsx,ha25_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha25_8.xlsx,matched,unique laboratory key,label_only,585,Ha25,1
+8.AUG/ha26_8.xlsx,ha26_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha26_8.xlsx,matched,unique laboratory key,label_only,586,Ha26,1
+8.AUG/ha3-1_8.xlsx,ha3-1_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha3-1_8.xlsx,matched,unique laboratory key,label_and_round,625,Ha3,1
+8.AUG/ha3-2_8.xlsx,ha3-2_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha3-2_8.xlsx,unmatched,no laboratory row for station/month/round,,,,
+8.AUG/ha3-3_8.xlsx,ha3-3_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha3-3_8.xlsx,unmatched,no laboratory row for station/month/round,,,,
+8.AUG/ha3-4_8.xlsx,ha3-4_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha3-4_8.xlsx,unmatched,no laboratory row for station/month/round,,,,
+8.AUG/ha3-5_8.xlsx,ha3-5_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha3-5_8.xlsx,unmatched,no laboratory row for station/month/round,,,,
+8.AUG/ha4-1_8.xlsx,ha4-1_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha4-1_8.xlsx,matched,unique laboratory key,label_and_round,604,Ha4,1
+8.AUG/ha4-2_8.xlsx,ha4-2_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha4-2_8.xlsx,matched,unique laboratory key,label_and_round,605,Ha4,2
+8.AUG/ha4-3_8.xlsx,ha4-3_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha4-3_8.xlsx,matched,unique laboratory key,label_and_round,606,Ha4,3
+8.AUG/ha4-4_8.xlsx,ha4-4_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha4-4_8.xlsx,matched,unique laboratory key,label_and_round,607,Ha4,4
+8.AUG/ha4-5_8.xlsx,ha4-5_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha4-5_8.xlsx,matched,unique laboratory key,label_and_round,608,Ha4,5
+8.AUG/ha5_8.xlsx,ha5_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha5_8.xlsx,matched,unique laboratory key,label_only,624,Ha5,1
+8.AUG/ha6_8.xlsx,ha6_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha6_8.xlsx,matched,unique laboratory key,label_only,626,Ha6,1
+8.AUG/ha7_8.xlsx,ha7_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha7_8.xlsx,matched,unique laboratory key,label_only,596,Ha7,1
+8.AUG/ha8_8.xlsx,ha8_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha8_8.xlsx,matched,unique laboratory key,label_only,578,Ha8,1
+8.AUG/ha9_8.xlsx,ha9_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ha9_8.xlsx,matched,unique laboratory key,label_only,579,Ha9,1
+8.AUG/ho1-1_8.xlsx,ho1-1_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ho1-1_8.xlsx,unmatched,"round is absent and multiple laboratory rows match: [11, 13, 15]",,,,
+8.AUG/ho1-2_8.xlsx,ho1-2_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ho1-2_8.xlsx,unmatched,no laboratory row for station/month/round,,,,
+8.AUG/ho1-3_8.xlsx,ho1-3_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ho1-3_8.xlsx,unmatched,no laboratory row for station/month/round,,,,
+8.AUG/ho1_8.xlsx,ho1_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ho1_8.xlsx,matched,unique laboratory key,label_only,603,Ho1,1
+8.AUG/ho2-1_8.xlsx,ho2-1_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ho2-1_8.xlsx,unmatched,no laboratory row for station/month/round,,,,
+8.AUG/ho2-2_8.xlsx,ho2-2_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ho2-2_8.xlsx,unmatched,no laboratory row for station/month/round,,,,
+8.AUG/ho2-3_8.xlsx,ho2-3_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ho2-3_8.xlsx,unmatched,no laboratory row for station/month/round,,,,
+8.AUG/ho4-1_8.xlsx,ho4-1_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ho4-1_8.xlsx,unmatched,no laboratory row for station/month/round,,,,
+8.AUG/ho4-2_8.xlsx,ho4-2_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ho4-2_8.xlsx,unmatched,no laboratory row for station/month/round,,,,
+8.AUG/ho4-3_8.xlsx,ho4-3_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ho4-3_8.xlsx,unmatched,no laboratory row for station/month/round,,,,
+8.AUG/ho5-1_8.xlsx,ho5-1_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ho5-1_8.xlsx,unmatched,no laboratory row for station/month/round,,,,
+8.AUG/ho5-2_8.xlsx,ho5-2_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ho5-2_8.xlsx,unmatched,no laboratory row for station/month/round,,,,
+8.AUG/ho5-3_8.xlsx,ho5-3_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ho5-3_8.xlsx,unmatched,no laboratory row for station/month/round,,,,
+8.AUG/ho6-1_8.xlsx,ho6-1_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ho6-1_8.xlsx,unmatched,no laboratory row for station/month/round,,,,
+8.AUG/ho6-2_8.xlsx,ho6-2_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ho6-2_8.xlsx,unmatched,no laboratory row for station/month/round,,,,
+8.AUG/ho6-3_8.xlsx,ho6-3_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/ho6-3_8.xlsx,unmatched,no laboratory row for station/month/round,,,,
+8.AUG/san1-1_8.xlsx,san1-1_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/san1-1_8.xlsx,matched,unique laboratory key,label_and_round,641,San1,1
+8.AUG/san1-2_8.xlsx,san1-2_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/san1-2_8.xlsx,matched,unique laboratory key,label_and_round,642,San1,2
+8.AUG/san10-1_8.xlsx,san10-1_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/san10-1_8.xlsx,matched,unique laboratory key,label_and_round,649,San10,1
+8.AUG/san10-2_8.xlsx,san10-2_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/san10-2_8.xlsx,matched,unique laboratory key,label_and_round,650,San10,2
+8.AUG/san11-1_8.xlsx,san11-1_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/san11-1_8.xlsx,matched,unique laboratory key,label_and_round,651,San11,1
+8.AUG/san11-2_8.xlsx,san11-2_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/san11-2_8.xlsx,matched,unique laboratory key,label_and_round,652,San11,2
+8.AUG/san12-1_8.xlsx,san12-1_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/san12-1_8.xlsx,matched,unique laboratory key,label_and_round,653,San12,1
+8.AUG/san12-2_8.xlsx,san12-2_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/san12-2_8.xlsx,matched,unique laboratory key,label_and_round,654,San12,2
+8.AUG/san13-1_8.xlsx,san13-1_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/san13-1_8.xlsx,matched,unique laboratory key,label_and_round,655,San13,1
+8.AUG/san13-2_8.xlsx,san13-2_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/san13-2_8.xlsx,matched,unique laboratory key,label_and_round,656,San13,2
+8.AUG/san14-1_8.xlsx,san14-1_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/san14-1_8.xlsx,matched,unique laboratory key,label_and_round,647,San14,1
+8.AUG/san14-2_8.xlsx,san14-2_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/san14-2_8.xlsx,matched,unique laboratory key,label_and_round,648,San14,2
+8.AUG/san15-1_8.xlsx,san15-1_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/san15-1_8.xlsx,matched,unique laboratory key,label_and_round,645,San15,1
+8.AUG/san15-2_8.xlsx,san15-2_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/san15-2_8.xlsx,matched,unique laboratory key,label_and_round,646,San15,2
+8.AUG/san16-1_8.xlsx,san16-1_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/san16-1_8.xlsx,matched,unique laboratory key,label_and_round,657,San16,1
+8.AUG/san16-2_8.xlsx,san16-2_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/san16-2_8.xlsx,matched,unique laboratory key,label_and_round,658,San16,2
+8.AUG/san17-1_8.xlsx,san17-1_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/san17-1_8.xlsx,matched,unique laboratory key,label_and_round,659,San17,1
+8.AUG/san17-2_8.xlsx,san17-2_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/san17-2_8.xlsx,matched,unique laboratory key,label_and_round,660,San17,2
+8.AUG/san2-1_8.xlsx,san2-1_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/san2-1_8.xlsx,matched,unique laboratory key,label_and_round,639,San2,1
+8.AUG/san2-2_8.xlsx,san2-2_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/san2-2_8.xlsx,matched,unique laboratory key,label_and_round,640,San2,2
+8.AUG/san3-1_8.xlsx,san3-1_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/san3-1_8.xlsx,matched,unique laboratory key,label_and_round,637,San3,1
+8.AUG/san3-2_8.xlsx,san3-2_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/san3-2_8.xlsx,matched,unique laboratory key,label_and_round,638,San3,2
+8.AUG/san4-1_8.xlsx,san4-1_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/san4-1_8.xlsx,matched,unique laboratory key,label_and_round,635,San4,1
+8.AUG/san4-2_8.xlsx,san4-2_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/san4-2_8.xlsx,matched,unique laboratory key,label_and_round,636,San4,2
+8.AUG/san5-1_8.xlsx,san5-1_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/san5-1_8.xlsx,matched,unique laboratory key,label_and_round,631,San5,1
+8.AUG/san5-2_8.xlsx,san5-2_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/san5-2_8.xlsx,matched,unique laboratory key,label_and_round,632,San5,2
+8.AUG/san6-1_8.xlsx,san6-1_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/san6-1_8.xlsx,matched,unique laboratory key,label_and_round,633,San6,1
+8.AUG/san6-2_8.xlsx,san6-2_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/san6-2_8.xlsx,matched,unique laboratory key,label_and_round,634,San6,2
+8.AUG/san7-1_8.xlsx,san7-1_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/san7-1_8.xlsx,matched,unique laboratory key,label_and_round,627,San7,1
+8.AUG/san7-2_8.xlsx,san7-2_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/san7-2_8.xlsx,matched,unique laboratory key,label_and_round,628,San7,2
+8.AUG/san8-1_8.xlsx,san8-1_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/san8-1_8.xlsx,matched,unique laboratory key,label_and_round,629,San8,1
+8.AUG/san8-2_8.xlsx,san8-2_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/san8-2_8.xlsx,matched,unique laboratory key,label_and_round,630,San8,2
+8.AUG/san9-1_8.xlsx,san9-1_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/san9-1_8.xlsx,matched,unique laboratory key,label_and_round,643,San9,1
+8.AUG/san9-2_8.xlsx,san9-2_8.xlsx,8,data/2026ER_data_for Viet/8.AUG/san9-2_8.xlsx,matched,unique laboratory key,label_and_round,644,San9,2
+9.SEP/ha1-1_9.xlsx,ha1-1_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha1-1_9.xlsx,matched,unique laboratory key,label_and_round,701,Ha1,1
+9.SEP/ha1-2_9.xlsx,ha1-2_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha1-2_9.xlsx,matched,unique laboratory key,label_and_round,702,Ha1,2
+9.SEP/ha1-3_9.xlsx,ha1-3_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha1-3_9.xlsx,matched,unique laboratory key,label_and_round,703,Ha1,3
+9.SEP/ha1-4_9.xlsx,ha1-4_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha1-4_9.xlsx,matched,unique laboratory key,label_and_round,704,Ha1,4
+9.SEP/ha10_9.xlsx,ha10_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha10_9.xlsx,matched,unique laboratory key,label_only,672,Ha10,1
+9.SEP/ha11_9.xlsx,ha11_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha11_9.xlsx,matched,unique laboratory key,label_only,673,Ha11,1
+9.SEP/ha12_9.xlsx,ha12_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha12_9.xlsx,matched,unique laboratory key,label_only,674,Ha12,1
+9.SEP/ha13_9.xlsx,ha13_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha13_9.xlsx,matched,unique laboratory key,label_only,666,Ha13,1
+9.SEP/ha14_9.xlsx,ha14_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha14_9.xlsx,matched,unique laboratory key,label_only,667,Ha14,1
+9.SEP/ha15_9.xlsx,ha15_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha15_9.xlsx,matched,unique laboratory key,label_only,668,Ha15,1
+9.SEP/ha16_9.xlsx,ha16_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha16_9.xlsx,matched,unique laboratory key,label_only,669,Ha16,1
+9.SEP/ha17_9.xlsx,ha17_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha17_9.xlsx,matched,unique laboratory key,label_only,662,Ha17,1
+9.SEP/ha18_9.xlsx,ha18_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha18_9.xlsx,matched,unique laboratory key,label_only,663,Ha18,1
+9.SEP/ha19_9.xlsx,ha19_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha19_9.xlsx,matched,unique laboratory key,label_only,664,Ha19,1
+9.SEP/ha2-1_9.xlsx,ha2-1_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha2-1_9.xlsx,matched,unique laboratory key,label_and_round,665,Ha2,1
+9.SEP/ha2-2_9.xlsx,ha2-2_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha2-2_9.xlsx,unmatched,no laboratory row for station/month/round,,,,
+9.SEP/ha2-3_9.xlsx,ha2-3_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha2-3_9.xlsx,unmatched,no laboratory row for station/month/round,,,,
+9.SEP/ha2-4_9.xlsx,ha2-4_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha2-4_9.xlsx,unmatched,no laboratory row for station/month/round,,,,
+9.SEP/ha20_9.xlsx,ha20_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha20_9.xlsx,unmatched,"round is absent and multiple laboratory rows match: [1, 2, 3, 4]",,,,
+9.SEP/ha21_9.xlsx,ha21_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha21_9.xlsx,matched,unique laboratory key,label_only,661,Ha21,1
+9.SEP/ha22_9.xlsx,ha22_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha22_9.xlsx,unmatched,"round is absent and multiple laboratory rows match: [1, 2, 3, 4]",,,,
+9.SEP/ha23_9.xlsx,ha23_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha23_9.xlsx,matched,unique laboratory key,label_only,675,Ha23,1
+9.SEP/ha24_9.xlsx,ha24_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha24_9.xlsx,matched,unique laboratory key,label_only,676,Ha24,1
+9.SEP/ha25_9.xlsx,ha25_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha25_9.xlsx,matched,unique laboratory key,label_only,677,Ha25,1
+9.SEP/ha26_9.xlsx,ha26_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha26_9.xlsx,matched,unique laboratory key,label_only,678,Ha26,1
+9.SEP/ha3-1_9.xlsx,ha3-1_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha3-1_9.xlsx,matched,unique laboratory key,label_and_round,714,Ha3,1
+9.SEP/ha3-2_9.xlsx,ha3-2_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha3-2_9.xlsx,unmatched,no laboratory row for station/month/round,,,,
+9.SEP/ha3-3_9.xlsx,ha3-3_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha3-3_9.xlsx,unmatched,no laboratory row for station/month/round,,,,
+9.SEP/ha3-4_9.xlsx,ha3-4_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha3-4_9.xlsx,unmatched,no laboratory row for station/month/round,,,,
+9.SEP/ha4-1_9.xlsx,ha4-1_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha4-1_9.xlsx,matched,unique laboratory key,label_and_round,697,Ha4,1
+9.SEP/ha4-2_9.xlsx,ha4-2_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha4-2_9.xlsx,matched,unique laboratory key,label_and_round,698,Ha4,2
+9.SEP/ha4-3_9.xlsx,ha4-3_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha4-3_9.xlsx,matched,unique laboratory key,label_and_round,699,Ha4,3
+9.SEP/ha4-4_9.xlsx,ha4-4_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha4-4_9.xlsx,matched,unique laboratory key,label_and_round,700,Ha4,4
+9.SEP/ha5_9.xlsx,ha5_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha5_9.xlsx,matched,unique laboratory key,label_only,713,Ha5,1
+9.SEP/ha6_9.xlsx,ha6_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha6_9.xlsx,matched,unique laboratory key,label_only,715,Ha6,1
+9.SEP/ha7_9.xlsx,ha7_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha7_9.xlsx,matched,unique laboratory key,label_only,688,Ha7,1
+9.SEP/ha8_9.xlsx,ha8_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha8_9.xlsx,matched,unique laboratory key,label_only,670,Ha8,1
+9.SEP/ha9_9.xlsx,ha9_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ha9_9.xlsx,matched,unique laboratory key,label_only,671,Ha9,1
+9.SEP/ho1-1_9.xlsx,ho1-1_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ho1-1_9.xlsx,unmatched,"round is absent and multiple laboratory rows match: [11, 13, 15]",,,,
+9.SEP/ho1-2_9.xlsx,ho1-2_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ho1-2_9.xlsx,unmatched,no laboratory row for station/month/round,,,,
+9.SEP/ho1-3_9.xlsx,ho1-3_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ho1-3_9.xlsx,unmatched,no laboratory row for station/month/round,,,,
+9.SEP/ho1_9.xlsx,ho1_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ho1_9.xlsx,matched,unique laboratory key,label_only,696,Ho1,1
+9.SEP/ho2-1_9.xlsx,ho2-1_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ho2-1_9.xlsx,unmatched,no laboratory row for station/month/round,,,,
+9.SEP/ho2-2_9.xlsx,ho2-2_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ho2-2_9.xlsx,unmatched,no laboratory row for station/month/round,,,,
+9.SEP/ho2-3_9.xlsx,ho2-3_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ho2-3_9.xlsx,unmatched,no laboratory row for station/month/round,,,,
+9.SEP/ho3_9.xlsx,ho3_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ho3_9.xlsx,matched,unique laboratory key,label_only,695,Ho3,11
+9.SEP/ho4-1_9.xlsx,ho4-1_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ho4-1_9.xlsx,unmatched,no laboratory row for station/month/round,,,,
+9.SEP/ho4-2_9.xlsx,ho4-2_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ho4-2_9.xlsx,unmatched,no laboratory row for station/month/round,,,,
+9.SEP/ho4-3_9.xlsx,ho4-3_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ho4-3_9.xlsx,unmatched,no laboratory row for station/month/round,,,,
+9.SEP/ho5-1_9.xlsx,ho5-1_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ho5-1_9.xlsx,unmatched,no laboratory row for station/month/round,,,,
+9.SEP/ho5-2_9.xlsx,ho5-2_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ho5-2_9.xlsx,unmatched,no laboratory row for station/month/round,,,,
+9.SEP/ho5-3_9.xlsx,ho5-3_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ho5-3_9.xlsx,unmatched,no laboratory row for station/month/round,,,,
+9.SEP/ho6-1_9.xlsx,ho6-1_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ho6-1_9.xlsx,unmatched,no laboratory row for station/month/round,,,,
+9.SEP/ho6-2_9.xlsx,ho6-2_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ho6-2_9.xlsx,unmatched,no laboratory row for station/month/round,,,,
+9.SEP/ho6-3_9.xlsx,ho6-3_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/ho6-3_9.xlsx,unmatched,no laboratory row for station/month/round,,,,
+9.SEP/san1-1_9.xlsx,san1-1_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/san1-1_9.xlsx,matched,unique laboratory key,label_and_round,730,San1,1
+9.SEP/san1-2_9.xlsx,san1-2_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/san1-2_9.xlsx,matched,unique laboratory key,label_and_round,731,San1,2
+9.SEP/san10-1_9.xlsx,san10-1_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/san10-1_9.xlsx,matched,unique laboratory key,label_and_round,738,San10,1
+9.SEP/san10-2_9.xlsx,san10-2_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/san10-2_9.xlsx,matched,unique laboratory key,label_and_round,739,San10,2
+9.SEP/san11-1_9.xlsx,san11-1_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/san11-1_9.xlsx,matched,unique laboratory key,label_and_round,740,San11,1
+9.SEP/san11-2_9.xlsx,san11-2_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/san11-2_9.xlsx,matched,unique laboratory key,label_and_round,741,San11,2
+9.SEP/san12-1_9.xlsx,san12-1_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/san12-1_9.xlsx,matched,unique laboratory key,label_and_round,742,San12,1
+9.SEP/san12-2_9.xlsx,san12-2_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/san12-2_9.xlsx,matched,unique laboratory key,label_and_round,743,San12,2
+9.SEP/san13-1_9.xlsx,san13-1_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/san13-1_9.xlsx,matched,unique laboratory key,label_and_round,744,San13,1
+9.SEP/san13-2_9.xlsx,san13-2_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/san13-2_9.xlsx,matched,unique laboratory key,label_and_round,745,San13,2
+9.SEP/san14-1_9.xlsx,san14-1_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/san14-1_9.xlsx,matched,unique laboratory key,label_and_round,736,San14,1
+9.SEP/san14-2_9.xlsx,san14-2_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/san14-2_9.xlsx,matched,unique laboratory key,label_and_round,737,San14,2
+9.SEP/san15-1_9.xlsx,san15-1_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/san15-1_9.xlsx,matched,unique laboratory key,label_and_round,734,San15,1
+9.SEP/san15-2_9.xlsx,san15-2_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/san15-2_9.xlsx,matched,unique laboratory key,label_and_round,735,San15,2
+9.SEP/san16-1_9.xlsx,san16-1_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/san16-1_9.xlsx,matched,unique laboratory key,label_and_round,746,San16,1
+9.SEP/san16-2_9.xlsx,san16-2_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/san16-2_9.xlsx,matched,unique laboratory key,label_and_round,747,San16,2
+9.SEP/san17-1_9.xlsx,san17-1_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/san17-1_9.xlsx,matched,unique laboratory key,label_and_round,748,San17,1
+9.SEP/san17-2_9.xlsx,san17-2_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/san17-2_9.xlsx,matched,unique laboratory key,label_and_round,749,San17,2
+9.SEP/san2-1_9.xlsx,san2-1_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/san2-1_9.xlsx,matched,unique laboratory key,label_and_round,728,San2,1
+9.SEP/san2-2_9.xlsx,san2-2_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/san2-2_9.xlsx,matched,unique laboratory key,label_and_round,729,San2,2
+9.SEP/san3-1_9.xlsx,san3-1_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/san3-1_9.xlsx,matched,unique laboratory key,label_and_round,726,San3,1
+9.SEP/san3-2_9.xlsx,san3-2_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/san3-2_9.xlsx,matched,unique laboratory key,label_and_round,727,San3,2
+9.SEP/san4-1_9.xlsx,san4-1_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/san4-1_9.xlsx,matched,unique laboratory key,label_and_round,724,San4,1
+9.SEP/san4-2_9.xlsx,san4-2_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/san4-2_9.xlsx,matched,unique laboratory key,label_and_round,725,San4,2
+9.SEP/san5-1_9.xlsx,san5-1_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/san5-1_9.xlsx,matched,unique laboratory key,label_and_round,720,San5,1
+9.SEP/san5-2_9.xlsx,san5-2_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/san5-2_9.xlsx,matched,unique laboratory key,label_and_round,721,San5,2
+9.SEP/san6-1_9.xlsx,san6-1_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/san6-1_9.xlsx,matched,unique laboratory key,label_and_round,722,San6,1
+9.SEP/san6-2_9.xlsx,san6-2_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/san6-2_9.xlsx,matched,unique laboratory key,label_and_round,723,San6,2
+9.SEP/san7-1_9.xlsx,san7-1_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/san7-1_9.xlsx,matched,unique laboratory key,label_and_round,716,San7,1
+9.SEP/san7-2_9.xlsx,san7-2_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/san7-2_9.xlsx,matched,unique laboratory key,label_and_round,717,San7,2
+9.SEP/san8-1_9.xlsx,san8-1_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/san8-1_9.xlsx,matched,unique laboratory key,label_and_round,718,San8,1
+9.SEP/san8-2_9.xlsx,san8-2_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/san8-2_9.xlsx,matched,unique laboratory key,label_and_round,719,San8,2
+9.SEP/san9-1_9.xlsx,san9-1_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/san9-1_9.xlsx,matched,unique laboratory key,label_and_round,732,San9,1
+9.SEP/san9-2_9.xlsx,san9-2_9.xlsx,9,data/2026ER_data_for Viet/9.SEP/san9-2_9.xlsx,matched,unique laboratory key,label_and_round,733,San9,2

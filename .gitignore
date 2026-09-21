@@ -217,11 +217,15 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# Local datasets and processed data
-data/
+# Datasets and processed data are versioned for reproducibility.
+# This local archive is larger than GitHub's regular 100 MB file limit.
+data/2026ER_data_for_Viet_raw.zip
 
 # Local experiment outputs
 runs/
+
+# Machine-local files
+LOCAL/
 
 # Notebook and OS-generated files
 .ipynb_checkpoints/

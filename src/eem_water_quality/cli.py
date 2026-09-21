@@ -27,15 +27,14 @@ def make_parser():
         command.add_argument(
             "--targets", nargs="+", default=["BOD" if name == "neural" else "BOD_COD"]
         )
-        command.add_argument("--split", choices=["group", "random"], default="group")
-        command.add_argument("--group-col", default="Point")
+        command.add_argument("--split", choices=["random"], default="random")
         command.add_argument("--seed", type=int, default=42)
         command.add_argument("--test-size", type=float, default=0.2)
         command.add_argument(
             "--val-size",
             type=float,
             default=0.2,
-            help="Validation fraction of the non-test rows/groups",
+            help="Validation fraction of the non-test rows",
         )
         command.add_argument("--n-jobs", type=positive_int, default=1)
         if name == "neural":

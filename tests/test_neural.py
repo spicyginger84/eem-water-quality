@@ -109,7 +109,7 @@ def test_neural_cli_reload(tmp_path):
             "cpu",
         ]
     )
-    destination = output / "target_00"
+    destination = output / "BOD"
     predictions = pd.read_csv(destination / "test_predictions.csv")
     indices = predictions.row_position.to_numpy()
     prediction = predict_saved(destination, eem[indices], samples.iloc[indices])

@@ -10,7 +10,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.svm import SVR
 from sklearn.tree import DecisionTreeRegressor
 
-from .artifacts import save_predictions, start_run, write_json
+from .artifacts import save_predictions, start_run, target_directory_name, write_json
 from .data import load_data, resolve_column, split_indices, target_partitions
 from .features import Experiment, FeatureBuilder, ParafacFeatures, experiment_catalog
 from .metrics import regression_metrics
@@ -44,7 +44,7 @@ def make_model(name, seed=42, n_jobs=1, log_target=False):
 def run_ml(args):
     eem, samples, _ = load_data(args.data)
     splits = split_indices(
-        samples, args.split, args.group_col, args.seed, args.test_size, args.val_size
+        samples, args.split, getattr(args, "group_col", None), args.seed, args.test_size, args.val_size
     )
     catalog = experiment_catalog()
     standalone = args.command == "parafac"
@@ -59,7 +59,7 @@ def run_ml(args):
         make_model(name, args.seed, args.n_jobs)
     output = start_run(args, samples, splits)
     summaries = []
-    for target_number, target_name in enumerate(args.targets):
+    for target_name in args.targets:
         target = resolve_column(target_name)
         y, parts = target_partitions(samples, target, splits)
         # Classical ML follows the original notebook's single holdout protocol:
@@ -71,7 +71,7 @@ def run_ml(args):
         log_target = target_name in args.log_targets or target in args.log_targets
         if log_target and np.any(y[np.isfinite(y)] <= -1):
             raise ValueError("log1p targets must be greater than -1")
-        destination = output / f"target_{target_number:02d}"
+        destination = output / target_directory_name(target_name)
         destination.mkdir()
         write_json(
             destination / "target.json",
@@ -89,6 +89,15 @@ def run_ml(args):
         rows = []
         test_rows = []
         for exp in experiments:
+            if target in exp.tabular:
+                rows.append(
+                    {
+                        "experiment": exp.name,
+                        "model": "",
+                        "status": f"skipped: target {target_name} is used as a feature",
+                    }
+                )
+                continue
             builder = FeatureBuilder(
                 exp,
                 target,
@@ -130,7 +139,7 @@ def run_ml(args):
                     }
                 )
                 print(
-                    f"{target_name} / {exp.name} / {name}: test RMSE={metrics['RMSE']:.6g}",
+                    f"{target_name} / {exp.name} / {name}: test R2={metrics['R2']:.6g}",
                     flush=True,
                 )
                 if best is None or metrics["RMSE"] < best[0]["RMSE"]:
