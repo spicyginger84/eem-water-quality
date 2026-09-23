@@ -9,8 +9,11 @@ from eem_water_quality.data import (
     BOD,
     COD,
     EC,
+    PH,
     SS,
+    TEMP,
     TOC,
+    group_kfold_indices,
     load_data,
     split_indices,
     target_partitions,
@@ -62,6 +65,26 @@ def test_splits_reproducible_group_disjoint_and_target_filtering(dataset):
     np.testing.assert_array_equal(filtered["test"], splits["test"])
 
 
+def test_two_way_holdout_and_grouped_cv(dataset):
+    _, _, samples = dataset
+    samples["Month"] = np.tile(np.arange(4), 15)
+    splits = split_indices(samples, mode="two_way", seed=42)
+    assert set(samples.iloc[splits["test"]].Point).isdisjoint(
+        samples.iloc[splits["train"]].Point
+    )
+    assert set(samples.iloc[splits["test"]].Month).isdisjoint(
+        samples.iloc[splits["train"]].Month
+    )
+    train_val = np.concatenate([splits["train"], splits["validation"]])
+    folds = list(group_kfold_indices(samples, train_val, n_splits=5))
+    assert len(folds) == 5
+    assert set(np.concatenate([np.concatenate(fold) for fold in folds])).isdisjoint(
+        splits["test"]
+    )
+    for train, validation in folds:
+        assert set(samples.iloc[train].Point).isdisjoint(samples.iloc[validation].Point)
+
+
 def test_ratio_zero_denominator_and_nonrange_index(dataset):
     directory, _, samples = dataset
     samples.loc[0, COD] = 0
@@ -89,7 +112,19 @@ def test_pca_and_imputation_fit_train_only(dataset):
     np.testing.assert_array_equal(builder.eem_pipeline_[0].mean_, mean)
     np.testing.assert_array_equal(builder.eem_pipeline_[1].components_, components)
     assert experiment_catalog()["EEMpca"].eem == "pca"
-    assert len(experiment_catalog()) == 22
+    assert experiment_catalog()["SS_EC"].tabular == (SS, EC)
+    assert experiment_catalog()["Temp_pH"].tabular == (TEMP, PH)
+    assert len(experiment_catalog()) == 59
+
+
+def test_eem_zero_columns_are_masked_before_pca(dataset):
+    _, eem, samples = dataset
+    eem = eem.copy()
+    eem[:, 0, 0] = 0
+    builder = FeatureBuilder(Experiment("pca", "pca"), BOD, pca_components=3)
+    features = builder.fit_transform(eem, samples)
+    assert not builder.eem_feature_mask_[0]
+    assert features.shape == (len(eem), 3)
 
 
 @pytest.mark.parametrize("nonnegative", [False, True])
@@ -139,7 +174,13 @@ def test_cli_artifact_reload(dataset, tmp_path, command):
     np.testing.assert_allclose(reloaded, predictions.y_pred, rtol=1e-8)
     selected = json.loads((destination / "selected.json").read_text())
     validation = pd.read_csv(destination / "validation_metrics.csv")
-    assert selected["validation"]["RMSE"] == pytest.approx(validation.RMSE.min())
+    candidates = validation[validation.status == "ok"]
+    assert selected["validation"]["RMSE"] == pytest.approx(candidates.RMSE.min())
+    assert selected["model_selection"]["test_used_for_selection"] is False
+    assert "fold" not in validation.columns or set(validation["fold"].dropna()) == {"validation"}
+    assert not (destination / "cv_metrics.csv").exists()
+    assert not (destination / "cv_predictions.csv").exists()
+    assert "delta_R2_vs_global" in validation.columns
     assert (output / "run.json").exists()
 
 

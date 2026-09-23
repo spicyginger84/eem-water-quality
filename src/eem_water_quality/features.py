@@ -10,7 +10,7 @@ from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 from tensorly.decomposition import non_negative_parafac, parafac
 
-from .data import EC, SS, TOC
+from .data import EC, PH, SS, TEMP, TOC
 
 
 @dataclass(frozen=True)
@@ -25,6 +25,13 @@ def experiment_catalog():
     experiments = [
         Experiment("TOC", tabular=(TOC,)),
         Experiment("TOC_SS_EC", tabular=(TOC, SS, EC)),
+        Experiment("SS_EC", tabular=(SS, EC)),
+        Experiment("Temp", tabular=(TEMP,)),
+        Experiment("pH", tabular=(PH,)),
+        Experiment("Temp_pH", tabular=(TEMP, PH)),
+        Experiment("Temp_SS_EC", tabular=(TEMP, SS, EC)),
+        Experiment("pH_SS_EC", tabular=(PH, SS, EC)),
+        Experiment("Temp_pH_SS_EC", tabular=(TEMP, PH, SS, EC)),
     ]
     for prefix, eem, pf in [
         ("PARAFAC", "none", True),
@@ -38,6 +45,12 @@ def experiment_catalog():
             ("_TOC", (TOC,)),
             ("_SS_EC", (SS, EC)),
             ("_TOC_SS_EC", (TOC, SS, EC)),
+            ("_Temp", (TEMP,)),
+            ("_pH", (PH,)),
+            ("_Temp_pH", (TEMP, PH)),
+            ("_Temp_SS_EC", (TEMP, SS, EC)),
+            ("_pH_SS_EC", (PH, SS, EC)),
+            ("_Temp_pH_SS_EC", (TEMP, PH, SS, EC)),
         ]:
             experiments.append(Experiment(prefix + suffix, eem, pf, tab))
     return {exp.name: exp for exp in experiments}
@@ -71,10 +84,10 @@ class ParafacFeatures:
             random_state=self.seed,
             normalize_factors=False,
         )
-        weights, (scores, self.ex_loadings_, self.em_loadings_) = self.cp_model_
+        weights, (scores, self.em_loadings_, self.ex_loadings_) = self.cp_model_
         self.basis_ = np.column_stack(
             [
-                np.outer(self.ex_loadings_[:, r], self.em_loadings_[:, r]).ravel()
+                np.outer(self.em_loadings_[:, r], self.ex_loadings_[:, r]).ravel()
                 for r in range(self.rank)
             ]
         )
@@ -139,6 +152,14 @@ class FeatureBuilder:
         parts = []
         if self.experiment.eem != "none":
             flat = eem.reshape(len(eem), -1).astype(np.float64)
+            self.eem_shape_ = tuple(eem.shape[1:])
+            # The processed EEM grid contains a fixed Rayleigh/scatter mask:
+            # columns that are zero for every training sample carry no signal
+            # and must not be allowed to dominate scaling or PCA.
+            self.eem_feature_mask_ = np.any(np.abs(flat) > 0, axis=0)
+            if not np.any(self.eem_feature_mask_):
+                raise ValueError("EEM contains no nonzero training features")
+            flat = flat[:, self.eem_feature_mask_]
             if self.experiment.eem == "pca":
                 rank = min(self.pca_components, *flat.shape)
                 self.eem_pipeline_ = make_pipeline(
@@ -168,7 +189,10 @@ class FeatureBuilder:
     def transform(self, eem, samples):
         parts = []
         if self.experiment.eem != "none":
+            if tuple(eem.shape[1:]) != self.eem_shape_:
+                raise ValueError("EEM wavelength dimensions differ from fitted features")
             flat = eem.reshape(len(eem), -1).astype(np.float64)
+            flat = flat[:, self.eem_feature_mask_]
             if self.experiment.eem == "pca":
                 flat = self.eem_pipeline_.transform(flat)
             parts.append(flat)

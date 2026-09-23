@@ -27,7 +27,22 @@ def make_parser():
         command.add_argument(
             "--targets", nargs="+", default=["BOD" if name == "neural" else "BOD_COD"]
         )
-        command.add_argument("--split", choices=["random"], default="random")
+        command.add_argument(
+            "--split",
+            choices=["random", "group", "two_way"],
+            default="group",
+            help="random, station-group, or station/month two-way split (default: group)",
+        )
+        command.add_argument(
+            "--group-col",
+            default="Point",
+            help="column used for group-disjoint splitting",
+        )
+        command.add_argument(
+            "--secondary-group-col",
+            default="Month",
+            help="second grouping column for --split two_way (default: Month)",
+        )
         command.add_argument("--seed", type=int, default=42)
         command.add_argument("--test-size", type=float, default=0.2)
         command.add_argument(
@@ -44,7 +59,18 @@ def make_parser():
             command.add_argument(
                 "--feature-sets",
                 nargs="+",
-                choices=["EEM_only", "EC", "SS", "EC_SS"],
+                choices=[
+                    "EEM_only",
+                    "EC",
+                    "SS",
+                    "EC_SS",
+                    "Temp",
+                    "pH",
+                    "Temp_pH",
+                    "Temp_SS_EC",
+                    "pH_SS_EC",
+                    "Temp_pH_SS_EC",
+                ],
                 default=["EC_SS"],
             )
             command.add_argument("--fft", action=argparse.BooleanOptionalAction, default=True)

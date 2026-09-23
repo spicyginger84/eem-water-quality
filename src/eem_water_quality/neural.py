@@ -13,12 +13,23 @@ from torch import nn
 from torch.utils.data import DataLoader, Dataset
 
 from .artifacts import save_predictions, start_run, target_directory_name, write_json
-from .data import EC, SS, load_data, resolve_column, split_indices, target_partitions
+from .data import EC, PH, SS, TEMP, load_data, resolve_column, split_indices, target_partitions
 from .features import numeric_tabular, tabular_scaler
 from .metrics import regression_metrics
 from .models import SimpleCNNFusion, get_resnet10_fusion, get_resnet18_fusion
 
-FEATURE_SETS = {"EEM_only": (), "EC": (EC,), "SS": (SS,), "EC_SS": (EC, SS)}
+FEATURE_SETS = {
+    "EEM_only": (),
+    "EC": (EC,),
+    "SS": (SS,),
+    "EC_SS": (EC, SS),
+    "Temp": (TEMP,),
+    "pH": (PH,),
+    "Temp_pH": (TEMP, PH),
+    "Temp_SS_EC": (TEMP, SS, EC),
+    "pH_SS_EC": (PH, SS, EC),
+    "Temp_pH_SS_EC": (TEMP, PH, SS, EC),
+}
 
 
 def seed_everything(seed):
@@ -158,7 +169,13 @@ def run_neural(args):
     eem, samples, _ = load_data(args.data)
     images = construct_images(eem, fft=args.fft)
     splits = split_indices(
-        samples, args.split, getattr(args, "group_col", None), args.seed, args.test_size, args.val_size
+        samples,
+        args.split,
+        getattr(args, "group_col", "Point"),
+        args.seed,
+        args.test_size,
+        args.val_size,
+        getattr(args, "secondary_group_col", "Month"),
     )
     output = start_run(args, samples, splits)
     summaries = []

@@ -39,20 +39,25 @@ def month_from_dir(path: Path) -> int | None:
 
 
 def read_eem(path: Path) -> tuple[np.ndarray, np.ndarray, np.ndarray]:
-    """Read an EEM workbook as (matrix, excitation, emission)."""
+    """Read an EEM workbook as ``(matrix, emission, excitation)``.
+
+    The first column contains the row wavelengths (emission, 280--550 nm)
+    and the first row contains the column wavelengths (excitation,
+    220--500 nm).  The matrix is kept in its original row/column order.
+    """
     frame = pd.read_excel(path, sheet_name=0, header=None)
     if frame.shape[0] < 2 or frame.shape[1] < 2:
         raise ValueError("workbook has no matrix")
-    emission = pd.to_numeric(frame.iloc[0, 1:], errors="coerce").to_numpy(float)
-    excitation = pd.to_numeric(frame.iloc[1:, 0], errors="coerce").to_numpy(float)
+    excitation = pd.to_numeric(frame.iloc[0, 1:], errors="coerce").to_numpy(float)
+    emission = pd.to_numeric(frame.iloc[1:, 0], errors="coerce").to_numpy(float)
     matrix = frame.iloc[1:, 1:].apply(pd.to_numeric, errors="coerce").to_numpy(float)
     if np.isnan(emission).any() or np.isnan(excitation).any():
         raise ValueError("wavelength header contains non-numeric values")
-    if matrix.shape != (len(excitation), len(emission)):
+    if matrix.shape != (len(emission), len(excitation)):
         raise ValueError("matrix and wavelength dimensions disagree")
     if not np.isfinite(matrix).all():
         raise ValueError("matrix contains NaN/Inf")
-    return matrix, excitation, emission
+    return matrix, emission, excitation
 
 
 def _parse_name(path: Path, month: int, labels: dict[str, str]) -> dict[str, object]:
@@ -92,7 +97,9 @@ def map_eem_files(raw_dir: Path, lab: pd.DataFrame) -> pd.DataFrame:
             "relative_path": path.relative_to(raw_dir).as_posix(),
             "filename": path.name,
             "month": month,
-            "eem_path": str(path),
+            # Keep provenance portable: the raw root is supplied on the
+            # command line, so only the path below that root is persisted.
+            "eem_path": path.relative_to(raw_dir).as_posix(),
             "mapping_status": "unmatched",
             "mapping_reason": "",
             "match_method": "",
@@ -139,7 +146,12 @@ def map_eem_files(raw_dir: Path, lab: pd.DataFrame) -> pd.DataFrame:
     return pd.DataFrame(records)
 
 
-def process(raw_dir: Path, output_dir: Path, required: tuple[str, ...]) -> tuple[pd.DataFrame, pd.DataFrame]:
+def process(
+    raw_dir: Path,
+    output_dir: Path,
+    required: tuple[str, ...],
+    reject_bod_greater_cod: bool = False,
+) -> tuple[pd.DataFrame, pd.DataFrame]:
     workbook = raw_dir / "20260120_ER_data_HS.xlsx"
     if not workbook.exists():
         raise FileNotFoundError(workbook)
@@ -167,21 +179,21 @@ def process(raw_dir: Path, output_dir: Path, required: tuple[str, ...]) -> tuple
     matrices: list[np.ndarray] = []
     rows: list[pd.Series] = []
     accepted: list[int] = []
-    excitation: np.ndarray | None = None
     emission: np.ndarray | None = None
+    excitation: np.ndarray | None = None
     for map_index, item in mapping.iterrows():
         if item["mapping_status"] != "matched":
             continue
-        path = Path(str(item["eem_path"]))
+        path = raw_dir / str(item["eem_path"])
         try:
-            matrix, ex, em = read_eem(path)
+            matrix, em, ex = read_eem(path)
         except (OSError, ValueError, ImportError) as exc:
             mapping.loc[map_index, "mapping_status"] = "invalid_eem"
             mapping.loc[map_index, "mapping_reason"] = str(exc)
             continue
-        if excitation is None:
-            excitation, emission = ex, em
-        elif not (np.array_equal(excitation, ex) and np.array_equal(emission, em)):
+        if emission is None:
+            emission, excitation = em, ex
+        elif not (np.array_equal(emission, em) and np.array_equal(excitation, ex)):
             mapping.loc[map_index, "mapping_status"] = "invalid_eem"
             mapping.loc[map_index, "mapping_reason"] = "wavelength grid differs from first valid EEM"
             continue
@@ -200,11 +212,22 @@ def process(raw_dir: Path, output_dir: Path, required: tuple[str, ...]) -> tuple
                 f"sample depth {depth!s} m exceeds the {MAX_DEPTH_M:g} m limit"
             )
             continue
-        missing = [col for col in required if not np.isfinite(float(row[col]))]
+        missing = []
+        for col in required:
+            value = pd.to_numeric(row[col], errors="coerce")
+            if pd.isna(value) or not np.isfinite(float(value)):
+                missing.append(col)
         if missing:
             mapping.loc[map_index, "mapping_status"] = "incomplete_parameters"
             mapping.loc[map_index, "mapping_reason"] = "missing required parameter(s): " + ", ".join(missing)
             continue
+        if reject_bod_greater_cod and "BOD\n(0.0)" in required and "COD\n(0.0)" in required:
+            bod = float(row["BOD\n(0.0)"])
+            cod = float(row["COD\n(0.0)"])
+            if bod > cod:
+                mapping.loc[map_index, "mapping_status"] = "quality_filtered"
+                mapping.loc[map_index, "mapping_reason"] = "BOD > COD"
+                continue
         matrices.append(matrix.astype(np.float32))
         rows.append(row)
         accepted.append(map_index)
@@ -229,6 +252,7 @@ def process(raw_dir: Path, output_dir: Path, required: tuple[str, ...]) -> tuple
         "laboratory_workbook": str(workbook),
         "required_parameters": list(required),
         "max_depth_m": MAX_DEPTH_M,
+        "reject_bod_greater_cod": reject_bod_greater_cod,
         "mapping_status_counts": mapping["mapping_status"].value_counts(dropna=False).to_dict(),
         "accepted_samples": len(samples),
         "eem_shape": list(np.stack(matrices).shape),
@@ -242,8 +266,18 @@ def main() -> None:
     parser.add_argument("--raw", type=Path, default=Path("data/2026ER_data_for Viet"))
     parser.add_argument("--output", type=Path, default=Path("data/processed"))
     parser.add_argument("--required", nargs="+", default=list(DEFAULT_REQUIRED))
+    parser.add_argument(
+        "--reject-bod-greater-cod",
+        action="store_true",
+        help="exclude rows where BOD is greater than COD",
+    )
     args = parser.parse_args()
-    mapping, samples = process(args.raw, args.output, tuple(args.required))
+    mapping, samples = process(
+        args.raw,
+        args.output,
+        tuple(args.required),
+        reject_bod_greater_cod=args.reject_bod_greater_cod,
+    )
     print(f"accepted samples: {len(samples)}")
     print(mapping["mapping_status"].value_counts().to_string())
 

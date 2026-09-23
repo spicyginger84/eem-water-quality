@@ -1,6 +1,6 @@
 {
-  "raw_dir": "data/2026ER_data_for Viet",
-  "laboratory_workbook": "data/2026ER_data_for Viet/20260120_ER_data_HS.xlsx",
+  "raw_dir": "data/data/2026ER_data_for Viet",
+  "laboratory_workbook": "data/data/2026ER_data_for Viet/20260120_ER_data_HS.xlsx",
   "required_parameters": [
     "BOD\n(0.0)",
     "COD\n(0.0)",
@@ -9,6 +9,7 @@
     "EC\n(0)"
   ],
   "max_depth_m": 2.0,
+  "reject_bod_greater_cod": false,
   "mapping_status_counts": {
     "matched": 760,
     "unmatched": 239,

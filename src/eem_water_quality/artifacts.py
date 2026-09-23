@@ -45,6 +45,7 @@ def write_json(path, value):
 def start_run(args, samples, splits):
     output = Path(args.output)
     output.mkdir(parents=True, exist_ok=False)
+    repo_dir = Path(__file__).resolve().parents[2]
     versions = {}
     for name in [
         "eem-water-quality",
@@ -68,8 +69,14 @@ def start_run(args, samples, splits):
             with path.open("rb") as file:
                 hashes[name] = hashlib.file_digest(file, "sha256").hexdigest()
     try:
-        commit = subprocess.check_output(["git", "rev-parse", "HEAD"], text=True).strip()
-        dirty = bool(subprocess.check_output(["git", "status", "--porcelain"], text=True).strip())
+        commit = subprocess.check_output(
+            ["git", "rev-parse", "HEAD"], cwd=repo_dir, text=True
+        ).strip()
+        dirty = bool(
+            subprocess.check_output(
+                ["git", "status", "--porcelain"], cwd=repo_dir, text=True
+            ).strip()
+        )
     except (OSError, subprocess.CalledProcessError):
         commit, dirty = None, None
     write_json(
