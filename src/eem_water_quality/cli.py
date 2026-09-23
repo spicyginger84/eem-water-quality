@@ -104,7 +104,6 @@ def make_parser():
             default=None,
             help="override CV with leave-one-station/month-out",
         )
-        command.add_argument("--lomo-group-col", default="Month", help=argparse.SUPPRESS)
         command.add_argument("--pca-components", type=positive_int, default=30)
         command.add_argument("--log-targets", nargs="*", default=[])
     return parser

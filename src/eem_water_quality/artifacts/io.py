@@ -46,7 +46,9 @@ def write_json(path, value):
 def start_run(args, samples, splits):
     output = Path(args.output)
     output.mkdir(parents=True, exist_ok=False)
-    repo_dir = Path(__file__).resolve().parents[2]
+    # ``io.py`` lives at ``<repo>/src/eem_water_quality/artifacts/io.py``;
+    # parents[3] is the repository root (parents[2] is only ``src``).
+    repo_dir = Path(__file__).resolve().parents[3]
     versions = {}
     for name in [
         "eem-water-quality",
