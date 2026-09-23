@@ -1,59 +1,8 @@
-"""Load aligned processed arrays; all indexing downstream is positional."""
-
-from pathlib import Path
+"""Random, grouped and two-way split utilities."""
 
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import GroupKFold, GroupShuffleSplit, train_test_split
-
-BOD = "BOD\n(0.0)"
-COD = "COD\n(0.0)"
-TOC = "TOC\n(0.0)"
-SS = "SS\n(0.0)"
-EC = "EC\n(0)"
-TEMP = "Temp(0.0)"
-PH = "pH(0.0)"
-ALIASES = {
-    "BOD": BOD,
-    "COD": COD,
-    "TOC": TOC,
-    "SS": SS,
-    "EC": EC,
-    "TEMP": TEMP,
-    "Temp": TEMP,
-    "PH": PH,
-    "pH": PH,
-    "BOD_COD": "BOD_COD",
-}
-
-
-def resolve_column(name):
-    return ALIASES.get(name, name)
-
-
-def load_data(directory):
-    directory = Path(directory)
-    eem = np.load(directory / "eem.npy", allow_pickle=False).astype(np.float32)
-    samples = pd.read_parquet(directory / "samples.parquet").reset_index(drop=True)
-    if eem.ndim != 3 or len(eem) != len(samples):
-        raise ValueError("Expected aligned EEM (samples, emission, excitation) and metadata rows")
-    if not np.isfinite(eem).all():
-        raise ValueError(
-            "EEM contains NaN/Inf; repair the processed data before running experiments"
-        )
-    if BOD in samples and COD in samples:
-        denominator = pd.to_numeric(samples[COD], errors="coerce").replace(0, np.nan)
-        samples["BOD_COD"] = pd.to_numeric(samples[BOD], errors="coerce") / denominator
-    wavelengths = {}
-    path = directory / "wavelengths.npz"
-    if path.exists():
-        with np.load(path, allow_pickle=False) as archive:
-            wavelengths = {key: archive[key] for key in archive.files}
-        if "emission" in wavelengths and len(wavelengths["emission"]) != eem.shape[1]:
-            raise ValueError("emission wavelength count does not match EEM row axis")
-        if "excitation" in wavelengths and len(wavelengths["excitation"]) != eem.shape[2]:
-            raise ValueError("excitation wavelength count does not match EEM column axis")
-    return eem, samples, wavelengths
 
 
 def split_indices(
@@ -65,7 +14,7 @@ def split_indices(
     val_size=0.2,
     secondary_group_col="Month",
 ):
-    """Split once before target filtering. val_size is a fraction of non-test rows/groups."""
+    """Create one train/validation/test split before target filtering."""
     if not 0 < test_size < 1 or not 0 < val_size < 1:
         raise ValueError("test_size and val_size must lie strictly between 0 and 1")
     indices = np.arange(len(samples))
@@ -88,9 +37,7 @@ def split_indices(
         station_values = samples[group_col].drop_duplicates().to_numpy()
         month_values = samples[secondary_group_col].drop_duplicates().to_numpy()
         station_split = GroupShuffleSplit(n_splits=1, test_size=test_size, random_state=seed)
-        _, held_station_rel = next(
-            station_split.split(station_values, groups=station_values)
-        )
+        _, held_station_rel = next(station_split.split(station_values, groups=station_values))
         month_split = GroupShuffleSplit(n_splits=1, test_size=test_size, random_state=seed + 1)
         _, held_month_rel = next(month_split.split(month_values, groups=month_values))
         held_stations = station_values[held_station_rel]
@@ -117,7 +64,7 @@ def split_indices(
 
 
 def group_kfold_indices(samples, indices, n_splits=5, group_col="Point"):
-    """Yield absolute train/validation indices for grouped K-fold CV."""
+    """Yield absolute train/validation indices for compatibility callers."""
     if n_splits < 2:
         raise ValueError("n_splits must be at least 2")
     indices = np.asarray(indices, dtype=int)
@@ -132,11 +79,11 @@ def group_kfold_indices(samples, indices, n_splits=5, group_col="Point"):
 
 
 def target_partitions(samples, target, splits):
+    """Remove nonfinite target rows from each split."""
     y = pd.to_numeric(samples[target], errors="coerce").to_numpy(dtype=float)
     parts = {name: indices[np.isfinite(y[indices])] for name, indices in splits.items()}
     for name, indices in parts.items():
-        if name == "excluded":
-            continue
-        if len(indices) < 2:
+        if name != "excluded" and len(indices) < 2:
             raise ValueError(f"{target!r}: {name} needs at least two finite targets")
     return y, parts
+

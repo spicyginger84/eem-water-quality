@@ -9,6 +9,7 @@ import subprocess
 from pathlib import Path
 
 import numpy as np
+import pandas as pd
 
 TARGET_DIRECTORY_NAMES = {
     "BOD": "BOD",
@@ -53,8 +54,6 @@ def start_run(args, samples, splits):
         "pandas",
         "scipy",
         "scikit-learn",
-        "tensorly",
-        "torch",
         "xgboost",
         "pyarrow",
     ]:
@@ -91,12 +90,33 @@ def start_run(args, samples, splits):
             "git_dirty": dirty,
         },
     )
-    frame = samples.copy()
-    frame.insert(0, "row_position", np.arange(len(frame)))
-    frame["partition"] = ""
-    for name, indices in splits.items():
-        frame.loc[indices, "partition"] = name
-    frame.to_csv(output / "splits.csv", index=False)
+    if isinstance(splits, dict):
+        split_records = [{"fold": 1, **splits}]
+    else:
+        split_records = list(splits)
+    split_rows = []
+    for spec in split_records:
+        fold = spec.get("fold", 1)
+        for partition in ("train", "validation", "test", "excluded"):
+            indices = np.asarray(spec.get(partition, []), dtype=int)
+            if indices.size == 0:
+                continue
+            selected = samples.iloc[indices].copy()
+            selected.insert(0, "row_position", indices)
+            selected.insert(1, "fold", fold)
+            selected.insert(2, "partition", partition)
+            selected.insert(
+                3,
+                "heldout_group",
+                [spec.get("heldout_group", "")] * len(selected),
+            )
+            split_rows.append(selected)
+    split_frame = (
+        pd.concat(split_rows, ignore_index=True)
+        if split_rows
+        else pd.DataFrame(columns=["row_position", "fold", "partition", "heldout_group"])
+    )
+    split_frame.to_csv(output / "splits.csv", index=False)
     return output
 
 

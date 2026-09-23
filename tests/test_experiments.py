@@ -1,5 +1,3 @@
-import json
-
 import numpy as np
 import pandas as pd
 import pytest
@@ -18,14 +16,12 @@ from eem_water_quality.data import (
     split_indices,
     target_partitions,
 )
+from eem_water_quality.evaluation.metrics import regression_metrics
 from eem_water_quality.features import (
     Experiment,
     FeatureBuilder,
-    ParafacFeatures,
     experiment_catalog,
 )
-from eem_water_quality.metrics import regression_metrics
-from eem_water_quality.predict import predict_saved
 
 
 @pytest.fixture
@@ -114,7 +110,7 @@ def test_pca_and_imputation_fit_train_only(dataset):
     assert experiment_catalog()["EEMpca"].eem == "pca"
     assert experiment_catalog()["SS_EC"].tabular == (SS, EC)
     assert experiment_catalog()["Temp_pH"].tabular == (TEMP, PH)
-    assert len(experiment_catalog()) == 59
+    assert len(experiment_catalog()) == 29
 
 
 def test_eem_zero_columns_are_masked_before_pca(dataset):
@@ -127,20 +123,6 @@ def test_eem_zero_columns_are_masked_before_pca(dataset):
     assert features.shape == (len(eem), 3)
 
 
-@pytest.mark.parametrize("nonnegative", [False, True])
-def test_parafac_projection_on_fixed_training_basis(nonnegative):
-    rng = np.random.default_rng(3)
-    a, b, c = rng.uniform(0.2, 2, (3, 10, 1))
-    tensor = np.einsum("ir,jr,kr->ijk", a, b, c)
-    pf = ParafacFeatures(rank=1, nonnegative=nonnegative, max_iter=100)
-    train = pf.fit_transform(tensor[:6])
-    basis = pf.basis_.copy()
-    test = pf.transform(tensor[6:])
-    np.testing.assert_allclose(test @ basis.T, tensor[6:].reshape(4, -1), atol=1e-5)
-    assert pf.relative_error(tensor[:6], train) < 1e-5
-    np.testing.assert_array_equal(pf.basis_, basis)
-
-
 def test_metrics_units():
     metrics = regression_metrics([1, 2], [2, 2])
     assert metrics["MSE"] == 0.5
@@ -148,40 +130,94 @@ def test_metrics_units():
     assert metrics["RMSE"] == np.sqrt(0.5)
 
 
-@pytest.mark.parametrize("command", ["ml", "parafac"])
-def test_cli_artifact_reload(dataset, tmp_path, command):
-    data, eem, samples = dataset
-    output = tmp_path / command
-    args = [command, "--data", str(data), "--output", str(output), "--targets", "BOD"]
-    if command == "ml":
-        args += [
+def test_cli_cv_artifacts(dataset, tmp_path):
+    data, _, _ = dataset
+    output = tmp_path / "ml_cv"
+    args = [
+        "ml",
+        "--data",
+        str(data),
+        "--output",
+        str(output),
+        "--targets",
+        "BOD",
+        "--models",
+        "linear",
+        "tree",
+        "--features",
+        "EEMpca",
+        "--pca-components",
+        "3",
+    ]
+    main(args)
+    destination = output / "BOD"
+    predictions = pd.read_csv(destination / "cv_predictions.csv")
+    metrics = pd.read_csv(destination / "cv_fold_metrics.csv")
+    summary = pd.read_csv(destination / "cv_summary.csv")
+    assert set(predictions.protocol) == {"cv"}
+    assert set(metrics.fold.dropna().astype(int)) == {1, 2, 3, 4, 5}
+    assert set(summary.fold) == {"mean", "pooled"}
+    assert set(metrics.features.dropna()) >= {"EEMpca", "baseline_global_mean"}
+    assert "delta_R2_vs_global" in metrics.columns
+    summary_model = summary[summary.features == "EEMpca"]
+    assert summary_model["delta_R2_vs_global"].notna().all()
+    assert not (destination / "selected.json").exists()
+    assert (output / "run.json").exists()
+
+
+def test_two_way_and_loso_protocol_outputs(dataset, tmp_path):
+    data, _, samples = dataset
+    samples = samples.copy()
+    samples["Month"] = np.tile(np.arange(4), 15)
+    samples.to_parquet(data / "samples.parquet")
+
+    two_way = tmp_path / "two_way"
+    main(
+        [
+            "ml",
+            "--data",
+            str(data),
+            "--output",
+            str(two_way),
+            "--targets",
+            "BOD",
+            "--features",
+            "EEMpca",
             "--models",
             "linear",
-            "tree",
-            "--experiments",
-            "TOC",
-            "EEMpca",
+            "--split",
+            "two_way",
             "--pca-components",
             "3",
         ]
-    else:
-        args += ["--pf-rank", "1", "--pf-max-iter", "10"]
-    main(args)
-    destination = output / "BOD"
-    predictions = pd.read_csv(destination / "test_predictions.csv")
-    indices = predictions.row_position.to_numpy()
-    reloaded = predict_saved(destination, eem[indices], samples.iloc[indices])
-    np.testing.assert_allclose(reloaded, predictions.y_pred, rtol=1e-8)
-    selected = json.loads((destination / "selected.json").read_text())
-    validation = pd.read_csv(destination / "validation_metrics.csv")
-    candidates = validation[validation.status == "ok"]
-    assert selected["validation"]["RMSE"] == pytest.approx(candidates.RMSE.min())
-    assert selected["model_selection"]["test_used_for_selection"] is False
-    assert "fold" not in validation.columns or set(validation["fold"].dropna()) == {"validation"}
-    assert not (destination / "cv_metrics.csv").exists()
-    assert not (destination / "cv_predictions.csv").exists()
-    assert "delta_R2_vs_global" in validation.columns
-    assert (output / "run.json").exists()
+    )
+    assert (two_way / "BOD" / "holdout_metrics.csv").exists()
+    assert not (two_way / "BOD" / "cv_fold_metrics.csv").exists()
+
+    loso = tmp_path / "loso"
+    main(
+        [
+            "ml",
+            "--data",
+            str(data),
+            "--output",
+            str(loso),
+            "--targets",
+            "BOD",
+            "--features",
+            "EEMpca",
+            "--models",
+            "linear",
+            "--holdout-protocol",
+            "loso",
+            "--pca-components",
+            "3",
+        ]
+    )
+    metrics = pd.read_csv(loso / "BOD" / "holdout_metrics.csv")
+    assert set(metrics.protocol) == {"loso"}
+    assert metrics.fold.nunique() == 15
+    assert not (loso / "BOD" / "cv_fold_metrics.csv").exists()
 
 
 def test_target_not_reintroduced_as_feature(dataset):
