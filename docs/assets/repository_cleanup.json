@@ -1,0 +1,200 @@
+{
+  "scope": "Retain improved v0 and PARAFAC, current report and dependencies. Remove obsolete experiments and generated build caches. User approved this scope.",
+  "removed": [
+    {
+      "path": "runs/loso_all_eempca",
+      "files": 11028,
+      "bytes": 15225483142
+    },
+    {
+      "path": "runs/lomo_all_eempca",
+      "files": 3092,
+      "bytes": 4262732711
+    },
+    {
+      "path": "runs/two_way_eempca",
+      "files": 276,
+      "bytes": 349733637
+    },
+    {
+      "path": "runs/diagnostics/v1_vs_parafac",
+      "files": 63,
+      "bytes": 72237063
+    },
+    {
+      "path": "runs/diagnostics/target_by_station",
+      "files": 4,
+      "bytes": 55596
+    },
+    {
+      "path": "runs/diagnostics/v0_peak_audit",
+      "files": 6,
+      "bytes": 422753
+    },
+    {
+      "path": "runs/diagnostics/shared_gaussian_v0_unmasked",
+      "files": 18,
+      "bytes": 2192161
+    },
+    {
+      "path": "runs/diagnostics/eem_station_comparison",
+      "files": 77,
+      "bytes": 23728355
+    },
+    {
+      "path": "runs/diagnostics/loso_eem_distance",
+      "files": 3,
+      "bytes": 180852
+    },
+    {
+      "path": "runs/diagnostics/improved_v0_vs_parafac",
+      "files": 7,
+      "bytes": 468238
+    },
+    {
+      "path": "runs/diagnostics/eem_3d",
+      "files": 1,
+      "bytes": 4912558
+    },
+    {
+      "path": "runs/diagnostics/shared_gaussian_v0/by_station_top10_masked",
+      "files": 46,
+      "bytes": 70964042
+    },
+    {
+      "path": "notebooks/shared_gaussian_v0_experiment.ipynb",
+      "files": 1,
+      "bytes": 87706
+    },
+    {
+      "path": "docs/Improvement_plan.md",
+      "files": 1,
+      "bytes": 13724
+    },
+    {
+      "path": "docs/phase2_report.md",
+      "files": 1,
+      "bytes": 12317
+    },
+    {
+      "path": "docs/shared_gaussian_v0_theory_report.md",
+      "files": 1,
+      "bytes": 20597
+    },
+    {
+      "path": "docs/v0_peak_model_review.md",
+      "files": 1,
+      "bytes": 24230
+    },
+    {
+      "path": "scripts/diagnostics/analyze_target_by_station.py",
+      "files": 1,
+      "bytes": 8781
+    },
+    {
+      "path": "scripts/diagnostics/analyze_loso_eem_distance.py",
+      "files": 1,
+      "bytes": 11558
+    },
+    {
+      "path": "scripts/diagnostics/plot_correlations.py",
+      "files": 1,
+      "bytes": 229
+    },
+    {
+      "path": "scripts/diagnostics/plot_eem_pca_groups.py",
+      "files": 1,
+      "bytes": 247
+    },
+    {
+      "path": "scripts/diagnostics/audit_v0_peaks.py",
+      "files": 1,
+      "bytes": 8727
+    },
+    {
+      "path": "scripts/data/process_raw_data.py",
+      "files": 1,
+      "bytes": 363
+    },
+    {
+      "path": "build",
+      "files": 11,
+      "bytes": 42931
+    },
+    {
+      "path": ".pytest_cache",
+      "files": 5,
+      "bytes": 4107
+    },
+    {
+      "path": ".ruff_cache",
+      "files": 9,
+      "bytes": 5354
+    },
+    {
+      "path": "src/eem_water_quality/__pycache__",
+      "files": 27,
+      "bytes": 173944
+    },
+    {
+      "path": "src/eem_water_quality/models/__pycache__",
+      "files": 4,
+      "bytes": 12566
+    },
+    {
+      "path": "src/eem_water_quality/pipelines/__pycache__",
+      "files": 2,
+      "bytes": 19095
+    },
+    {
+      "path": "src/eem_water_quality/artifacts/__pycache__",
+      "files": 2,
+      "bytes": 6462
+    },
+    {
+      "path": "src/eem_water_quality/features/__pycache__",
+      "files": 8,
+      "bytes": 58817
+    },
+    {
+      "path": "src/eem_water_quality/data/__pycache__",
+      "files": 4,
+      "bytes": 11641
+    },
+    {
+      "path": "src/eem_water_quality/preprocessing/__pycache__",
+      "files": 3,
+      "bytes": 1246
+    },
+    {
+      "path": "src/eem_water_quality/evaluation/__pycache__",
+      "files": 5,
+      "bytes": 11874
+    },
+    {
+      "path": "scripts/__pycache__",
+      "files": 8,
+      "bytes": 130446
+    },
+    {
+      "path": "scripts/diagnostics/__pycache__",
+      "files": 4,
+      "bytes": 101207
+    },
+    {
+      "path": "tests/__pycache__",
+      "files": 6,
+      "bytes": 92154
+    }
+  ],
+  "retained": [
+    "data/",
+    "LOCAL/ (raw source material)",
+    "src/ and tests/ (shared package and validation)",
+    "runs/diagnostics/v0_improved_groups/",
+    "runs/diagnostics/v0_improved_10stations/",
+    "runs/diagnostics/parafac/",
+    "runs/diagnostics/model_comparison/",
+    "runs/diagnostics/shared_gaussian_v0/by_station_top10_unmasked/ (historical dependency of runner and comparison script)"
+  ]
+}

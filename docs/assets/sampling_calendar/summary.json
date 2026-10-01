@@ -1,0 +1,41 @@
+{
+  "samples": 760,
+  "stations": 45,
+  "years": [
+    2023
+  ],
+  "first_date": "2023-01-02",
+  "last_date": "2023-12-26",
+  "unique_dates": 135,
+  "station_months": 500,
+  "possible_station_months": 540,
+  "full_coverage_stations": 34,
+  "duplicate_station_dates": 0,
+  "date_month_mismatches": 0,
+  "date_year_mismatches": 0,
+  "invalid_times": 0,
+  "earliest_time": "09:38:00",
+  "latest_time": "16:20:00",
+  "gap_quantiles": {
+    "0.0": 4.0,
+    "0.25": 13.0,
+    "0.5": 16.0,
+    "0.75": 28.0,
+    "0.9": 35.0,
+    "0.95": 36.0,
+    "1.0": 72.0
+  },
+  "gap_bins": {
+    "1-10": 143,
+    "11-20": 263,
+    "21-40": 295,
+    ">40": 14
+  },
+  "station_sample_quantiles": {
+    "0.0": 1.0,
+    "0.25": 12.0,
+    "0.5": 12.0,
+    "0.75": 23.0,
+    "1.0": 51.0
+  }
+}

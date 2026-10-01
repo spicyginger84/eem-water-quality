@@ -1,0 +1,46 @@
+Point,samples,unique_dates,months_observed,first_date,last_date,Watershed,Classification,Location,analysis_group
+Cheonglyong stream,22,22,12,2023.01.02,2023.12.19,Anseong stream,Industrial stream,"36°58'31.5""N 127°11'23.1""E",Anseong stream / industrial_stream
+Geonji stream,23,23,12,2023.01.02,2023.12.19,Anseong stream,Industrial stream,"37°00'32.7""N 127°14'32.0""E",Anseong stream / industrial_stream
+Jang-an stream,23,23,12,2023.01.02,2023.12.19,Anseong stream,Industrial stream,"37°01'49.9""N 127°04'11.4""E",Anseong stream / industrial_stream
+Asan lake 3,6,6,6,2023.03.20,2023.11.29,Anseong stream,Lake,"36°56'56.1""N 126°58'51.8""E",Anseong stream / lake
+Anseong stream3,51,51,12,2023.01.02,2023.12.26,Anseong stream,River,"36°59'00.9""N 127°04'48.1""E",Anseong stream / river
+Cheongpyeong dam1,1,1,1,2023.02.13,2023.02.13,Bukhan River,Lake,"37°43'27.0""N 127°25'33.0""E",Bukhan River / lake
+Cheongpyeong dam3,1,1,1,2023.02.13,2023.02.13,Bukhan River,Lake,"37°42'28.8""N 127°28'42.1""E",Bukhan River / lake
+Nam-i island,12,12,12,2023.01.09,2023.12.06,Bukhan River,River,"37°44'21.8""N 127°30'33.1""E",Bukhan River / river
+Banwol stream,23,23,12,2023.01.02,2023.12.20,Etc,Industrial stream,"37°16'50.8""N 126°52'59.6""E",Etc / industrial_stream
+Gumun stream,22,22,12,2023.01.02,2023.12.20,Etc,Industrial stream,"37°05'11.1""N 126°53'18.3""E",Etc / industrial_stream
+Gunja stream,23,23,12,2023.01.04,2023.12.20,Etc,Industrial stream,"37°19'20.3""N 126°42'42.8""E",Etc / industrial_stream
+Je4ganseon-sulo,23,23,12,2023.01.04,2023.12.20,Etc,Industrial stream,"37°23'47.9""N 126°40'23.6""E",Etc / industrial_stream
+Jeongwang stream,23,23,12,2023.01.04,2023.12.20,Etc,Industrial stream,"37°18'53.0""N 126°43'26.7""E",Etc / industrial_stream
+Okgu stream,23,23,12,2023.01.04,2023.12.20,Etc,Industrial stream,"37°19'42.8""N 126°42'06.4""E",Etc / industrial_stream
+Shingil stream,23,23,12,2023.01.04,2023.12.20,Etc,Industrial stream,"37°18'18.4""N 126°44'53.0""E",Etc / industrial_stream
+Wonjeongli-sulo,23,23,12,2023.01.02,2023.12.20,Etc,Industrial stream,"36°59'14.4""N 126°49'45.9""E",Etc / industrial_stream
+seonhaeng stream,11,11,11,2023.02.20,2023.12.05,Etc.,Industrial stream,"37°43'31.2""N 126°28'07.1""E",Etc / industrial_stream
+Nam-yang lake 3,12,12,12,2023.01.02,2023.12.04,Etc,Lake,"37°04'32.4""N 126°52'53.5""E",Etc / lake
+Ara stream 1,11,11,11,2023.02.07,2023.12.05,Etc.,River,"37°34'26.6""N 126°44'22.6""E",Etc / river
+Ara stream 2,11,11,11,2023.02.07,2023.12.05,Etc.,River,"37°34'01.1""N 126°37'31.1""E",Etc / river
+Man-u stream,23,23,12,2023.01.03,2023.12.18,Han River,Industrial stream,"37°49'17.5""N 126°44'41.3""E",Han River / industrial_stream
+Pocheon stream,21,21,11,2023.02.08,2023.12.18,Han River,Industrial stream,"37°57'57.6""N 127°14'37.0""E",Han River / industrial_stream
+Seung-gi stream,23,23,12,2023.01.04,2023.12.20,Han River,Industrial stream,"37°23'47.9""N 126°40'23.6""E",Han River / industrial_stream
+Sin stream-1,23,23,12,2023.01.03,2023.12.18,Han River,Industrial stream,"37°52'06.8""N 127°01'21.0""E",Han River / industrial_stream
+Sin stream-2,23,23,12,2023.01.03,2023.12.18,Han River,Industrial stream,"37°57'28.6""N 127°03'37.1""E",Han River / industrial_stream
+Yeongpyeong stream,23,23,12,2023.01.03,2023.12.18,Han River,Industrial stream,"38°00'39.2""N 127°12'52.6""E",Han River / industrial_stream
+Amsa,12,12,12,2023.01.10,2023.12.12,Han River,River,"37°34'17.6""N 127°08'23.8""E",Han River / river
+Bogwang,12,12,12,2023.01.10,2023.12.12,Han River,River,"37°31'37.9""N 127°00'45.4""E",Han River / river
+Dogok,12,12,12,2023.01.10,2023.12.12,Han River,River,"37°34'01.2""N 127°13'29.2""E",Han River / river
+Gayang,49,49,12,2023.01.10,2023.12.26,Han River,River,"37°34'02.7""N 126°51'45.9""E",Han River / river
+Guri,11,11,11,2023.02.14,2023.12.12,Han River,River,"37°34'31.8""N 127°09'38.2""E",Han River / river
+Hantangang2,12,12,12,2023.01.19,2023.12.11,Han River,River,"38°02'10.6""N 127°06'15.6""E",Han River / river
+Hantangang3,12,12,12,2023.01.19,2023.12.11,Han River,River,"38°01'52.3""N 127°04'33.0""E",Han River / river
+Hantangang4,12,12,12,2023.01.19,2023.12.11,Han River,River,"38°00'33.0""N 127°03'22.7""E",Han River / river
+Imjin stream 2,9,9,9,2023.04.25,2023.12.11,Han River,River,"38°03'22.1""N 127°01'00.8""E",Han River / river
+Jamsil,12,12,12,2023.01.10,2023.12.12,Han River,River,"37°31'28.2""N 127°05'29.0""E",Han River / river
+Kimpo,12,12,12,2023.01.10,2023.12.12,Han River,River,"37°36'11.8""N 126°48'12.8""E",Han River / river
+Paju,12,12,12,2023.01.09,2023.12.13,Han River,River,"37°39'06.7""N 126°43'17.9""E",Han River / river
+Ttukdo,9,9,9,2023.03.16,2023.11.08,Han River,River,"37°32'02.1""N 127°02'15.6""E",Han River / river
+Yeongdeungpo,11,11,11,2023.01.10,2023.11.08,Han River,River,"37°33'00.3""N 126°53'46.3""E",Han River / river
+Kyungan stream 2,12,12,12,2023.01.18,2023.12.13,Namhan River,River,"37°14'04.5""N 127°12'35.6""E",Namhan River / river
+Kyungan stream 3,12,12,12,2023.01.18,2023.12.13,Namhan River,River,"37°16'44.1""N 127°13'27.6""E",Namhan River / river
+Kyungan stream 5,12,12,12,2023.01.18,2023.12.13,Namhan River,River,"37°20'15.1""N 127°14'54.8""E",Namhan River / river
+Kyungan stream 7,12,12,12,2023.01.18,2023.12.13,Namhan River,River,"37°23'33.0""N 127°15'05.9""E",Namhan River / river
+Kyungan stream11,12,12,12,2023.01.18,2023.12.13,Namhan River,River,"37°28'16.4""N 127°17'41.2""E",Namhan River / river
