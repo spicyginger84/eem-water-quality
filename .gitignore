@@ -224,8 +224,10 @@ data/2026ER_data_for_Viet_raw.zip
 # Local experiment outputs
 runs/
 
-# Machine-local files
-LOCAL/
+# Persistent local workspace: experiments and supporting files, never committed.
+/LOCAL/
+# Rebuilt from raw data (scripts/data/build_processed.py) or unzipped from data/processed.zip.
+/data/processed/
 
 # Notebook and OS-generated files
 .ipynb_checkpoints/

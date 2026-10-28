@@ -1,0 +1,4 @@
+kind,key,reason
+eem_file,4.APR/ha4-3_4.xlsx,"EEM duplicate of 4.APR/san4-2_4.xlsx; spectral audit (2026-10-21) attributes it to Man-u stream, so the Gayang row is dropped"
+station,Cheongpyeong dam1,single-sample station; excluded from station CV
+station,Cheongpyeong dam3,single-sample station; excluded from station CV

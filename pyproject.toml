@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "eem-water-quality"
-version = "0.1.0"
-description = "Reproducible EEM water-quality regression experiments"
+version = "0.2.0"
+description = "BOD/COD/TOC from fluorescence EEMs: literature baselines and kernel models under station CV"
 requires-python = ">=3.11"
 dependencies = [
   "numpy>=1.26", "pandas>=2.1", "pyarrow>=14", "scipy>=1.11",
@@ -13,9 +13,10 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-boosting = ["xgboost>=2"]
+research = ["threadpoolctl>=3.1", "xgboost>=2.0", "lightgbm>=4.0"]
+cnn = ["torch>=2.2"]
 plots = ["matplotlib>=3.8"]
-notebooks = ["torch>=2.2", "tensorly>=0.9", "threadpoolctl>=3.1", "plotly>=5.18", "matplotlib>=3.9", "nbformat>=5.10", "nbclient>=0.10", "ipykernel>=6.29"]
+paper = ["openpyxl>=3.1"]
 dev = ["pytest>=8", "ruff>=0.9"]
 
 [project.scripts]

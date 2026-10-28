@@ -1,0 +1,11 @@
+{
+  "schemes": ["random", "station", "station_gkf5_seed11", "station_gkf5_seed23", "station_gkf5_seed42",
+              "station_gkf5_seed2026", "station_gkf5_seed3407"],
+  "models": ["peaks_mlr", "peaks_mlr+field", "fri_mlr", "fri_mlr+field",
+             "parafac_mlr", "parafac_mlr+field", "parafac_rf", "parafac_rf+field",
+             "parafac_xgb", "parafac_xgb+field", "upls", "upls+field", "npls", "pca_svr", "pca_svr+field",
+             "xgb", "svr", "gard_svr", "gard_matern", "lgbm", "lgbm_oxy"],
+  "reference": "parafac_xgb+field",
+  "fewshot_designs": ["early", "rolling", "random"],
+  "workers": 10
+}

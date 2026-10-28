@@ -1,0 +1,6 @@
+{
+  "schemes": ["random", "station"],
+  "models": ["cnn", "cnn+field", "parafac_xgb+field"],
+  "reference": "parafac_xgb+field",
+  "workers": 8
+}

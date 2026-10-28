@@ -1,0 +1,7 @@
+{
+  "schemes": ["station"],
+  "models": ["peaks_mlr", "parafac_xgb+field", "upls", "npls", "svr", "gard_matern"],
+  "reference": "parafac_xgb+field",
+  "parafac_iters": 30,
+  "bootstrap": 200
+}

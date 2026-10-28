@@ -1,3 +1,3 @@
-"""EEM water-quality experiments reconstructed from the original notebook."""
+"""BOD/COD/TOC from fluorescence EEMs: literature baselines and kernel models under station CV."""
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"

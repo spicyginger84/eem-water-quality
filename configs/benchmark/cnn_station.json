@@ -1,0 +1,8 @@
+{
+  "schemes": ["station", "station_gkf5_seed11", "station_gkf5_seed23", "station_gkf5_seed42",
+              "station_gkf5_seed2026", "station_gkf5_seed3407"],
+  "models": ["cnn", "cnn+field"],
+  "reference": "cnn+field",
+  "fewshot_designs": ["early", "rolling", "random"],
+  "workers": 4
+}
